@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+main {
+    background-color: #345E3E;
+}
+
+/* main > * {max-width: 1440px; margin: 0 auto;} */
+.kv {
+    max-width: 1080px;
+}
+
+.intro {
+    margin-top: -110px;
+}
+
+.intro>* {
+    width: 50%;
+}
+
+.intro .contents-title {
+    color: #231f20;
+    text-shadow: none;
+    padding-top: 38px;
+    padding-right: 56px;
+}
+
+.intro .contents-desc {
+    color: #fff;
+    padding-top: 118px;
+}
+
+.InternetExplorer .contents-title {
+    padding-top: 42px;
+}
+
+.mac-os .intro .contents-title,
+.safari .intro .contents-title {
+    padding-top: 48px;
+}
+
+.members {
+    background-color: #F2F2EF;
+}
+
+.members .profile-img li:first-child {
+    margin-left: 0;
+    margin-right: 50%;
+}
+
+.members .profile-img li:nth-child(2) {
+    margin-left: 0;
+}
+
+.members .popup-inner>ul>li {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.profile .contents-title {
+    color: #f2f2ef;
+    text-shadow: none;
+}
+
+.profile .title .contents-title {
+    color: #000;
+}
+
+.safari {
+    overflow: auto !important;
+    position: relative !important;
+}
+
+.mac-os {
+    overflow: auto !important;
+    position: relative !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .kv {
+        max-width: 75vw;
+    }
+
+    .intro {
+        margin-top: -7.64vw;
+    }
+
+    .intro .contents-title {
+        padding-top: 2.64vw;
+        padding-right: 3.89vw;
+    }
+
+    .intro .contents-desc {
+        padding-top: 8.19vw;
+    }
+
+    .InternetExplorer .contents-title {
+        padding-top: 2.92vw;
+    }
+
+    .mac-os .intro .contents-title,
+    .safari .intro .contents-title {
+        padding-top: 3.33vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .kv {
+        max-width: 100%;
+        padding-top: 29.17vw;
+    }
+
+    .kv .contents-obj img {
+        width: 88.89vw;
+    }
+
+    .intro {
+        width: 89.82vw;
+        padding: 4.58vw 0 20.14vw;
+        margin-top: -12.4vw;
+    }
+
+    .mac-os .intro,
+    .safari .intro {
+        margin-top: -11.4vw;
+    }
+
+    .intro>* {
+        width: 100%;
+    }
+
+    .intro .contents-title {
+        padding-top: 3.26vw;
+        padding-right: 0;
+        font-size: 10.83vw;
+        margin: 0;
+    }
+
+    .intro .contents-desc {
+        padding-top: 5.83vw;
+        margin: 0;
+    }
+
+    .InternetExplorer .contents-title {
+        padding-top: 3.7vw;
+    }
+
+    .device .intro .contents-title {
+        padding-top: 4.23vw;
+    }
+
+    .mac-os .intro .contents-title,
+    .safari .intro .contents-title {
+        padding-top: 3.23vw;
+    }
+
+    .members .profile-img li:first-child {
+        margin-right: 0;
+    }
+
+    .members .profile-img li:nth-child(2) {
+        margin-right: 50%;
+    }
+
+    .members .profile-img li:last-child {
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .kv {
+        padding-top: 93px;
+    }
+
+    .kv .contents-obj img {
+        width: 284px;
+    }
+
+    .intro {
+        width: 287px;
+        padding: 15px 0 64px;
+        margin-top: -40px;
+    }
+
+    .mac-os .intro,
+    .safari .intro {
+        margin-top: -36px;
+    }
+
+    .intro .contents-title {
+        padding-top: 10px;
+        font-size: 35px;
+    }
+
+    .intro .contents-desc {
+        padding-top: 19px;
+    }
+
+    .InternetExplorer .contents-title {
+        padding-top: 11px;
+    }
+
+    .device .intro .contents-title {
+        padding-top: 14px;
+    }
+
+    .mac-os .intro .contents-title,
+    .safari .intro .contents-title {
+        padding-top: 10px;
+    }
+}

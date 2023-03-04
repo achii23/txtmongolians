@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.album-detail .album-desc .contents-title {margin-bottom: 27px; font-family: 'MVB-SolanoGothicMVB-B';}
+.album-detail .album-desc .contents-desc {font-family: 'Camber-R'; line-height: 28px; letter-spacing: -0.02em;}
+
+.album-detail .album-video .bottom .contents-sub {font-family: 'Camber-Sb'; font-size: 16px;}
+.album-detail .album-video .slide-wrap > ul > li .contents-sub {font-family: 'Camber-Sb';}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+.album-detail .album-desc .contents-title {margin-bottom: 1.875vw; font-size: 4.86vw; line-height: 4.31vw;}
+.album-detail .album-desc .contents-desc {line-height: 1.94vw;}
+
+.album-detail .album-video .bottom .contents-sub {font-size: 1.11vw;}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1250px) {
+
+.album-detail .album-desc .contents-desc {line-height: 24px;}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 990px) {
+
+.album-detail .album-video .bottom .contents-sub {font-size: 11px;}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.album-detail .album-desc .contents-title {margin: 2.22vw 0 4.31vw; margin-left: -0.83vw; font-size: 13.89vw; line-height: 12.64vw;}
+.album-detail .album-desc .contents-desc {font-size: 3.61vw; line-height: 5.83vw; letter-spacing: -0.02em;}
+
+.album-detail .album-video {margin-top: 25.69vw;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+.album-detail .album-desc .contents-desc {font-size: 16px; line-height: 26px;}
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+.album-detail .album-desc .contents-title {margin: 7px 0 14px; margin-left: -3px; font-size: 44px; line-height: 40px;}
+
+.album-detail .album-video {margin-top: 82px;}
+
+}

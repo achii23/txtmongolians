@@ -1,0 +1,301 @@
+@charset "utf-8";
+
+/*Base*/
+
+main {padding: 63px 0 110px;}
+
+.kv {max-width: none;}
+.kv .contents-obj {width: 100vw; max-width: 1440px; min-width: 320px; margin: 0 auto;}
+
+.all-tour {z-index: 11; width: 450px; margin: 0 auto; padding: 33px 0 58px; font-size: 16px; line-height: 40px; color: rgba(75, 75, 75, 0.8); text-align: center;}
+.all-tour .drop_inner {position: relative;}
+.all-tour button {width: 100%; height: 40px; border-bottom: 1px solid rgba(170, 170, 170, 0.8); background: url('https://ibighit.com/txt/images/txt/tour/tour-select.png') no-repeat right center; background-size: auto 100%; color: #404040;}
+.contents-white .all-tour button {border-bottom: 1px solid rgba(170, 170, 170, 0.8) ; color: #cbcbcb;}
+.all-tour .drop_inner.active button {background-image: url('https://ibighit.com/txt/images/txt/tour/tour-select_active.png'); color: rgba(64, 64, 64, 0.7);}
+.contents-white .all-tour .drop_inner.active button {color: rgba(203, 203, 203, 0.4);}
+.all-tour ul {display: none; position: absolute; top: 100%; left: 0; width: 100%;}
+.all-tour .drop_inner.active ul {display: block;}
+.all-tour ul li {background: #f0f0f0; color: rgba(64, 64, 64, 0.8);}
+.all-tour ul li:focus, .all-tour ul li:hover {background: #dadada; color: #404040;}
+.all-tour ul li a {display: block;}
+.contents-white .all-tour ul li {background: #282828; color: #a7a7a7;}
+.contents-white .all-tour ul li:focus, .contents-white .all-tour ul li:hover {background: #1f1f1f; color: #fff;}
+
+.tour-list .contents-title {padding: 65px 0 60px; font-size: 55px; line-height: 51px; text-align: center;}
+.tour-list ul {margin-bottom: 27px;}
+.tour-list li {height: 134px; margin-top: 2px; text-transform: uppercase;}
+.tour-list li > .valign {width: 100%; max-width: 1440px; margin: 0 auto; border-bottom: 1px solid #d9d9d9;}
+.tour-list li:first-child > .valign {border-top: 1px solid #707070;}
+.tour-list li .tour-date {width: 34.65%; padding-left: 229px;}
+.tour-list li .tour-date p {display: inline-block; margin: auto; font-size: 15px; line-height: 29px; text-align: left; color: rgba(0, 0, 0, 0.9);}
+.tour-list li .tour-date p.pc-only{display: inline-block}
+.tour-list li .tour-date p.m-only{display: none}
+
+.contents-white .tour-list li .tour-date p {color: #fff;}
+.tour-list li .tour-date p .reg {display: block; font-family: 'Camber-R'; color: #a3a3a3;}
+.contents-white .tour-list li .tour-date p .reg {color: rgba(255, 255, 255, 0.5);}
+.tour-list li .tour-date p .hidden {position: static; width: auto; height: auto; margin: 0; clip: auto;}
+.tour-list li .tour-title {padding: 0 8px; font-size: 22px; line-height: 29px;}
+.tour-list li .tour-title .reg {font-family: 'Camber-R'; font-size: 18px; color: #737373;}
+.tour-list li .tour-title .special {display: inline-block; transform: translateY(-3px); margin-left: 4px; padding: 2px 20px 0; border-radius: 50vh; background: #363636; font-family: 'Camber-R'; font-size: 13px; line-height: 22px; color: #fff;}
+.tour-list li .btn-area {width: 323px; text-align: center;}
+.tour-list li .btn-area a {cursor: default; display: table; width: 105px; height: 105px; margin: auto 0; padding: 0 12px; border-radius: 50vh; background: rgba(166, 166, 166, 0.7); font-size: 19px; line-height: 17px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);}
+.tour-list li .btn-area a.abled {cursor: pointer; border: 2px solid #f0a8c8; background: transparent url('https://ibighit.com/txt/images/txt/tour/btn-arrow.png') no-repeat center; background-size: 100% auto; color: #f0a8c8; text-shadow: none;}
+.tour-list li .btn-area a.coming {border: 2px solid rgba(52, 52, 52, 0.5); background: transparent; color: #676767; text-shadow: none;}
+
+.has_tab .tour-list li {margin-top: 0;}
+.has_tab .tour-list li > .valign {max-width: 1020px;}
+.has_tab .tab_menu {position: absolute; left: 50%; margin-left: -720px; padding-top: 184px; padding-left: 46px; z-index: 10;}
+.has_tab .tab_menu li {margin-bottom: 18px;}
+.has_tab .tab_menu a {display: block; width: 120px; height: 120px; margin: auto;}
+.has_tab .tour-list li .tour-date {width: 29.41%; padding-left: 26px;}
+.has_tab .tour-list li .btn-area {width: 16.18%;}
+
+.has_tab .tab_menu.fixed {position: fixed; top: 64px; padding-top: 218px; padding-left: 22px;}
+.has_tab .tab_menu.fixed li {position: relative; margin-bottom: 10px; padding-left: 22px; font-size: 16px; color: #afb7c2;}
+.has_tab .tab_menu.fixed li::after {content: ''; position: absolute; top: 50%; left: 0; width: 6px; height: 6px; margin-top: -3px; border-radius: 50vh; background: #afb7c2;}
+.has_tab .tab_menu.fixed li .hidden {position: static; width: auto; height: auto; margin: 0; clip: auto;}
+.has_tab .tab_menu.fixed li a {background: none; width: 208px; height: auto;}
+
+.has_tab .tab-drop {position: relative; width: 450px; margin: 57px auto 70px; z-index: 10;}
+.has_tab .tab-drop button {width: 100%; height: 65px; font-family: 'MVB-SolanoGothicMVB-B'; font-size: 36px; letter-spacing: -0.02em; color: rgba(64, 64, 64, 0.8); text-align: center;}
+.has_tab .tab-drop button:not(.btn-present):hover {color: rgba(64, 64, 64, 1); }
+.device .has_tab .tab-drop button:not(.btn-present):hover {color: rgba(64, 64, 64, 0.7); }
+.has_tab .tab-drop button.btn-present {height: 66px; border-bottom: 1px solid #bbb; background-size: auto 100%; font-size: 55px; color: #404040;}
+/* .has_tab .tab-drop.active button.btn-present {color: rgba(64, 64, 64, 0.7); } */
+.has_tab .tab-drop ul {display: none; position: absolute; top: 100%; left: 0; width: 100%;}
+.has_tab .tab-drop.active ul {display: block;}
+.has_tab .tab-drop li button {background: #dadada;}
+.has_tab .tab-drop li:nth-child(2n) button {background: #f0f0f0;}
+.has_tab .tour-list {display: none;}
+.has_tab .tour-list.active {display: block;}
+
+.tour-more {height: 52px; margin-top: 80px;}
+.tour-more .valign {width: auto; margin: 0 auto; padding: 0 25px; border: 1px solid #d8dadf; font-family: 'Camber-Sb'; font-size: 22px; line-height: 22px; color: #b1b6c0; cursor: default;}
+
+.tour-footer img {width: 40px; margin: 83px auto 0;}
+
+.tour-footer button {width: 240px; height: 50px; margin: 83px auto 0; font-size: 21; border: #F0F0EF solid 1px;}
+
+
+
+@media screen and (max-width: 1440px) {
+
+main {padding: 63px 0 7.64vw;}
+
+.all-tour {width: 31.25vw; padding: 2.29vw 0 4.03vw; font-size: 1.11vw; line-height: 2.78vw;}
+.all-tour button {height: 2.78vw;}
+
+.tour-list .contents-title {padding: 4.51vw 0 4.17vw; font-size: 3.82vw; line-height: 3.54vw;}
+.tour-list ul {margin-bottom: 1.875vw;}
+.tour-list li {height: 9.31vw; margin-top: 0.14vw;}
+.tour-list li .tour-date {padding-left: 15.9vw;}
+.tour-list li .tour-date p {font-size: 1.04vw; line-height: 2.01vw;}
+.tour-list li .tour-title {padding: 0 0.56vw; font-size: 1.53vw; line-height: 2.01vw;}
+.tour-list li .tour-title .reg {font-size: 1.25vw;}
+.tour-list li .tour-title .special {transform: translateY(-0.21vw); margin-left: 0.28vw; padding: 0.14vw 1.39vw 0; font-size: 0.9vw; line-height: 1.53vw;}
+.tour-list li .btn-area {width: 22.43vw;}
+.tour-list li .btn-area a {width: 7.29vw; height: 7.29vw; padding: 0 0.83vw; font-size: 1.32vw; line-height: 1.18vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.3);}
+
+.has_tab .tour-list li {padding: 0 14.44vw;}
+.has_tab .tab_menu {margin-left: -50vw; padding-top: 12.78vw; padding-left: 3.19vw;}
+.has_tab .tab_menu li {margin-bottom: 1.25vw;}
+.has_tab .tab_menu a {width: 8.33vw; height: 8.33vw;}
+.has_tab .tour-list li .tour-date {padding-left: 1.81vw;}
+
+.has_tab .tab_menu.fixed {top: 4.44vw; padding-top: 15.14vw; padding-left: 1.53vw;}
+.has_tab .tab_menu.fixed li {margin-bottom: 0.69vw; padding-left: 1.53vw; font-size: 1.11vw;}
+.has_tab .tab_menu.fixed li::after {width: 0.42vw; height: 0.42vw; margin-top: -0.21vw;}
+.has_tab .tab_menu.fixed li a {width: 14.44vw;}
+
+.has_tab .tab-drop {width: 31.25vw; margin: 3.96vw auto 4.86vw;}
+.has_tab .tab-drop button {height: 4.51vw; font-size: 2.5vw;}
+.has_tab .tab-drop button.btn-present {height: 4.58vw; font-size: 3.82vw;}
+
+.tour-more {height: 3.61vw; margin-top: 5.56vw;}
+.tour-more .valign {padding: 0 1.74vw; font-size: 1.53vw; line-height: 1.53vw;}
+
+.tour-footer img {width: 2.78vw; margin: 5.76vw auto 0;}
+.tour-footer button {width: 240px; height: 50px; margin: 5.76vw auto 0; font-size: 21; border: #F0F0EF solid 1px;}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1111px) {
+
+.tour-list li .tour-title .special {transform: translateY(-2px); margin-left: 3px; padding: 2px 15px 0; font-size: 10px; line-height: 17px;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 961px) {
+
+.all-tour {font-size: 11px; line-height: 27px;}
+.all-tour button {height: 27px;}
+
+.tour-list li {height: 89px; margin-top: 1px;}
+.tour-list li .tour-date {padding-left: 153px;}
+.tour-list li .tour-date p {font-size: 10px; line-height: 19px;}
+.tour-list li .tour-title {font-size: 15px; line-height: 19px;}
+.tour-list li .tour-title .reg {font-size: 12px;}
+.tour-list li .btn-area {width: 216px;}
+.tour-list li .btn-area a {width: 70px; height: 70px; padding: 0 8px; font-size: 13px; line-height: 11px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);}
+
+.has_tab .tour-list li {padding: 0 139px;}
+.has_tab .tab_menu {padding-left: 31px;}
+.has_tab .tab_menu li {margin-bottom: 12px;}
+.has_tab .tab_menu a {width: 80px; height: 80px;}
+.has_tab .tour-list li .tour-date {padding-left: 17px;}
+
+.has_tab .tab_menu.fixed {padding-left: 15px;}
+.has_tab .tab_menu.fixed li {margin-bottom: 7px; padding-left: 15px; font-size: 11px;}
+.has_tab .tab_menu.fixed li::after {width: 4px; height: 4px; margin-top: -2px;}
+.has_tab .tab_menu.fixed li a {width: 139px;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+main {position: relative; padding: 12.5vw 0 16.53vw;}
+
+.all-tour {width: 81.94vw; padding: 4.03vw 0; font-size: 2.92vw; line-height: 7.22vw;}
+.all-tour button {height: 7.22vw;}
+
+.tour-list .contents-title {padding: 11.94vw 0 9.58vw; font-size: 13.89vw; line-height: 11.81vw; color: #222;}
+.contents-white .tour-list .contents-title  {color: #fff;}
+.tour-list ul {margin-bottom: 2.08vw;}
+.tour-list li {height: 24.86vw; margin-top: 0.56vw;}
+.tour-list li .tour-date {width: 18.19%; padding-left: 5.69vw;}
+.tour-list li .tour-date p {font-size: 2.5vw; line-height: 3.06vw; color: #343434;}
+.tour-list li .tour-date p .reg {font-family: 'Camber-M'; color: #a3a3a3;}
+.tour-list li .tour-date p .hidden {position: absolute; width: 1px; height: 1px; margin: -1px; clip: rect(0, 0, 0, 0);}
+.tour-list li .tour-title {padding: 0 1.11vw; font-size: 3.47vw; line-height: 4.31vw; color: #343434;}
+.contents-white .tour-list li .tour-title {color: #fff;}
+.tour-list li .tour-title .reg { font-size: 2.78vw;}
+.tour-list li .tour-title .special {transform: translateY(-0.56vw); margin-left: 1.11vw; padding: 0.28vw 2.78vw 0; font-size: 1.81vw; line-height: 3.06vw;}
+.tour-list li .btn-area {width: 16.18%;}
+.tour-list li .btn-area a {width: 16.67vw; height: 16.67vw; margin: auto; padding: 0 2.5vw; background: #c1c1c1; font-size: 2.78vw; line-height: 2.78vw; text-shadow: 0px 0px 0.42vw rgba(0, 0, 0, 0.3);}
+.tour-list li .btn-area a.abled {border: 0.28vw solid #f0a8c8; background-image: url('https://ibighit.com/txt/images/txt/tour/btn-arrow.png');}
+.tour-list li .btn-area a.coming {border: 0.28vw solid rgba(52, 52, 52, 0.5); color: #838383;}
+
+.has_tab .tab_menu {position: absolute; bottom: 0; left: 0; width: 100%; margin-left: 0; padding-top: 0; padding-left: 0;}
+.has_tab .tab_menu ul {overflow: hidden; width: 100%; min-width: 320px;}
+.has_tab .tab_menu li {float: left; width: 50%; margin-bottom: 0;}
+.has_tab .tab_menu a {width: 100%; height: 16.53vw;}
+.has_tab .tour-list li {padding: 0;}
+.has_tab .tour-list li .tour-date {width: 18.19%; padding-left: 5.69vw;}
+.has_tab .tour-list li .btn-area {width: 16.18%; padding-right: 10px;}
+
+.has_tab .tab_menu.fixed {position: fixed; top: auto; bottom: 0; left: 0; padding-top: 0; padding-left: 0;}
+.has_tab .tab_menu.fixed li {float: left; margin-bottom: 0; padding-left: 0;}
+.has_tab .tab_menu.fixed li::after {display: none;}
+.has_tab .tab_menu.fixed li .hidden {position: absolute; width: 1px; height: 1px; margin: -1px; clip: rect(0, 0, 0, 0);}
+.has_tab .tab_menu.fixed li a {width: 100%; height: 16.53vw;}
+
+.has_tab .tab-drop {width: 81.94vw; margin: 9.72vw auto 11.94vw;}
+.has_tab .tab-drop button {height: 11.67vw; font-size: 6.53vw; letter-spacing: -0.02em;}
+.has_tab .tab-drop button.btn-present {height: 11.94vw; font-size: 10vw;}
+/* .has_tab .tab-drop.active button.btn-present {background-image: url('https://ibighit.com/txt/images/txt/tour/tab-drop-m_active.png');} */
+
+.tour-more {height: 11.11vw; margin-top: 21.39vw;}
+.tour-more .valign {padding: 0 4.86vw; font-size: 3.47vw; line-height: 3.47vw;}
+
+.tour-footer img {width: 7.92vw; margin: 17.36vw auto 16.53vw;}
+
+
+.tour-list li .tour-date p.pc-only{display: none}
+.tour-list li .tour-date p.m-only{display: inline-block}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 552px) {
+
+.tour-list li .tour-title .special {transform: translateY(-3px); margin-left: 6px; padding: 2px 15px 0; font-size: 10px; line-height: 17px;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+.all-tour {font-size: 13px; line-height: 32px;}
+.all-tour button {height: 32px;}
+
+.tour-list li {height: 112px; margin-top: 3px;}
+.tour-list li .tour-date {width: 81px; padding-left: 26px;}
+.tour-list li .tour-date p {font-size: 11px; line-height: 14px;}
+.tour-list li .tour-title {padding: 0 5px; font-size: 16px; line-height: 19px;}
+.tour-list li .tour-title .reg {font-size: 13px;}
+.tour-list li .btn-area a {width: 75px; height: 75px; padding: 0 11px; font-size: 13px; line-height: 13px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);}
+
+.has_tab .tour-list li .tour-date {width: 81px; padding-left: 26px;}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+main {padding: 40px 0 53px;}
+
+.all-tour {width: 262px; padding: 13px 0;}
+
+.tour-list .contents-title {padding: 38px 0 31px; font-size: 44px; line-height: 38px;}
+.tour-list ul {margin-bottom: 7px;}
+.tour-list li .btn-area a.abled {border: 1px solid #f0a8c8;}
+.tour-list li .btn-area a.coming {border: 1px solid rgba(52, 52, 52, 0.66);}
+
+.has_tab .tab_menu a {height: 53px;}
+
+.has_tab .tab_menu.fixed li a {height: 53px;}
+
+.has_tab .tab-drop {width: 262px; margin: 31px auto 38px;}
+.has_tab .tab-drop button {height: 37px; font-size: 21px;}
+.has_tab .tab-drop button.btn-present {height: 38px; font-size: 32px;}
+
+.tour-more.m_only {height: 90px; padding-bottom: 7px; font-size: 11px;}
+
+.tour-more {height: 36px; margin-top: 68px;}
+.tour-more .valign {padding: 0 16px; font-size: 11px; line-height: 11px;}
+
+.tour-footer img {width: 25px; margin: 56px auto 53px;}
+.tour-footer button {width: 171px; height: 40px; margin: 56px auto 0; font-size: 17; border: #F0F0EF solid 1px;}
+
+}
+
+
+
+
+
+
+
+

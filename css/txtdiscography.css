@@ -1,0 +1,1471 @@
+@charset "utf-8"; 
+
+main {background:#c4cccc;}
+/*.album-list {background: #8bc6fa url('https://ibighit.com/txt/images/txt/discography/discography-bg.jpg') no-repeat center top; background-size: 100% auto;}*/
+.contents-obj img {height:auto;}
+.popup-bg {display: none; position: absolute; width: 100%; height: 100%; background-color: rgba(22,22,22,0.95); z-index: 100; opacity:0;}
+.popup-bg-white {display: none; position: absolute; width: 100%; height: 100%; background-color: #fff; z-index: 111; opacity:0;}
+.click-area {position:absolute; width:100%; height:100%; top:0px; left:0px;}
+.click-area > div {position:absolute; left:0px; height:0px;}
+.album-detail .bottom.rows ul li.block {width: 100%;}
+.album-detail .bottom.rows ul li.block button {margin: 0 auto;}
+.album-detail .bottom.rows.three ul::before {top: 64.23%;}
+.album-detail .bottom.rows.three ul::after {top: 35.78%;}
+.InternetExplorer .album-detail .bottom.rows ul::after,
+.InternetExplorer .album-detail .bottom.rows.three ul::before,
+.safari .album-detail .bottom.rows ul::after,
+.safari .album-detail .bottom.rows.three ul::before {margin-top: -1px;}
+
+.album-list .contents-title {color: #fff; text-shadow: none;}
+.InternetExplorer .album-list .contents-title {top: 0.03em;}
+
+/* the_chaos_chapter_freeze */
+.the_dream_chapter-magic .slide_video .contents-obj video {position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 342px; margin: auto;}
+.the_chaos_chapter_freeze .album-detail {padding: 175px 0 0; }
+.the_chaos_chapter_freeze .album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play.mp4 {width: 342px; margin: auto;}
+.the_chaos_chapter_freeze .album-detail .song-list { max-width: 100%;	background: #10125a; margin-top: 230px; padding:0px 180px 274px 180px;}
+.the_chaos_chapter_freeze .album-detail .song-list::before {content: ''; display: block; padding-top: 150px;	width: 100vw;	background: url(https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_navyTrack.png) no-repeat center top;
+	background-size: 100% auto;	position: absolute;	top: -80px;	left: 50%;	transform: translate(-50%, 0);}
+.the_chaos_chapter_freeze .album-detail .song-list .contents-sub {color: #1d1d1d;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev {margin-top:-20px; top:0px; min-height:90px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next {margin-top:-20px; top:0px; min-height:90px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap button {transition:top 0.1s;}
+.the_chaos_chapter_freeze .contents-obj img {position:absolute; top:0px;}
+.the_chaos_chapter_freeze .contents-obj img:first-child {opacity:1; position:relative;}
+.the_chaos_chapter_freeze .contents-obj video {opacity:1; position:relative; width:100%; height:auto; margin:auto; display:block;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo{position: absolute; top: 60px; left: 0; width: 100%; height: 730px; z-index: 110; display:none; opacity:0;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo ul{position: relative; width: 100%; max-width: 994px; height: 663px; margin: 0 auto;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li{position: relative; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; display:none;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li.active {display:block; opacity: 1;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul {position: absolute; top: 55px; left: 0; overflow: hidden; opacity:0; display:none;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul.active {opacity:1; display:block;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li li {display: table; position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 100%; margin-left: 100%;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li li:first-child {margin-left:0; position:relative;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li div {display: table-cell; width: 100%; height: 100%; vertical-align: middle;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li img {display: block; width: auto; max-width: 994px; margin: auto;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video {display: block; width: 100%; max-width: 994px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video.video_vertical{width: auto; margin: auto; height:100%; top:0; position:absolute;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .v_cover{position: absolute; top: 0; left: 0;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .w442{padding: 0 275px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .popup-btn{display: block; width: 100%; height: auto; text-align: right;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_down_pop.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop_hover.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_close_pop.png'); background-size: cover; margin-left: 5px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop_hover.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev{position: absolute; left: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next{position: absolute; right: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-next-photo.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev.fix {position:fixed; bottom:0px; top:auto; margin-top:0px; left:0px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next.fix {position:fixed; bottom:0px; top:auto; margin-top:0px; left:auto; right:0px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev.btm {top:auto; bottom:-21px; margin-top:0px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next.btm {top:auto; bottom:-21px; margin-top:0px;}
+
+.the_chaos_chapter_freeze .album-detail .album-video::before {content:''; display: block; padding-top: 185px; width:100%; background: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_navyTop.png') no-repeat center top; 	background-size: 100% auto; position: absolute;
+	top: -80px; left:0;}
+.the_chaos_chapter_freeze .album-detail .album-video {background: #10125a; padding:0px 0px 150px 0px; margin-top: 80px; z-index: 3;}
+.the_chaos_chapter_freeze .album-detail .album-video .bottom ul li.taller:nth-child(1) {padding-top:0;}
+.the_chaos_chapter_freeze .album-detail .album-video .bottom ul li.taller:nth-child(2) {padding-top:0;}
+.the_chaos_chapter_freeze .album-detail .slide-wrap > ul > li .contents-sub {color: #01a7e3;}
+.the_chaos_chapter_freeze .album-detail .song-list .list-inner {color: #d2deff;}
+.the_chaos_chapter_freeze .album-detail .song-list .num {color: #01a7e3;}
+.the_chaos_chapter_freeze .album-detail .song-list .track {color: #11669d;}
+
+.the_chaos_chapter_freeze .album-detail {background: #242a34;}
+.the_chaos_chapter_freeze .album-detail .album-desc {color: #07432d;}
+.the_chaos_chapter_freeze .album-detail .album-desc .contents-sort {color: #fff; text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);}
+.the_chaos_chapter_freeze .album-detail .album-desc .contents:not(.kor) {left: 20px;}
+.the_chaos_chapter_freeze .album-detail .album-desc .contents-title.kor {line-height: 68px;}
+.the_chaos_chapter_freeze .album-detail .album-desc .contents-title .spacing {padding-left: 0.05em;}
+.the_chaos_chapter_freeze .album-detail .bottom ul li .contents-sub {color: #e4ecff;}
+.the_chaos_chapter_freeze .album-detail .album-desc .contents-desc { color:#fff;}
+.the_chaos_chapter_freeze .album-detail .bottom ul li.active .contents-sub,
+body:not(.device) .the_chaos_chapter_freeze .album-detail .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .the_chaos_chapter_freeze .album-detail .bottom ul button:not(.active):hover .contents-sub {color: #01a7e3;}
+.the_chaos_chapter_freeze .album-detail .bottom .contents-sub.kor {letter-spacing: -0.03em;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul {width: 100%; }
+.Firefox .the_chaos_chapter_freeze .album-detail .bottom.rows ul {padding: 32px 0;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.start {padding-left: 230px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.end {padding-right: 230px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(3) {padding-left: 150px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(4) {padding-right: 150px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(5) {padding-left: 150px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(6) {padding-right: 150px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul::after {top: 23.5%; background-color: #2a3c66;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li::after {display: block; position: absolute; left: 0; width: 100%; height: 1px; background-color: #282c99;; margin-top: 1px;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(4)::after {content: ''; top: 43.5%; background-color:#2a3c66;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(5)::after {content: ''; top: 64%; background-color:#2a3c66;}
+.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(6)::after {content: ''; top: 80%; background-color:#2a3c66;}
+.InternetExplorer .the_chaos_chapter_freeze .album-detail .bottom.rows ul::after {margin-top: -1px;}
+.InternetExplorer .the_chaos_chapter_freeze .album-detail .bottom ul {padding: 32px 0;}
+.safari .the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(5)::after {margin-top: 2px;}
+.InternetExplorer .the_chaos_chapter_freeze .album-detail .album-desc .contents:not(.kor) {left: 21px;}
+.mac-os .the_chaos_chapter_freeze .album-detail .album-desc .contents:not(.kor) {left: 21px;}
+
+.the_chaos_chapter_freeze .album-detail .contents-title {z-index: 2; padding-right: 0;}
+.the_chaos_chapter_freeze .album-detail .etc_wrap { max-width: 100%; margin-top: 164px; position: relative; }
+.the_chaos_chapter_freeze .album-detail .etc_wrap::before {content: ''; display: block; background: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_bgray.png') no-repeat center top; 	background-size: 100% auto; padding-top: 200px;}
+.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner::before {content: ''; display: block; width: 100vw; height: 100%; left: 50%; transform: translate(-50%, 0); background-image: url(https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_grayTop.png);	background-repeat: no-repeat;
+	background-position: center top; background-size: 100% auto; position: absolute; top: -165px;}
+.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner {position: relative;	width: 1080px;	height: 100%;	margin: -15px auto; z-index: 1;}
+.the_chaos_chapter_freeze .album-detail .etc_wrap .contents-obj {position: relative;}
+
+.device .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title,
+.mac-os .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title {top: 10px;}
+.mac-os.safari .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title {top: 9px;}
+.InternetExplorer .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title {top: 4px;}
+
+.the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap::before {background: #d2628c;}
+.the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title {text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title,
+.mac-os .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title,
+.mac-os.safari .the_chaos_chapter_freeze .album-detail .album-photo .etc_wrap .contents-title {top: 0.1em;}
+
+.the_chaos_chapter_freeze .album-detail .album-photo::before {content: '';	display: block;	background:#10125a url(https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_bgray.png) no-repeat center top;	background-size: 100% auto;	padding-top: 200px;}
+.the_chaos_chapter_freeze .album-detail .album-photo {margin-top: 0px; width: 100%;max-width: none; position: relative;}
+.the_chaos_chapter_freeze .album-detail .album-photo .contents-title {font-family: 'MVB-SolanoGothicMVB-BC';text-shadow: none;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap { position: relative;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap::before{	content: ''; display: block; width: 100vw; height: 100%; left: 50%; transform: translate(-50%, 0); background-image: url(https://ibighit.com/txt/images/txt/discography/the_chaos_chapter_freeze/freeze_grayTop.png); background-repeat: no-repeat; background-position: center top; background-size: 100% auto; position: absolute; top: -165px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .slide-wrap-box {width: 530px;margin:0 auto;overflow: hidden;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap {	position: relative; padding-top: 203.78%; background: url("../../images/txt/discography/the_chaos_chapter_freeze/map/6K9phXexv44e3Qey.jpg") no-repeat;	background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .map_bg, #depth-04 {	width: 100%;	height: 100%; 	position: absolute;	top: 0;left: 0;right: 0;bottom: 0;}
+
+.the_chaos_chapter_freeze #depth-01 .map_main {font-size: 0; }
+.the_chaos_chapter_freeze #depth-01 .map_main img {width: 100%;position: relative;}   
+.the_chaos_chapter_freeze #depth-01 .zoom-center {position: absolute; display: inline-block; width:11.14%; height: 5.47%; border-radius: 50%;right: 5.5%;bottom: 9.3%;} 
+.the_chaos_chapter_freeze #depth-01 .zoom-center img {transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-01 .zoom-center:hover img {transform: scale(1.1); transition: all 0.2s;}
+
+.the_chaos_chapter_freeze #depth-02 .map_alert {position: absolute; top: 0; left: 0;width: 100%;height: 100%; z-index: 100;}
+.the_chaos_chapter_freeze #depth-02 .map_alert img{width: 100%;}
+.the_chaos_chapter_freeze #depth-02 .map_alert2 {position: absolute; top: 0; left: 0;width: 100%;height: 100%; z-index: 99;}
+.the_chaos_chapter_freeze #depth-02 .map_alert2 img{width: 100%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 {position: absolute;top: 0; left: 0;width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .map_wrap {position: absolute; top:12.96%; left: 0;overflow: hidden;width: 100%; height: 87%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .map_wrap .drag_wrap > img{width: 330.19%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .map_wrap button {position: absolute; z-index: 99;}
+
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .map_wrap .drag_wrap > img{transform: translate(-34%, 5%);}
+.the_chaos_chapter_freeze #depth-02 #zoom1-1 .map_wrap .drag_wrap > img{transform: translate(-27.7%, 12%);}
+.the_chaos_chapter_freeze #depth-02 #zoom1-2 .map_wrap .drag_wrap > img{width: 349.06%; transform: translate(-27%, -15%);}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .map_wrap .drag_wrap > img{width: 347.17%; transform: translate(-46.3%, -13.9%);}
+.the_chaos_chapter_freeze #depth-02 #zoom1-1 .map_wrap button {height: auto;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-2 .map_wrap button {width: 8%; height:auto;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-2 .map_wrap button > img {width:100%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .map_wrap button {width: 8%; height:auto;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .map_wrap button > img {width:100%;}
+.the_chaos_chapter_freeze .alert_heart_left { position: absolute; width: 92%; height: 50%;top: 55%;left: -15%;}
+.the_chaos_chapter_freeze .alert_heart_right {position: absolute;	width: 71%;	height: 56%;	top: 49%;left: 80%; z-index: 99;}
+.the_chaos_chapter_freeze #zoom1-2 .alert_heart_right {width: 77%;top: 22%;	left: 85%;}
+
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area {position: absolute;	width: 111%;	top: 7.82%;	left: -33%;	height: 34.36%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .click_icon { position: absolute;	width: 100%; height: 100%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .click_icon button{position: absolute; display: block; transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .click_icon button:hover {transform: scale(1.2); transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(1){width:8%; left: 69%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(2){width:7%; top: 17%; left: 54%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(3){width:8%;right: 0%;top: 31%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(4){width:8%; right: 9%;bottom: 31%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(5){width:8%; right: 35.2%; bottom: 25%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button:nth-child(6){width:8%; left: 11%; bottom: 17%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .tear_area .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left { position: absolute;	width: 89%;	top: 47.82%;	left: -21%;	height: 52.36%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button {width:8%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(1){left: 44%;top: 23%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(2){left: 41%;top: 14%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(3){ left: 32%; top: 26%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(4){ left: 52%;top: 29%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(5){ left: 53%;top: 16%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button:nth-child(6){ left: 43%;	top: 33.5%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_left .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right { position: absolute;	width: 73%;	top: 42.82%;	left: 56%;	height: 57.36%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button {width:8%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(1){ left: 17%;	top: 37.3%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(2){ left: 65%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(3){ left: 46%;	bottom: 41%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(4){ top: 8%;	left: 47%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(5){ top: 20%;	left: 44.5%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(6){top: 35%; left: 48%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(7){ top: 33.5%; left: 61%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(8){ bottom: 49%;	left: 32%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(9){ top: 18%; left: 30.5%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(10){ right: 13%;	top: 30.5%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button:nth-child(11){ bottom: 29%; right: 53%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .heart_right .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area {position: absolute; width: 100%;	top: 13.82%;	left: 0;	height: 33.36%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .click_icon { position: absolute;	width: 100%; height: 100%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .click_icon button{position: absolute; display: block; transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .click_icon button:hover {transform: scale(1.2); transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(1){width:8%; left: 69%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(2){width:7%; top: 17%; left: 50%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(3){width:8%;right: 0%;top: 31%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(4){width:8%; right: 9%;bottom: 31%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(5){width:8%; right: 35.2%; bottom: 25%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button:nth-child(6){width:8%; left: 5%; bottom: 17%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .tear_area .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left { position: absolute;width: 100%;top: 27.82%;left: 0;height: 52.36%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(1){left: 44%;top: 23%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(2){left: 41%;top: 14%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(3){ left: 32%; top: 26%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(4){ left: 52%;top: 29%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(5){ left: 53%;top: 16%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_left .click_icon button:nth-child(6){ left: 43%;	top: 33.5%;}
+
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right { position: absolute;width: 100%;top: 22.82%;left: 0;height: 58.36%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(1){ left: 17%;	top: 37.3%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(2){ left: 65%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(3){ left: 46%;	bottom: 41%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(4){ top: 8%;	left: 47%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(5){ top: 20%;	left: 44.5%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(6){top: 35%; left: 48%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(7){ top: 33.5%; left: 61%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(8){ bottom: 49%;	left: 32%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(9){ top: 18%; left: 30.5%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(10){ right: 13%;	top: 30.5%;}
+.the_chaos_chapter_freeze #depth-02 .map_zoom1 .heart_right .click_icon button:nth-child(11){ bottom: 29%; right: 53%;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .zoom_icons .zoomIn-btn:hover img {transform: scale(1.0);}
+.the_chaos_chapter_freeze #depth-02 #zoom1-center .zoom_icons .zoomIn-btn {cursor: default;}
+
+.the_chaos_chapter_freeze #depth-03 .map_alert2 {position: absolute; top: 0; left: 0;width: 100%;height: 100%; z-index: 99;}
+.the_chaos_chapter_freeze #depth-03 .map_alert2 img{width: 100%;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 {position: absolute;top: 0; left: 0;width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .map_wrap {position: absolute; top: 13.2%; left: 0;overflow: hidden; width: 100%; height: 87%;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .map_wrap .drag_wrap {position: relative;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .map_wrap .drag_wrap img {width: 100%;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .click_icon {position: absolute;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .click_icon button{position: absolute; display: block;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .click_icon button img{width: 100%; transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-03 .map_zoom2 .click_icon button img:hover {transition: all 0.2s; transform: scale(1.2);}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .map_wrap .drag_wrap {transform: translate(-51.4%, -16.7%);width: 694.34%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .map_wrap .drag_wrap {transform: translate(-41.2%, -21.1%);width: 894.34%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .map_wrap .drag_wrap {transform: translate(-52.6%, -15.2%);width: 798.117%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .zoom_icons .zoomIn-btn:hover img {transform: scale(1.0);}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .zoom_icons .zoomIn-btn:hover img {transform: scale(1.0);}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .zoom_icons .zoomIn-btn:hover img {transform: scale(1.0);}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .map_wrap .drag_wrap > img { width: 400%;left: 50%;transform: translate(-40%, -15%);}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area {position: absolute;	width: 111%; top: -12.18%;	left: -45%;	height: 34.36%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .click_icon { position: absolute;	width: 100%; height: 100%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .click_icon button{position: absolute; display: block; transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .click_icon button:hover {transform: scale(1.2); transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(1){width:8%; left: 69%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(2){width:7%; top: 17%; left: 54%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(3){width:8%;right: 0%;top: 31%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(4){width:8%; right: 9%;bottom: 31%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(5){width:8%; right: 35.2%; bottom: 25%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button:nth-child(6){width:8%; left: 11%; bottom: 17%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .tear_area .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left { position: absolute;	width: 89%;	top: 29.82%;left: -41%;height: 52.36%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button {width:8%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(1){left: 44%;top: 23%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(2){left: 41%;top: 14%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(3){ left: 32%; top: 26%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(4){ left: 52%;top: 29%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(5){ left: 53%;top: 16%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button:nth-child(6){ left: 43%;	top: 33.5%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_left .click_icon button img{width: 100%;}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right { position: absolute;width: 105%;top: 20.82%;left: 36%;height: 57.36%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right_inner {position: relative; width: 100%;	height: 100%;} 
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button {width:8%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(1){ left: 17%;	top: 37.3%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(2){ left: 65%;	top: 15%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(3){ left: 46%;	bottom: 41%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(4){ top: 8%;	left: 47%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(5){ top: 20%;	left: 44.5%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(6){top: 35%; left: 48%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(7){ top: 33.5%; left: 61%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(8){ bottom: 49%;	left: 32%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(9){ top: 18%; left: 30.5%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(10){ right: 13%;	top: 30.5%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button:nth-child(11){ bottom: 29%; right: 53%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-center .heart_right .click_icon button img{width: 100%;}
+
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon {width: 28.26%;height: 55.78%;top: 18.49%;left: 39.13%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button {width: 7.98%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(1){top: 2.99%;left: 62.5%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(2){top: 0.85%;left:44.23%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(3){top: 5.13%;right: 3.84%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(4){top: 32.08%;right: 1.92%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(5){bottom:35.29%;right: 32.69%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-1 .click_icon button:nth-child(6){bottom: 3.2%;left: 0.96%;}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon {width: 8.01%;height: 18.91%;top: 24.93%;left: 42.72%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button {width: 27.65%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(1){top: 34.21%;left:31.57%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(2){top: 0;left: 32.89%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(3){left: 0;bottom: 29.9%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(4){right: 11.84%;bottom: 9.8%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(5){right: 0;top:11.02%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-2 .click_icon button:nth-child(6){bottom: 0; left: 31.57%;}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon {width: 26.83%;height: 49.06%;top: 12.72%;right: 25.65%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button {width: 8.37%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(1){top: 46.13%;left: 0%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(2){top: 8.99%;right: 26.69%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(3){bottom: 21.16%;left: 40.96%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(4){top: 0%;left: 40.52%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(5){top: 15.87%;left: 37%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(6){bottom: 43.38%;left: 40.96%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(7){bottom: 47.08%;right: 29.95%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(8){bottom: 35.44%;left: 22.2%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(9){top: 14.28%;left: 17.79%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(10){top: 32.27%;right: 1.93%;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .click_icon button:nth-child(11){bottom: 0%;left: 35.94%;}
+
+.the_chaos_chapter_freeze #depth-04 .map_gallery {position: absolute; top: 0%; left: 0; width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap {position:absolute; top: 0; left: 0;width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap img {width: 100%; height: 100%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area {position:absolute;top: 12.96%; left: 0;width: 100%;height: 87%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area a {position:absolute;z-index: 99;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .half {position: absolute;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .half a {position: absolute; left:0;width: 100%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left { top:0; left: 0;width: 50%; height: 100%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right {top:0; left: 50%; width: 50%; height: 100%;}
+
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a{display: block;left: 2.5%;width: 95.2%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a:hover:after {content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a:nth-child(1){top: 1px;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a:nth-child(2){top: 0.6%; height: 28.3%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap.group .click_area a:nth-child(3){top: 1.22%;height: 28.3%;}
+
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a {display: block; left: 5.2%; width: 93.5%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:hover:after {content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:nth-child(1) {top: 1px; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:nth-child(2) {top:1%; height: 24.2%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:nth-child(3) {top:1.7%; height: 24.2%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .left a:nth-child(4) {top: 2.4%; height: 16.57%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a {display: block; left: 1.5%; width: 93.8%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a:hover:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a:nth-child(1) {top: 1px; height: 34.3%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a:nth-child(2) {top: 0.8%; height: 17.3%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area .right a:nth-child(3) {top: 1.55%; height: 32.65%;}
+
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(1) {top:1px;height: 34.3%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(2) {top:0.85%; height: 17.2%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(3) {top:1.6%; height: 32.65%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(1) {top: 1px; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(2) {top: 1.05%; height: 24.1%}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(3) {top: 1.85%; height: 24.1%;}
+.the_chaos_chapter_freeze #depth-04 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(4) {top: 2.5%; height: 16.7%;}
+
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger {position: relative;transition: all 400ms;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area {top: 54.5%; left: 5.45%;	width: 88%;	height: 20%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area.eng_click {top: 55.8%; height: 19.4%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area.jpn_click {top: 55.8%; height: 19.4%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area.chn_click {top: 55.05%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area a {height: 49%; width:94.8%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area.jpn_click a {height: 48%; }
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area.chn_click a {height: 48.5%; }
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area .left a:nth-child(2) {top: 1%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger .click_area .right a:nth-child(2) {top: 1%;}
+
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger.down {transform:translateY(-41.1%);}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger.eng_messenger.down {transform:translateY(-42.8%);}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger.jpn_messenger.down {transform:translateY(-44%);}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger.chn_messenger.down {transform:translateY(-41.8%);}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow {position: absolute;	width: 10%; bottom: 8.5%;	left: 5.5%;	z-index: 9;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.eng_arrow {bottom: 3.2%; left: 4%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.jpn_arrow {bottom: 1.8%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.chn_arrow {bottom: 6.5%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.scroll_up { bottom: auto;top: 16.2%;	transform: rotate(180deg);}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.eng_arrow.scroll_up{ top: 16.3%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.jpn_arrow.scroll_up{ top: 14%;}
+.the_chaos_chapter_freeze #depth-04 #gallery2 .img_wrap.group .messenger_arrow.chn_arrow.scroll_up{ top: 16.3%;}
+
+.the_chaos_chapter_freeze #depth-04 #gallery3.scroll_add {z-index: -1;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap.group .click_area a{height: 42.55%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap.group .click_area a:nth-child(1){top: 0px;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap.group .click_area a:nth-child(2) {top: 0.7%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .left a:nth-child(1) {top:1px; }
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .left a:nth-child(2) {top:0.9%; }
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .left a:nth-child(3) {top:1.75%; height: 41.5%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .right a:nth-child(1) {top: 1px; }
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .right a:nth-child(2) {top: 0.85%; }
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area .right a:nth-child(3) {top: 1.6%;}
+
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .left a:nth-child(1) {top:1px; height: 34.14%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .left a:nth-child(2) {top:1.05%; height: 17.2%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .left a:nth-child(3) {top:1.8%; height: 32.65%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .right a:nth-child(1) {top: 1px; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .right a:nth-child(2) {top: 1%; height: 24.1%}
+.the_chaos_chapter_freeze #depth-04 #gallery3 .img_wrap .click_area.reverse .right a:nth-child(3) {top: 1.8%; height: 41.48%;}
+
+.the_chaos_chapter_freeze #depth-05 .map_gallery {position: absolute; top: 0%; left: 0; width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap {position:absolute; top: 0; left: 0;width: 100%;height: 100%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap img {width: 100%; height: 100%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area {position:absolute;top: 12.96%; left: 0;width: 100%;height: 87%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area a {position:absolute;z-index: 99;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .half {position: absolute;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .half a {position: absolute; left:0;width: 100%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left { top:0; left: 0;width: 50%; height: 100%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right {top:0; left: 50%; width: 50%; height: 100%;}
+
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a{display: block;left: 2.5%;width: 95.2%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a:hover:after {content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a:nth-child(1){top: 1px;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a:nth-child(2){top: 0.6%; height: 28.3%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap.group .click_area a:nth-child(3){top: 1.22%;height: 28.3%;}
+
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a {display: block; left: 5.2%; width: 93.5%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:hover:after {content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:nth-child(1) {top: 1px; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:nth-child(2) {top:1%; height: 24.2%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:nth-child(3) {top:1.7%; height: 24.2%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .left a:nth-child(4) {top: 2.4%; height: 16.57%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a {display: block; left: 1.5%; width: 93.8%;height: 28%; position: relative;transition: all 0.2s;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: rgba(0,0,0,0.3); position: absolute; left:0; top: 0;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a:hover:after {	content:'';display: block;width: 100%;height: 100%;transition: all 0.2s; background: transparent; position: absolute; left:0; top: 0;} 
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a:nth-child(1) {top: 1px; height: 34.3%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a:nth-child(2) {top: 0.8%; height: 17.3%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area .right a:nth-child(3) {top: 1.55%; height: 32.65%;}
+
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(1) {top:1px;height: 34.3%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(2) {top:0.85%; height: 17.2%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .left a:nth-child(3) {top:1.6%; height: 32.65%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(1) {top: 1px; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(2) {top: 1.05%; height: 24.1%}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(3) {top: 1.85%; height: 24.1%;}
+.the_chaos_chapter_freeze #depth-05 .map_gallery .img_wrap .click_area.reverse .right a:nth-child(4) {top: 2.5%; height: 16.7%;}
+
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger {position: relative;transition: all 400ms;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area {top: 54.45%; left: 5.5%;	width: 88%;	height: 20%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area.eng_click {top: 55.8%; height: 19.4%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area.jpn_click {top: 55.8%; height: 19.4%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area.chn_click {top: 55.1%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area a {height: 49.3%; width:94.8%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area.jpn_click a {height: 48%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area.chn_click a {height: 48.45%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area .left a:nth-child(2) {top: 1%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger .click_area .right a:nth-child(2) {top: 1%;;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger.down {transform:translateY(-41.1%);}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger.eng_messenger.down {transform:translateY(-42.8%);}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger.jpn_messenger.down {transform:translateY(-44%);}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger.chn_messenger.down {transform:translateY(-41.8%);}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow {position: absolute;	width: 10%; bottom: 8.5%;	left: 5.5%;	z-index: 9;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.eng_arrow {bottom: 3.2%; left: 4%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.jpn_arrow {bottom: 1.8%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.chn_arrow {bottom: 6.5%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.scroll_up { bottom: auto;top: 16.2%;	transform: rotate(180deg);}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.eng_arrow.scroll_up{ top: 16.3%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.jpn_arrow.scroll_up{ top: 14%;}
+.the_chaos_chapter_freeze #depth-05 #gallery5 .img_wrap.group .messenger_arrow.chn_arrow.scroll_up{ top: 16.3%;}
+
+.the_chaos_chapter_freeze #depth-05 #gallery6.scroll_add {z-index: -1;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap.group .click_area a{height: 42.55%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap.group .click_area a:nth-child(1){top: 0px;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap.group .click_area a:nth-child(2){top: 43.08%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .left a:nth-child(1) {top:0; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .left a:nth-child(2) {top:19.46%; height: 23.93%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .left a:nth-child(3) {top:44.14%; height: 41.48%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .right a:nth-child(1) {top: 0; height: 34.14%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .right a:nth-child(2) {top: 35.10%; height: 17.02%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area .right a:nth-child(3) {top: 53.19%; height: 32.65%;}
+
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .left a:nth-child(1) {top:0; height: 34.14%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .left a:nth-child(2) {top:35.10%; height: 17.02%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .left a:nth-child(3) {top:53.19%; height: 32.65%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .right a:nth-child(1) {top: 0; height: 18.40%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .right a:nth-child(2) {top: 19.46%; height: 23.93%}
+.the_chaos_chapter_freeze #depth-05 #gallery6 .img_wrap .click_area.reverse .right a:nth-child(3) {top: 44.14%; height: 41.48%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap.group .click_area a:nth-child(2) {top: 0.7%;}
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .left a:nth-child(1) {top:1px; }
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .left a:nth-child(2) {top:0.9%; }
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .left a:nth-child(3) {top:1.85%; }
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .right a:nth-child(1) {top: 1px; }
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .right a:nth-child(2) {top: 1.1%; }
+.the_chaos_chapter_freeze #depth-05 #gallery6.day3 .img_wrap .click_area .right a:nth-child(3) {top: 1.95%;}
+
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .goback-btn{ position: absolute;  top: 8.3%; left: 2.77%; display: block; width: 22%; height:4%; background-color: transparent; border: none;  outline: none; cursor: pointer; z-index: 99;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .goback-btn.alert_close{left: 77.6%;	top: 39%;	width: 7.5%; height: 4.3%;	z-index: 999;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .goback-btn.alert_close2{left: 77.6%;	top: 39%;	width: 7.5%; height: 4.3%;	z-index: 999;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons {width: 100%;position: absolute;bottom: 0;height: 14.81%;z-index: 99;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons button {width:11.32%;height: 37.5%;position: absolute;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons button:nth-child(1){left: 4.71%; bottom: 21.25%;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons button:nth-child(2){top: 0px;right: 5.28%;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons button:nth-child(3){right: 5.28%; bottom: 21.25%;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons img{width:100%; height: 100%; transition: all 0.2s;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons .zoom-btn:hover img {transform: scale(1.1); transition: all 0.2s;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons .zoomIn-btn:hover img {transform: scale(1.1); transition: all 0.2s;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons .zoomOut-btn:hover img {transform: scale(1.1); transition: all 0.2s;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap #depth-03 .zoom_icons button:nth-child(2){cursor:default;}
+.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .contents_wrap .zoom_icons .phone-bar{position: absolute;width: 33.58%;height: 5%;bottom:8.125%;left: 50%;transform: translateX(-50%); background-color: #fff;border-radius: 2px;box-shadow: 1px 1px 1px 0px rgb(228 231 238 / 33%);}
+
+.the_chaos_chapter_freeze .contents-obj video {opacity:1; position:relative; width:100%; height:auto; margin:auto; display:block;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo{position: absolute; top: 60px; left: 0; width: 100%; height: 730px; z-index: 110; display:none; opacity:0;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo ul{position: relative; width: 100%; max-width: 994px; height: 663px; margin: 0 auto;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li{position: relative; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; display:none;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li.active {display:block; opacity: 1;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul {position: absolute; top: 55px; left: 0; overflow: hidden; opacity:0; display:none;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul.active {opacity:1; display:block;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li li {display: table; position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 100%; margin-left: 100%;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li li:first-child {margin-left:0; position:relative;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li div {display: table-cell; width: 100%; height: 100%; vertical-align: middle;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li img {display: block; width: auto; max-width: 994px; margin: auto;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video {display: block; width: 100%; max-width: 994px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video.video_vertical{width: auto; margin: auto; height:100%; top:0; position:absolute;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .v_cover{position: absolute; top: 0; left: 0;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .w442{padding: 0 275px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .popup-btn{display: block; width: 100%; height: auto; text-align: right;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_down_pop.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop_hover.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_close_pop.png'); background-size: cover; margin-left: 5px;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop_hover.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev{position: absolute; left: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next{position: absolute; right: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-next-photo.png'); background-size: cover;}
+.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop_hover.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop_hover.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');}
+.device .the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');}
+
+
+/* blue_hour */
+.album-list li.blue_hour {position: relative; border: 1px solid rgba(129, 135, 144, .2);}
+.blue_hour .album-detail {background: #cbd9ef url('https://ibighit.com/txt/images/txt/discography/blue_hour/bg.png') no-repeat center top/1440px auto;}
+.blue_hour .album-detail .btn-list span {background-color: #272727;}
+.blue_hour .album-detail .btn-list span:after {border-color: #272727;}
+.blue_hour .album-detail .contents-title {color: #fd7fb8; font-family: 'MVB-SolanoGothicMVB-BC'; text-shadow: none;}
+.blue_hour .album-detail .bottom.rows ul::before {top: 16.45%; background-color: #c2bec9;}
+.blue_hour .album-detail .bottom.rows ul::after {top: 30.63%; background-color: #c2bec9;}
+.blue_hour .album-detail .bottom.rows ul li:after {display: block; position: absolute; left: 0; width: 100%; height: 1px; background-color: #a5a1a1;}
+.InternetExplorer .blue_hour .album-detail .bottom.rows ul li:after {margin-top: 1px;}
+.safari .blue_hour .album-detail .bottom.rows ul li:after {margin-top: -1px;}
+.blue_hour .album-detail .bottom.rows ul li:nth-child(8):after {top: 44.5%; content: '';}
+.blue_hour .album-detail .bottom.rows ul li:nth-child(11):after {top: 58.5%; content: '';}
+.blue_hour .album-detail .bottom.rows ul li:nth-child(14):after {top: 72.5%; background-color: #c2bec9; content: '';}
+.blue_hour .album-detail .bottom.rows ul li:nth-child(17):after {top: 86.5%; background-color: #c2bec9; content: '';}
+.blue_hour .album-detail .bottom.rows ul li.start {padding-left: 230px;}
+.blue_hour .album-detail .bottom.rows ul li.end {padding-right: 230px;}
+.blue_hour .album-detail .bottom.rows ul li.start:nth-child(8) {padding-left: 200px;}
+.blue_hour .album-detail .bottom.rows ul li.start:nth-child(n+11) {padding-left: 50px}
+.blue_hour .album-detail .bottom.rows ul li.end:nth-child(10) {padding-right: 200px;}
+.blue_hour .album-detail .bottom.rows ul li.end:nth-child(n+11) {padding-right: 50px}
+.blue_hour .album-detail .bottom ul li .contents-sub {color: rgba(0, 2, 9, .75); text-shadow: none;}
+.blue_hour .album-detail .bottom ul li.active .contents-sub,
+body:not(.device) .blue_hour .album-detail .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .blue_hour .album-detail .bottom ul button:not(.active):hover .contents-sub {color: #be5182;}
+body:not(.device) .blue_hour .album-detail .bottom ul li.disabled button {cursor: default;}
+body:not(.device) .blue_hour .album-detail .bottom ul li.disabled:not(.active) button:not(.active):focus .contents-sub,
+body:not(.device) .blue_hour .album-detail .bottom ul li.disabled:not(.active) button:not(.active):hover .contents-sub {color: rgba(0, 2, 9, .75);}
+.blue_hour .album-detail .btn_circle {position: absolute; top: 0; left: 0; width: 50px; height: 50px; background: rgba(0, 0, 0, 0.1) no-repeat center/100% auto; border-radius: 50%; overflow: hidden;}
+.blue_hour .album-detail .btn-down {right: 0; left: auto; background-image: url('https://ibighit.com/txt/images/txt/discography/btn_down.png');}
+.blue_hour .album-detail .btn-close {background-image: url('https://ibighit.com/txt/images/txt/discography/btn_close.png');}
+.blue_hour .album-detail .btn-back {background-image: url('https://ibighit.com/txt/images/txt/discography/btn_back.png');}
+body:not(.device) .blue_hour .album-detail .gif .btn-down:hover {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn_down_gif-h.png');}
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .btn-down:hover {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn_down_photo-h.png');}
+body:not(.device) .blue_hour .album-detail .btn-close:hover {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn_close_photo-h.png');}
+body:not(.device) .blue_hour .album-detail .btn-back:hover {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn_back_photo-h.png');}
+.blue_hour .album-detail .overlap_cont {position: relative; height: 100%;}
+.blue_hour .album-detail .overlap_cont > * {display: none; opacity: 0; position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 100%; overflow:hidden;}
+.blue_hour .album-detail .overlap_cont > *:first-child {display: block; position: relative; opacity: 1;}
+.blue_hour .album-detail .slide_cont {position: relative; height: 100%; overflow: hidden;}
+.blue_hour .album-detail .slide_cont > * {position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-left: 100%;}
+.blue_hour .album-detail .slide_cont > *:first-child {position: relative; margin: 0;}
+.blue_hour .album-detail .album-desc {color: #45484c;}
+.blue_hour .album-detail .album-desc .contents-title {color: #010710;}
+.blue_hour .album-detail .album-desc .contents-sort {color: #807bfc;}
+.blue_hour .album-detail .no-desc {padding: 0 152px 160px;}
+.blue_hour .album-detail .album-video .contents-title {color: #fd6f28;}
+.blue_hour .album-detail .album-video .slide-wrap {background-color: rgba(255, 90, 8, .1);}
+.blue_hour .album-detail .album-video .bottom ul li .contents-sub {color: #595858;}
+.blue_hour .album-detail .album-video .slide-wrap > ul > li .contents-sub,
+.blue_hour .album-detail .album-video .bottom ul li.active .contents-sub,
+body:not(.device) .blue_hour .album-detail .album-video .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .blue_hour .album-detail .album-video .bottom ul button:not(.active):hover .contents-sub {color: #ff6417;}
+.blue_hour .album-detail .gif {max-width: 100%; margin-top: 164px;}
+.blue_hour .album-detail .gif .etc_wrap {background-color: #c9d3f7;}
+.blue_hour .album-detail .gif .etc_wrap > ul li {opacity: 0;}
+.blue_hour .album-detail .gif .etc_wrap > ul li.active {display: block; opacity: 1;}
+.blue_hour .album-detail .gif .contents-title {color: #807bfc;}
+.blue_hour .album-detail .gif .btn-down {top: 80px; right: calc(50% - 540px);}
+.blue_hour .album-detail .gif .bottom ul {padding-top: 41px;}
+.blue_hour .album-detail .gif .bottom ul li.active .contents-sub,
+body:not(.device) .blue_hour .album-detail .gif .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .blue_hour .album-detail .gif .bottom ul button:not(.active):hover .contents-sub {color: #6d67ff;}
+.blue_hour .album-detail .gif .slide-wrap > ul {width: 530px; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo {width: 100%; max-width: none; margin-top: 164px;}
+.blue_hour .album-detail.no-track .blue_hour-photo {min-height: 1065px;}
+.blue_hour .album-detail .blue_hour-photo > .slide-wrap {background-color: #ded2eb;}
+.blue_hour .album-detail .blue_hour-photo > .slide-wrap > button {display: none; top: 80px;}
+.blue_hour .album-detail .blue_hour-photo .btn-prev {position: absolute; top: 50%; left: 0; width: 80px; height: 90px; background: url('https://ibighit.com/txt/images/btn-prev-photo-shadow30.png') no-repeat center/100% auto;}
+.blue_hour .album-detail .blue_hour-photo .btn-next {position: absolute; top: 50%; right: 0; left: auto; width: 80px; height: 90px; background: url('https://ibighit.com/txt/images/btn-next-photo-shadow30.png') no-repeat center/100% auto;}
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .btn-prev.active,
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .btn-prev:hover {background: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn-prev-photo-be5182.png') no-repeat center; background-size: 100% auto;}
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .btn-next.active,
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .btn-next:hover {background: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn-next-photo-be5182.png') no-repeat center; background-size: 100% auto;}
+.blue_hour .album-detail .blue_hour-photo .bottom ul {padding-top: 41px;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents > div {width: 1260px; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-back {left: calc(50% - 540px);}
+.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-down {right: calc(50% - 540px); left: auto;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj img {width: 1080px; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.portrait img {width: auto; height: 1080px;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .swipe_img > div {width: 1080px; margin: 0 auto; overflow: hidden;}
+.blue_hour .album-detail .blue_hour-photo .home_lock button {width: 530px; height: 100%; margin: 0 auto; opacity: 0;}
+.blue_hour .album-detail .blue_hour-photo .home_passcode .failed_code {position: absolute; top: 0; right: 0; left: 0; opacity: 0;}
+.blue_hour .album-detail .blue_hour-photo .application > div {transform: scale(0); transition: 0.5s;}
+.blue_hour .album-detail .blue_hour-photo .application .photo {transform-origin: 35.5% 10.8%;}
+.blue_hour .album-detail .blue_hour-photo .application .video {transform-origin: 45% 10.8%;}
+.blue_hour .album-detail .blue_hour-photo .application .music {transform-origin: 54.5% 10.8%;}
+.blue_hour .album-detail .blue_hour-photo .application .downloads {transform-origin: 64.3% 10.8%;}
+.blue_hour .album-detail .blue_hour-photo .version_r .select_gr_list,
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list {height: 100%;}
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list li {overflow: hidden;}
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller {position: absolute; right: 0; bottom: 0; left: 0; width: 400px; height: 75px; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider {position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 15px; background: url('https://ibighit.com/txt/images/txt/discography/blue_hour/slide_bar.png') no-repeat center/98% auto; margin: auto;}
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle {position: absolute; top: 0; bottom: 0; left: 0; width: 45px; height: 45px; margin: auto;}
+.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle span {display: block; position: absolute; top: 0; bottom: 0; left: 0; width: 30px; height: 30px; background: url('https://ibighit.com/txt/images/txt/discography/blue_hour/controller.png') no-repeat center/100% auto; border-radius: 50%; margin: auto;}
+.blue_hour .album-detail .blue_hour-photo .popup-btn {display: block; width: 1080px; height: auto; font-size: 0; text-align: right; margin: 0 auto 20px;}
+.blue_hour .album-detail .blue_hour-photo .popup-btn button {display: inline-block; position: static; background-color: rgba(0, 0, 0, 0.5); margin-left: 10px;}
+.blue_hour .album-detail .blue_hour-photo .popup {display: none; position: absolute; top: 129px; left: 0; width: 100%; height: auto; margin: 0 auto; opacity: 0; z-index: 110;}
+.blue_hour .album-detail .blue_hour-photo .popup > div {width: 1260px; height: 100%; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo .popup .overlap_cont,
+.blue_hour .album-detail .blue_hour-photo .popup .slide_cont {height: 993px;}
+.blue_hour .album-detail .blue_hour-photo .popup .overlap_cont > *,
+.blue_hour .album-detail .blue_hour-photo .popup .slide_cont > * {height: 100%;}
+.blue_hour .album-detail .blue_hour-photo .popup .btn-prev,
+.blue_hour .album-detail .blue_hour-photo .popup .btn-next {top: 0; height: 100%;}
+.blue_hour .album-detail .blue_hour-photo .popup .contents-obj:not(.portrait) img {position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 1080px; margin: auto;}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden {display: none; position: absolute; top: 129px; left: 0; width: 100%; height: auto; margin: 0 auto; opacity: 0; z-index: 120;}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden .popup-btn {text-align: left;}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden .btn-close {background-image: url('https://ibighit.com/txt/images/txt/discography/btn_back.png'); margin: 0;}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden .btn-down {float: right;}
+body:not(.device) .blue_hour .album-detail .blue_hour-photo .popup_hidden .btn-close:hover {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn_back_photo-h.png');}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj img {width: 723px; margin: 0 auto;}
+.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj.landscape img {width: 1080px;}
+.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message {display: none; position: absolute; top: auto; right: 0; bottom: 0; left: auto; width: 370px; height: 344px; margin: 0; opacity: 0; box-shadow: 3px 3px 30px 15px rgba(255,230,247,.5); transform:scale(0);}
+.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message > img {width: 100%; height: auto;}
+.blue_hour .album-detail .song-list .contents-title {color: #2e7dca;}
+.blue_hour .album-detail .song-list .list-inner {color: #5b6678;}
+.blue_hour .album-detail .song-list .num {color: #2e7dca;}
+.blue_hour .album-detail .song-list .track {color: #8a93a1;}
+@keyframes password_fail
+{
+	0%{opacity:0;}
+	33%{opacity:1;}
+	66%{opacity:0.1;}
+	100%{opacity:1;}
+}
+
+/*the_dream_chapter-eternity*/
+.the_dream_chapter-eternity .album-detail {background: #9600ff url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/bg.png') no-repeat center top; background-size: 100% auto;}
+.the_dream_chapter-eternity .album-detail .album-desc {color: #07432d;}
+.the_dream_chapter-eternity .album-detail .album-desc .contents-sort {color: #fff; text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);}
+.the_dream_chapter-eternity .album-detail .album-desc .contents:not(.kor) {left: 20px;}
+.the_dream_chapter-eternity .album-detail .album-desc .contents-title.kor {line-height: 70px;}
+.the_dream_chapter-eternity .album-detail .album-desc .contents-title .spacing {padding-left: 0.05em;}
+.the_dream_chapter-eternity .album-detail .bottom ul li .contents-sub {color: #e7ccfa;}
+.the_dream_chapter-eternity .album-detail .bottom ul li.active .contents-sub,
+body:not(.device) .the_dream_chapter-eternity .album-detail .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .the_dream_chapter-eternity .album-detail .bottom ul button:not(.active):hover .contents-sub {color: #00dc8c;}
+.the_dream_chapter-eternity .album-detail .bottom .contents-sub.kor {letter-spacing: -0.03em;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul {width: 100%;}
+.Firefox .the_dream_chapter-eternity .album-detail .bottom.rows ul {padding: 32px 0;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li.start {padding-left: 230px;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li.end {padding-right: 230px;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul::after {top: 14.9%; background-color: #bf64ff;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li::after {display: block; position: absolute; left: 0; width: 100%; height: 1px; background-color: #bf64ff; margin-top: 1px;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(5)::after {content: ''; top: 29.97%; background-color: rgba(0, 0, 0, 0.1);}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(7)::after {content: ''; top: 45.42%; background-color: rgba(0, 0, 0, 0.1);}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(9)::after {content: ''; top: 60.88%;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(11)::after {content: ''; top: 72.91%;}
+.the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(14)::after {content: ''; top: 84.93%;}
+.InternetExplorer .the_dream_chapter-eternity .album-detail .bottom.rows ul::after {margin-top: -1px;}
+.InternetExplorer .the_dream_chapter-eternity .album-detail .bottom ul {padding: 32px 0;}
+.safari .the_dream_chapter-eternity .album-detail .bottom.rows ul li:nth-child(5)::after {margin-top: 2px;}
+.the_dream_chapter-eternity .album-detail .album-video .slide-wrap {background-color: rgba(0, 0, 0, 0.1);}
+.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap::before {height: 100%; background-color: rgba(0, 0, 0, 0.1);}
+.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li {right: 0; max-width: 535px; margin: 0 auto;}
+.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child {max-width: 873px;}
+.the_dream_chapter-eternity .album-detail .slide-wrap > ul > li .contents-sub {color: #00dc8c;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup {display: none; position: absolute; top: 166px; left: 0; width: 100%; height: auto; z-index: 110; opacity: 0;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul {position: relative; width: 100%; max-width: 1260px; margin: 0 auto; overflow: hidden;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li {display: none; top: 0; left: 0; width: 100%; height: 100%;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li:first-child {position: relative; opacity: 1;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li li {display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-left: 100%; opacity: 1;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li li:first-child {margin: 0;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden ul > li li {position: relative; margin: 0;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup ul li.relative {position: relative;}
+.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-prev {left: -378px; background-image: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-prev-photo-shadow30.png');}
+.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-next {right: -378px; background-image: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-next-photo-shadow30.png');}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-prev {position: absolute; top: 50%; left: -14px; width: 80px; height: 460px; background: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-prev-photo-shadow30.png') no-repeat center; background-size: 100% auto; margin-top: -200px;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-next {position: absolute; top: 50%; right: -14px; width: 80px; height: 460px; background: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-next-photo-shadow30.png') no-repeat center; background-size: 100% auto; margin-top: -200px;}
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-prev.active,
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .popup .btn-prev:hover {background: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-prev-photo-00dc8c.png') no-repeat center; background-size: 100% auto;}
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-next.active,
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .popup .btn-next:hover {background: url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn-next-photo-00dc8c.png') no-repeat center; background-size: 100% auto;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn {display: block; width: 100%; height: auto; font-size: 0; text-align: right; margin-bottom: 10px;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button {display: inline-block; width: 50px; height: 50px; background-color: rgba(0, 0, 0, 0.5); background-repeat: no-repeat; background-size: cover; border-radius: 50%; overflow: hidden;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button:last-child {margin-left: 10px;}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-down {background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_down_pop.png');}
+.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-close {background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_close_pop.png');}
+.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden .btn-close {float: left; background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_close_hidden_pop.png');}
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .popup .btn-down:hover {background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_down_pop-h.png');}
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .popup .btn-close:hover {background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_close_pop-h.png');}
+body:not(.device) .the_dream_chapter-eternity .album-detail .album-photo .popup-hidden .btn-close:hover {background-image:url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-eternity/btn_close_hidden_pop-h.png');}
+.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden {right: 0; max-width: 1080px; margin: auto; z-index: 112;}
+.the_dream_chapter-eternity .album-detail .song-list .list-inner {color: #f1ddff;}
+.the_dream_chapter-eternity .album-detail .song-list .num {color: #00dc8c;}
+.the_dream_chapter-eternity .album-detail .song-list .track {color: #d8a0ff;}
+.InternetExplorer .the_dream_chapter-eternity .album-detail .album-desc .contents:not(.kor) {left: 21px;}
+.mac-os .the_dream_chapter-eternity .album-detail .album-desc .contents:not(.kor) {left: 21px;}
+
+/*the_dream_chapter-magic*/
+.the_dream_chapter-magic .slide_video .contents-obj video {position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 342px; margin: auto;}
+.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play.mp4 {width: 342px; margin: auto;}
+.the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:88px;}
+.kor .the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:94px;}
+.the_dream_chapter-magic .album-detail {background: #00dc8c url('https://ibighit.com/txt/images/txt/discography/the_dream_chapter-magic/magic-bg.png') no-repeat center top; background-size: 100% auto;}
+.the_dream_chapter-magic .album-detail .contents-sort {color: #fffefe; text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2)}
+.the_dream_chapter-magic .album-detail .album-desc {color: #3e3e3e;}
+.the_dream_chapter-magic .album-detail .album-video .slide-wrap {background: rgba(26, 185, 126, 0.5);}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap {background: rgba(26, 185, 126, 0.5);}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li ul.mix {background: rgba(26, 185, 126, 0.5); top:0px; height:100%;}
+.the_dream_chapter-magic .album-detail .bottom.kor ul li {padding: 0 14px;}
+.the_dream_chapter-magic .album-detail .bottom ul li {padding: 0 35px;}
+.the_dream_chapter-magic .album-detail .bottom ul li .contents-sub {color: #9bffe3;}
+.the_dream_chapter-magic .album-detail .bottom ul li.active .contents-sub,
+.the_dream_chapter-magic .album-detail .bottom ul button:not(.active):focus .contents-sub,
+.the_dream_chapter-magic .album-detail .bottom ul button:not(.active):hover .contents-sub {color: #ffd62c;}
+.the_dream_chapter-magic .album-detail .bottom.rows ul::after{top: 21.57%; background-color: #4ad8a4;}
+.the_dream_chapter-magic .album-detail .bottom.rows ul li.taller {padding-top: 35px; padding-bottom: 0;}
+.the_dream_chapter-magic .album-detail .bottom.rows ul li.shorter {padding-top: 9px; padding-bottom: 0;}
+.the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 140px;}
+.the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 140px;}
+body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 110px;}
+body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 110px;}
+.the_dream_chapter-magic .album-detail .bottom .btn_wrap > ul > li::after{display: block; position: absolute; top: 16px; left: 0; width: 100%; height: 1px; content: ''; background-color: #4ad8a4;}
+.the_dream_chapter-magic .album-detail .bottom.rows .btn_wrap {width: 100%; padding: 0}
+.the_dream_chapter-magic .album-detail .bottom.rows .btn_wrap ul {width: 100%; padding: 0}
+.the_dream_chapter-magic .album-detail .bottom.rows .btn_wrap ul::after {display: none;}
+.the_dream_chapter-magic .album-detail .album-video .bottom > ul > li:first-child {padding-left: 0;}
+.the_dream_chapter-magic .album-detail .album-video .bottom > ul > li:nth-child(4) {padding-right: 0;}
+.the_dream_chapter-magic .album-detail .song-list .list-inner {color: #013526;}
+.the_dream_chapter-magic .album-detail .song-list .contents-sub {color: #1d1d1d;}
+.the_dream_chapter-magic .album-detail .song-list .num {color: #ffea00;}
+.the_dream_chapter-magic .album-detail .song-list .track {color: #195343;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev {margin-top:-20px; top:0px; min-height:90px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next {margin-top:-20px; top:0px; min-height:90px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap button {transition:top 0.1s;}
+.the_dream_chapter-magic .contents-obj img {position:absolute; top:0px;}
+.the_dream_chapter-magic .contents-obj img:first-child {opacity:1; position:relative;}
+.the_dream_chapter-magic .contents-obj video {opacity:1; position:relative; width:100%; height:auto; margin:auto; display:block;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo{position: absolute; top: 60px; left: 0; width: 100%; height: 730px; z-index: 110; display:none; opacity:0;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo ul{position: relative; width: 100%; max-width: 994px; height: 663px; margin: 0 auto;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li{position: relative; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; display:none;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li.active {display:block; opacity: 1;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li ul {position: absolute; top: 55px; left: 0; overflow: hidden; opacity:0; display:none;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li ul.active {opacity:1; display:block;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li li {display: table; position: absolute; top: 0; left: 0; width: 100%; height: 100%; max-width: 100%; margin-left: 100%;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li li:first-child {margin-left:0; position:relative;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li div {display: table-cell; width: 100%; height: 100%; vertical-align: middle;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li img {display: block; width: auto; max-width: 994px; margin: auto;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li video {display: block; width: 100%; max-width: 994px;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li video.video_vertical{width: auto; margin: auto; height:100%; top:0; position:absolute;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li .v_cover{position: absolute; top: 0; left: 0;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li .w442{padding: 0 275px;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .popup-btn{display: block; width: 100%; height: auto; text-align: right;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_down_pop.png'); background-size: cover;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop_hover.png');}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close{display: inline-block; width: 50px; height: 50px; background-image:url('https://ibighit.com/txt/images/btn_close_pop.png'); background-size: cover; margin-left: 5px;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop_hover.png');}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-prev{position: absolute; left: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png'); background-size: cover;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-next{position: absolute; right: -109px; top: 50%; width: 80px; height: 90px; background-image: url('https://ibighit.com/txt/images/btn-next-photo.png'); background-size: cover;}
+.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');}
+.device .the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down:hover{background-image:url('https://ibighit.com/txt/images/btn_down_pop.png');}
+.device .the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close:hover{background-image:url('https://ibighit.com/txt/images/btn_close_pop.png');}
+.device .the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-prev:hover{background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');}
+.device .the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-next:hover{background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev.fix {position:fixed; bottom:0px; top:auto; margin-top:0px; left:0px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next.fix {position:fixed; bottom:0px; top:auto; margin-top:0px; left:auto; right:0px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev.btm {top:auto; bottom:-21px; margin-top:0px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next.btm {top:auto; bottom:-21px; margin-top:0px;}
+.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj .contents-inner {position:relative; text-align:center;}
+.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video ul li {display:none; width: 100%;}
+.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video ul li.active {display:block;}
+
+/*the_dream_chapter-star*/
+.the_dream_chapter-star .album-detail {background: #78c8ff url('https://ibighit.com/txt/images/txt/common-bg.png') no-repeat center top; background-size: 100% auto;}
+.the_dream_chapter-star .album-detail .contents-sort {color: #fff; text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);}
+.the_dream_chapter-star .album-detail .album-desc {color: #3e3e3e;}
+.the_dream_chapter-star .album-detail .album-video .slide-wrap {background: rgba(72, 148, 208, 0.7);}
+.the_dream_chapter-star .album-detail .album-photo .slide-wrap {background: rgba(72, 148, 208, 0.7);}
+.the_dream_chapter-star .album-detail .bottom.kor ul li {padding: 0 14px;}
+.the_dream_chapter-star .album-detail .bottom ul li .contents-sub {color: rgba(255, 255, 255, 0.7);}
+.the_dream_chapter-star .album-detail .bottom ul li.active .contents-sub {color: #f9e709;}
+.the_dream_chapter-star .album-detail .bottom ul button:not(.active):focus .contents-sub,
+.the_dream_chapter-star .album-detail .bottom ul button:not(.active):hover .contents-sub {color: rgba(255, 255, 255, 1);}
+.the_dream_chapter-star .album-detail .song-list {background: url('https://ibighit.com/txt/images/txt/discography/song-bg.png') no-repeat center bottom; background-size: 100% auto;}
+.the_dream_chapter-star .album-detail .song-list .list-inner {color: #315167;}
+.the_dream_chapter-star .album-detail .song-list .contents-sub {color: #1d1d1d;}
+.the_dream_chapter-star .album-detail .song-list .num {color: #ffda00;}
+.the_dream_chapter-star .album-detail .song-list .track {color: #3a85b6;}
+.the_dream_chapter-star .album-detail .bottom.rows.three ul.kor::before{top: 66.95%;}
+.the_dream_chapter-star .album-detail .bottom.rows.three ul.kor::after{top: 40.68%;}
+.InternetExplorer .the_dream_chapter-star .album-detail .bottom ul,
+.Firefox .the_dream_chapter-star .album-detail .bottom ul {padding: 32px 0;}
+.InternetExplorer .the_dream_chapter-star .album-detail .bottom ul.kor {padding: 31px 0 32px;}
+.InternetExplorer .the_dream_chapter-star .album-detail .bottom.rows.three ul::after{margin-top: -1px;}
+.InternetExplorer .the_dream_chapter-star .album-detail .bottom.rows.three ul.kor::after{top: 40.5%;}
+.InternetExplorer .the_dream_chapter-star .album-detail .bottom.rows.three ul.kor::before{top: 66.85%;}
+.click-area > div {cursor:pointer;}
+.hiddenLayer {position:absolute; width:0px; height:0px; overflow:hidden; left:0px; top:0px; opacity:0;}
+
+@media screen and (max-width: 1450px) {
+	.the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:80px;}
+}
+
+@media screen and (max-width: 1440px) {
+	/*all*/
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo{top: 4.17vw; left: 0; width: 100%; height: 50.69vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo ul{width: 69vw; height: 46.04vw; margin: 0 auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul{top: 3.82vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li img{width: 100%; margin: auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .w442{padding: 0 19.13vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video{max-width: 69.0278vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down{width: 3.47vw; height: 3.47vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close{width: 3.47vw; height: 3.47vw; margin-left: 0.35vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-prev{left: -7.57vw; top: 50%; width: 5.56vw; height: 6.25vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-next{right: -7.57vw; top: 50%; width: 5.56vw; height: 6.25vw;}
+
+
+	/* the_chaos_chapter_freeze */
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap > ul > li {max-width: 37.15vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom {width: 75vw; padding: 0; margin: 0 auto;}
+	.the_chaos_chapter_freeze .album-detail {padding: calc(7.78vw + 63px) 0 0; }
+	.Firefox .the_chaos_chapter_freeze .album-detail .bottom.rows ul {padding: 2.22vw 0;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.start {padding-left: 15.97vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.end {padding-right: 15.97vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(3) {padding-left: 8.97vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(4) {padding-right: 8.97vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(5) {padding-left: 8.97vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(6) {padding-right: 8.97vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap > ul > li:first-child {max-width: 60.63vw;}
+	.the_chaos_chapter_freezey .album-detail .album-desc .contents:not(.kor) {left: 1.39vw;}
+	.the_chaos_chapter_freeze .album-detail .album-desc .contents-title.kor {line-height: 4.86vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup {top: 11.53vw; left: 0; width: 100%;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup ul {max-width: 87.50vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup ul > li > ul {height: 68.19vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev {left: -26.25vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next {right: -26.25vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup .btn-prev {left: -0.97vw; width: 5.56vw; height: 31.94vw; margin-top: -13.89vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup .btn-next {right: -0.97vw; width: 5.56vw; height: 31.94vw; margin-top: -13.89vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup .popup-btn {margin-bottom: 0.69vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup .popup-btn button {width: 3.47vw; height: 3.47vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup .popup-btn button:last-child {margin-left: 0.69vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-hidden {max-width: 75.00vw;}
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .bottom ul {padding: 2.22vw 0;}
+	.safari .the_chaos_chapter_freeze .album-detail .bottom.rows ul li.start {padding-left: 13vw;}
+	.safari .the_chaos_chapter_freeze .album-detail .bottom.rows ul li.end {padding-right: 13vw;}
+	.the_chaos_chapter_freeze .album-detail .song-list {padding:0 12.5vw 19.03vw 12.5vw; margin-top:16.46vw;}
+	.the_chaos_chapter_freeze .album-detail .song-list::before {top: -6.54vw;}
+
+	.the_chaos_chapter_freeze .album-detail .etc_wrap::before {padding-top: 14.22vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap {margin-top: 11.46vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner::before {top:-9.54vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner {width: 75vw; margin: -1.04vw auto ;}
+ 	.device .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 0.7vw;}
+	.mac-os.safari .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 0.6vw;}
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 0.28vw;}
+	.the_chaos_chapter_freeze .album-detail .album-video::before {padding-top: 14.22vw; top: -5.54vw;}
+	.the_chaos_chapter_freeze .album-detail .album-video {margin-top: 11.69vw;}
+
+	/* 컨셉 포토 추가 */
+	.the_chaos_chapter_freeze .album-detail .album-photo {margin-top: 0px/*11.39vw*/;}
+	.the_chaos_chapter_freeze .album-detail .album-photo::before {padding-top: 14.22vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap::before {top: -9.54vw;}
+ 
+	/* blue_hour */
+	.blue_hour .album-detail {background-size: 100% auto;}
+	.blue_hour .album-detail .btn_circle {width: 3.47vw; height: 3.47vw;}
+	.blue_hour .album-detail .no-desc {padding: 0 10.56vw 11.11vw;}
+	.blue_hour .album-detail .bottom.rows ul li.start {padding-left: 15.97vw;}
+	.blue_hour .album-detail .bottom.rows ul li.end {padding-right: 15.97vw;}
+	.blue_hour .album-detail .bottom.rows ul li.start:nth-child(8) {padding-left: 13.89vw;}
+	.blue_hour .album-detail .bottom.rows ul li.start:nth-child(n+11) {padding-left: 3.47vw}
+	.blue_hour .album-detail .bottom.rows ul li.end:nth-child(10) {padding-right: 13.89vw;}
+	.blue_hour .album-detail .bottom.rows ul li.end:nth-child(n+11) {padding-right: 3.47vw}
+	.blue_hour .album-detail .gif {margin-top: 11.39vw;}
+	.blue_hour .album-detail .gif .btn-down {top: 5.56vw; right: calc(50% - 37.50vw);}
+	.blue_hour .album-detail .gif .bottom ul {padding-top: 2.85vw;}
+	.blue_hour .album-detail .gif .slide-wrap > ul {width: 36.81vw;}
+	.blue_hour .album-detail .blue_hour-photo {margin-top: 11.39vw;}
+	.blue_hour .album-detail.no-track .blue_hour-photo {min-height: 74vw;}
+	.blue_hour .album-detail .blue_hour-photo > .slide-wrap > button {top: 5.56vw;}
+	.blue_hour .album-detail .blue_hour-photo .btn-prev {width: 5.56vw; height: 6.25vw;}
+	.blue_hour .album-detail .blue_hour-photo .btn-next {width: 5.56vw; height: 6.25vw;}
+	.blue_hour .album-detail .blue_hour-photo .bottom ul {padding-top: 2.85vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents > div {width: 87.5vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-back {left: calc(50% - 37.50vw);}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-down {right: calc(50% - 37.50vw); left: auto;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj img {width: 75.00vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.portrait img {width: auto; height: 75.00vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .swipe_img > div {width: 75vw;}
+	.blue_hour .album-detail .blue_hour-photo .home_lock button {width: 36.81vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller {width: 27.78vw; height: 5.21vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider {height: 1.04vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle {width: 3.13vw; height: 3.13vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle span {width: 2.08vw; height: 2.08vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn {width: 75.00vw; margin: 0 auto 1.39vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn button {margin-left: 0.69vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup {top: 8.96vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup > div {width: 87.50vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup .overlap_cont,
+	.blue_hour .album-detail .blue_hour-photo .popup .slide_cont {height: 68.96vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj:not(.portrait) img {width: 75.00vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden {top: 8.96vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj img {width: 50.21vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj.landscape img {width: 75vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message {width: 25.69vw; height: 23.89vw; box-shadow: 0.21vw 0.21vw 2.08vw 1.04vw rgba(255,230,247,.5);}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message > img {width: 100%; height: auto;}
+
+	/*the_dream_chapter-eternity*/
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li {max-width: 37.15vw;}
+	.the_dream_chapter-eternity .album-detail .bottom {width: 75vw; padding: 0; margin: 0 auto;}
+	.Firefox .the_dream_chapter-eternity .album-detail .bottom.rows ul {padding: 2.22vw 0;}
+	.the_dream_chapter-eternity .album-detail .bottom.rows ul li.start {padding-left: 15.97vw;}
+	.the_dream_chapter-eternity .album-detail .bottom.rows ul li.end {padding-right: 15.97vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child {max-width: 60.63vw;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents:not(.kor) {left: 1.39vw;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents-title.kor {line-height: 4.86vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup {top: 11.53vw; left: 0; width: 100%;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul {max-width: 87.50vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul {height: 68.19vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-prev {left: -26.25vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-next {right: -26.25vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-prev {left: -0.97vw; width: 5.56vw; height: 31.94vw; margin-top: -13.89vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-next {right: -0.97vw; width: 5.56vw; height: 31.94vw; margin-top: -13.89vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn {margin-bottom: 0.69vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button {width: 3.47vw; height: 3.47vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button:last-child {margin-left: 0.69vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden {max-width: 75.00vw;}
+	.InternetExplorer .the_dream_chapter-eternity .album-detail .bottom ul {padding: 2.22vw 0;}
+	.safari .the_dream_chapter-eternity .album-detail .bottom.rows ul li.start {padding-left: 15vw;}
+	.safari .the_dream_chapter-eternity .album-detail .bottom.rows ul li.end {padding-right: 15vw;}
+
+	/*the_dream_chapter-magic*/
+	.the_dream_chapter-magic .slide_video .contents-obj video {width: 23.75vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play.mp4 {width: 23.81vw;}
+	.the_dream_chapter-magic .album-detail .bottom ul li {padding: 0 2.43vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul{padding-bottom: 2.01vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.taller {padding-top: 2.43vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.shorter {padding-top: 0.56vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 9.72vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 9.72vw;}
+	body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 7.64vw;}
+	body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 7.64vw;}
+	.the_dream_chapter-magic .album-detail .bottom .btn_wrap > ul > li::after{top: 1.11vw;}
+	.the_dream_chapter-magic .album-detail .bottom .contents-title .contents-sub {padding: 0.35vw 0;}
+	.the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:5.4111vw;}
+	.kor .the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:5.9277vw;}
+	.the_dream_chapter-magic .album-detail .album-video .bottom{padding: 0;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo{top: 4.17vw; left: 0; width: 100%; height: 50.69vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo ul{width: 69vw; height: 46.04vw; margin: 0 auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li ul{top: 3.82vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li img{width: 100%; margin: auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li .w442{padding: 0 19.13vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li video{max-width: 69.0278vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down{width: 3.47vw; height: 3.47vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close{width: 3.47vw; height: 3.47vw; margin-left: 0.35vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-prev{left: -7.57vw; top: 50%; width: 5.56vw; height: 6.25vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-next{right: -7.57vw; top: 50%; width: 5.56vw; height: 6.25vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev.btm {top:auto; bottom:-1.458vw; margin-top:0px;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next.btm {top:auto; bottom:-1.458vw; margin-top:0px;}
+
+	/*the_dream_chapter-star*/
+ 	.the_dream_chapter-star .album-detail .bottom.kor ul li {padding: 0 0.97vw;}
+	.InternetExplorer .the_dream_chapter-eternity .album-detail .bottom ul,
+	.Firefox .the_dream_chapter-eternity .album-detail .bottom ul {padding: 2.22vw 0;}
+	.InternetExplorer .the_dream_chapter-star .album-detail .bottom ul.kor {padding: 2.15vw 0 2.22vw;}
+}
+
+@media screen and (max-width: 1024px) {
+	/* the_chaos_chapter_freeze */
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.start,
+	.safari .the_chaos_chapter_freeze .album-detail .bottom.rows ul li.start {padding-left: 7.67vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li.end,
+	.safari .the_chaos_chapter_freeze .album-detail .bottom.rows ul li.end {padding-right: 7.67vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(1) {padding-left: 9.67vw;}
+	.the_chaos_chapter_freeze .album-detail .bottom.rows ul li:nth-child(2) {padding-right: 9.67vw;}
+
+	/* blue_hour */
+	.blue_hour .album-detail .bottom.rows ul li.start:nth-child(8) {padding-left: 7vw;}
+	.blue_hour .album-detail .bottom.rows ul li.end:nth-child(10) {padding-right: 7vw;}
+
+	/*the_dream_chapter-eternity*/
+	.the_dream_chapter-eternity .album-detail .bottom.rows ul li.start,
+	.safari .the_dream_chapter-eternity .album-detail .bottom.rows ul li.start {padding-left: 10.67vw;}
+	.the_dream_chapter-eternity .album-detail .bottom.rows ul li.end,
+	.safari .the_dream_chapter-eternity .album-detail .bottom.rows ul li.end {padding-right: 10.67vw;}
+
+	/*the_dream_chapter-magic*/
+	.the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:5.1vw;}
+	.the_dream_chapter-magic .album-detail .bottom ul li {padding: 0 2vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.taller {padding: 2.43vw 1.66vw 0;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.shorter {padding: 0.56vw 1.66vw 0;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 11.5vw;}
+	.the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 11.5vw;}
+	.InternetExplorer .the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 11vw;}
+	.InternetExplorer .the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 11vw;}
+	body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.start {padding-left: 9vw;}
+	body:not(.kor) .the_dream_chapter-magic .album-detail .bottom.rows ul li.end {padding-right: 9vw;}
+
+	/*the_dream_chapter-star*/
+	.the_dream_chapter-star .album-detail .bottom.rows ul li:nth-child(1){padding-left: 0;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul li:nth-child(4){padding-right: 0;}
+}
+
+@media screen and (max-width: 942px) {
+	/*the_dream_chapter-magic*/
+	.the_dream_chapter-magic .album-detail .album-video .bottom ul li{padding: 0;}
+
+	/*the_dream_chapter-star*/
+	.the_dream_chapter-star .album-detail .bottom.rows ul li {padding-left: 0.5vw; padding-right: 0.5vw;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul.kor li {padding-left: 0.5vw; padding-right: 0.5vw;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul li.taller.start {padding-left: 6.94vw;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul li.taller.end {padding-right: 6.94vw;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul li:nth-child(8) {padding-left: 0;}
+	.the_dream_chapter-star .album-detail .bottom.rows ul li:nth-child(10) {padding-right: 0;}
+}
+
+
+@media screen and (max-width: 768px) {
+	.pc_only {display: none;}
+	.m_only {display: block;}
+
+	.album-detail .btn-list {background-image: url('https://ibighit.com/txt/images/txt/news/btn-list.png'); z-index: 10;}
+	/* all */
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo ul{width: 100%; height: auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul{position:relative; top:0; height:66.7969vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down{width: 10.9375vw; height: 10.9375vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close{width: 10.9375vw; height: 10.9375vw; margin: 0 2.864vw 0 1.953vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-prev{left: 0; width: 11.11vw; height: 12.5vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-next{right: 0; width: 11.11vw; height: 12.5vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev {top:50%; margin-top:-16.25vw; min-height:auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next {top:50%; margin-top:-16.25vw; min-height:auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .click_hh > li .mix li .contents-obj.portrait .contents-inner {max-width:72.9167vw; width:100%; height:auto; margin:0 auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .click_hh > li .mix li .contents-obj.portrait .contents-inner img {width:100%; height:auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .click_hh > li ul.mix {height:129.427vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video.video_vertical{width: 100%;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li video{max-width: 768px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .popup-btn {margin-bottom:2.604vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li > div:not(.popup-btn) {position:absolute; top:auto; left:0px; bottom:0px; height:66.7969vw}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev {left:1.1719vw; width:10.4167vw; height:11.718vw; margin-top:-5.859vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next {right:1.1719vw; width:10.4167vw; height:11.718vw; margin-top:-5.859vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li .w442 {padding:0 27.734vw;}
+	.the_chaos_chapter_freeze .album-detail .album-video .slide-wrap .slide_video li {position: absolute; top: 0; left: 0; width: 100%; margin-left: 100%;}
+	.the_chaos_chapter_freeze .album-detail .album-video .slide-wrap .slide_video li.default {position: relative; top: 0; left: 0; margin-left: 0;}
+
+	/* the_chaos_chapter_freeze */
+	.the_chaos_chapter_freeze .album-detail {padding:29.16vw 0 0; }
+	.the_chaos_chapter_freeze .album-detail .etc_wrap {margin: 27.8vw 0 8.89vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner::before {top: -36.54vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner {margin-top: 7.36vw; width: 100%;}
+	.device .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os.safari .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 1.4vw;}
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 0.6vw;}
+	.device .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os.safari .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 0;}
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: -0.43em;}
+	.device .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os.safari .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: -0.38em;}
+	.the_chaos_chapter_freeze .album-detail .album-desc .contents-title.kor { line-height: 13.02vw;}
+	.the_chaos_chapter_freeze .album-detail .song-list {padding:0 10.69vw 53.77vw 10.69vw; margin-top:30.8vw;}
+
+	.the_chaos_chapter_freeze .album-detail .etc_wrap::before {padding-top: 20.67vw;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner {margin: 0;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: -0.487em; line-height: 12.50vw;}
+
+	/* 0503 반영분 */
+	.the_chaos_chapter_freeze .album-detail .album-video { padding:0 5.07vw 20vw 5.07vw; margin-top: 41.69vw;}
+	.the_chaos_chapter_freeze .album-detail .album-video::before {padding-top: 20.67vw;}
+
+
+	/* 컨셉 포토 추가 */
+	.the_chaos_chapter_freeze .album-detail .album-photo {margin-top:0px /*27.08vw*/;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .slide-wrap-box {width:75vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo::before {padding-top: 13.67vw;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap::before { top: -14.54vw;}
+	
+
+	/* blue_hour */
+	.blue_hour .contents-obj.portrait img {height: 100%;}
+	.blue_hour .album-detail {background: #cbd9ef url('https://ibighit.com/txt/images/txt/discography/blue_hour/bg-m.png') no-repeat center top/100% auto;}
+	.blue_hour .album-detail .btn-list {background-image: url('https://ibighit.com/txt/images/txt/discography/blue_hour/btn-list.png');}
+	.blue_hour .album-detail .bottom ul li button {padding: 0 2.78vw;}
+	.blue_hour .album-detail .btn_circle {width: 10.97vw; height: 10.97vw;}
+	.blue_hour .album-detail .album-desc .contents-title {font-size: 13.47vw; line-height: 0.9;}
+	.blue_hour .album-detail .no-desc {padding: 0 5.56vw 5.09vw; margin-top: 20.28vw;}
+	.blue_hour .album-detail .no-desc .contents-title {position: relative; top: .09em;}
+	.blue_hour .album-detail .album-video .slide-wrap {background: none;}
+	.blue_hour .album-detail .gif {margin-top: 22.22vw;}
+	.blue_hour .album-detail .gif .btn-down {top: 12.78vw; right: 0;}
+	.blue_hour .album-detail .gif .bottom {display: block;}
+	.blue_hour .album-detail .gif .bottom ul {padding: 7.64vw 0 5.83vw;}
+	.blue_hour .album-detail .gif .bottom ul li {padding: 0 3.47vw;}
+	.blue_hour .album-detail .gif .slide-wrap > ul {width: 73.61vw;}
+	.blue_hour .album-detail .blue_hour-photo {margin-top: 27.08vw;}
+	.blue_hour .album-detail.no-track .blue_hour-photo {min-height: 126.25vw;}
+	.blue_hour .album-detail .blue_hour-photo > .slide-wrap > button {top: 12.78vw;}
+	.blue_hour .album-detail .blue_hour-photo .btn-prev {width: 11.11vw; height: 12.5vw; transform: translateY(-50%)}
+	.blue_hour .album-detail .blue_hour-photo .btn-next {width: 11.11vw; height: 12.5vw; transform: translateY(-50%)}
+	.blue_hour .album-detail .blue_hour-photo .bottom {display: block;}
+	.blue_hour .album-detail .blue_hour-photo .bottom ul {padding: 7.64vw 0 5.83vw;}
+	.blue_hour .album-detail .blue_hour-photo .bottom ul li {padding: 0 3.47vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents > div {width: 100%;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-back {left: 0;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents ~ .btn-down {right: 0;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj img {width: 100%;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.portrait img {width: auto; height: 150.00vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .swipe_img > div {width: 100%;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.swipe_img img {height: 100vw;}
+	.blue_hour .album-detail .blue_hour-photo .home_lock button {width: 73.61vw;}
+	.blue_hour .album-detail .blue_hour-photo .application .photo {transform-origin: 24.5% 10.8%;}
+	.blue_hour .album-detail .blue_hour-photo .application .video {transform-origin: 41% 10.8%;}
+	.blue_hour .album-detail .blue_hour-photo .application .music {transform-origin: 58% 10.8%;}
+	.blue_hour .album-detail .blue_hour-photo .application .downloads {transform-origin: 75.5% 10.8%;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller {top: 89.31vw; bottom: auto; width: 52.78vw; height: 10.69vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider {height: 2.78vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle {width: 10.69vw; height: 10.69vw;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle span {width: 4.72vw; height: 4.72vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn {width: 78.61vw; margin: 0 auto 2.78vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn button {margin-left: 2.22vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup {top: 21.25vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup > div {width: 100%;}
+	.blue_hour .album-detail .blue_hour-photo .popup .overlap_cont,
+	.blue_hour .album-detail .blue_hour-photo .popup .slide_cont {height: 117.92vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj:not(.portrait) img {width: 78.61vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup .btn-prev,
+	.blue_hour .album-detail .blue_hour-photo .popup .btn-next {transform: none;}
+	.blue_hour .album-detail .blue_hour-photo .popup .version_vr li:nth-child(3) img,
+	.blue_hour .album-detail .blue_hour-photo .popup .version_vr li:nth-child(4) img {position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 78.61vw; height: auto; margin: auto;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden {top: 21.25vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .popup-btn {width: 91.67vw;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj img,
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .contents-obj.landscape img {width: 100%;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message {width: 52.78vw; height: 49.03vw; box-shadow: 0.42vw 0.42vw 4.17vw 2.08vw rgba(255,230,247,.5);}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message > img {width: 100%; height: auto;}
+	.InternetExplorer .blue_hour .album-detail .no-desc .contents-title {top: 0.1em;}
+	.device .blue_hour .album-detail .no-desc .contents-title,
+	.mac-os .blue_hour .album-detail .no-desc .contents-title {top: 0.19em;}
+
+	/*the_dream_chapter-eternity*/
+	.the_dream_chapter-eternity .album-detail {padding-top: 41.8vw;}/*no-desc*/
+	.the_dream_chapter-eternity .album-detail .album-desc {color: #fff;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents-title {font-size: 12.65vw; line-height: 12vw; text-align: left;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents-title.kor {font-size: 10.4vw; line-height: 13.02vw;}
+	.the_dream_chapter-eternity .contents-obj.portrait img {height: 100%;}
+	.the_dream_chapter-eternity .album-detail .album-video .slide-wrap {background-color: transparent;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap::before {display: none; top: 0; bottom: auto; height: calc(100% - 18.7vw);}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li {max-width: 73.61vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child {max-width: 73.61vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li::before {display: block; position: absolute; top: 0; left: 50%; width: 100vw; height: 158.39vw; min-width: 320px; margin-left: -50vw; background-color: rgba(0, 0, 0, 0.1); content: '';}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child::before {height: 97.4vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child ul.mix {height: 97.64vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li .mix {height: 158.39vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj {display: block; height: auto; vertical-align: top;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-prev {left: -12.22vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-next {right: -12.22vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup {top: 1.53vw; left: 0; width: 100%;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul {max-width: none;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup > ul:last-child {margin-top: 178.13vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup > ul.port {margin-top: 117.05vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul {width: 78.78vw; height: auto;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul .contents-obj.portrait,
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul .contents-obj.portrait img {width: 100%; height: auto;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-prev {top: 13.75vw; left: 0; width: 11.11vw; height: calc(100% - 13.75vw); margin-top: 0;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-next {top: 13.75vw; right: 0; width: 11.11vw; height: calc(100% - 13.75vw); margin-top: 0;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn {width: 79.17vw; margin: 0 auto 2.78vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button {width: 10.97vw; height: 10.97vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button:last-child {margin-left: 2.22vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden {width: 100%; max-width: none;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden .popup-btn {width: 92.22vw;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden ul > li > ul {width: 100%;}
+
+	.safari .the_dream_chapter-eternity .album-detail .album-photo .popup > ul:last-child {margin-top: 295.48vw;}
+
+	/*the_dream_chapter-magic*/
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap {background: transparent;}
+	.the_dream_chapter-magic .album-detail .album-desc .contents-title.kor {font-size: 11.72vw}
+	.kor .the_dream_chapter-magic.single .album-detail .album-desc .contents-obj {margin-top:8.333vw;}
+	.kor .the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:0px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo ul{width: 100%; height: auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li ul{position:relative; top:0; height:66.7969vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down{width: 10.9375vw; height: 10.9375vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close{width: 10.9375vw; height: 10.9375vw; margin: 0 2.864vw 0 1.953vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-prev{left: 0; width: 11.11vw; height: 12.5vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-next{right: 0; width: 11.11vw; height: 12.5vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev {top:50%; margin-top:-16.25vw; min-height:auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next {top:50%; margin-top:-16.25vw; min-height:auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj.portrait .contents-inner {max-width:72.9167vw; width:100%; height:auto; margin:0 auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj.portrait .contents-inner img {width:100%; height:auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li ul.mix {height:129.427vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li video.video_vertical{width: 100%;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li video{max-width: 768px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .popup-btn {margin-bottom:2.604vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li > div:not(.popup-btn) {position:absolute; top:auto; left:0px; bottom:0px; height:66.7969vw}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-prev {left:1.1719vw; width:10.4167vw; height:11.718vw; margin-top:-5.859vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-next {right:1.1719vw; width:10.4167vw; height:11.718vw; margin-top:-5.859vw;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li .w442 {padding:0 27.734vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video li {position: absolute; top: 0; left: 0; width: 100%; margin-left: 100%;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video li.default {position: relative; top: 0; left: 0; margin-left: 0;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents-obj {margin-top:8.472vw;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents {top:-9.02778vw;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents-title {font-size:11.1111vw; line-height:10.556vw; margin:-9.8611vw 0 0 14.583vw; transform:none;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents {padding-left:0}
+	.the_dream_chapter-magic .slide_video .contents-obj video {width: 50vw;}
+	.album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play:not(.mp4) img {height: 49.86vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play.mp4 {width: 50vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause {opacity:0; display:block;}
+	.device .album-detail .album-video .slide-wrap > ul > li .btn-play:focus img, .album-detail .album-video .slide-wrap > ul > li .btn-play:hover img {opacity:0.5}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video ul li {display:block;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video > ul:first-child li {display: table;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video.magic_island > ul:first-child li {height: 88.89vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video.angel_or_devil > ul:first-child > li {max-width: 100%;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .contents-obj {display: table-cell; height: auto; vertical-align: middle;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li div:not(.video-obj) {height: 49.9vw;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li div:not(.video-obj) iframe {top: 0; bottom: 0; left: 0; right: 0; height: 49.9vw; margin: auto;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .slide-obj li {position: absolute; top: 36.2%; width: 11.11vw; height: 12.5vw; margin: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video.angel_or_devil .slide-obj li {top: 19vw;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .slide-obj li:first-child {left: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .slide-obj li:last-child {left: auto; right: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .contents-sub-slide {position: relative;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .contents-sub-slide li {position: absolute; top: 0; left: 0; width: 100%; margin-left: 0; opacity: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .contents-sub-slide li.default {position: relative; opacity: 1;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-prev {position: static; width: 100%; height: 100%; background-image: url('https://ibighit.com/txt/images/btn-prev-slide-video.png'); margin: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-next {position: static; width: 100%; height: 100%; background-image: url('https://ibighit.com/txt/images/btn-next-slide-video.png'); margin: 0;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-prev:hover {background-image: url('https://ibighit.com/txt/images/btn-prev-slide-video_hover.png');}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-next:hover {background-image: url('https://ibighit.com/txt/images/btn-next-slide-video_hover.png');}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video:after {display: block; position: absolute; left: 0; bottom: 14.72vw; width: 100%; color: #fff; font-size: 3.61vw; text-align: center; text-shadow: 0.00vw 0.00vw 0.21vw rgba(0, 0, 0, 0.3);}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .contents-sub-slide li:last-child .contents-sub{}
+
+	.device .the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-prev:hover {background-image: url('https://ibighit.com/txt/images/btn-prev-slide-video.png');}
+	.device .the_dream_chapter-magic .album-detail .album-video.slide .slide_video .btn-next:hover {background-image: url('https://ibighit.com/txt/images/btn-next-slide-video.png');}
+
+	/*the_dream_chapter-star*/
+	.the_dream_chapter-star .album-detail .album-photo .slide-wrap {background: transparent;}
+	.the_dream_chapter-star .album-detail .album-photo .slide-wrap::before {background: rgba(0, 172, 124, 0.8);}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap{background: none; margin-top: -3.72vw;}
+	.the_dream_chapter-magic .album-detail .slide-wrap > ul > li .contents-sub{color: #ffd800;}
+	.the_dream_chapter-star .album-detail .slide-wrap > ul > li .contents-sub {color: #f9e709;}
+	.the_dream_chapter-star .album-detail .contents-sort {color: #516793;}
+	.the_dream_chapter-star .album-detail .album-video .slide-wrap {background: transparent;}
+	.the_dream_chapter-star .album-detail .album-photo .slide-wrap > ul > li .mix {background: rgba(72, 148, 208, 0.7);}
+	.the_dream_chapter-star .album-detail .album-photo .slide-wrap::before {display: none;}
+	.the_dream_chapter-star .album-detail .song-list {background: url('https://ibighit.com/txt/images/txt/discography/song-bg-m.png') no-repeat center bottom; background-size: 100% auto;}
+}
+
+@media screen and (max-width: 320px) {
+	/*all*/
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo ul{width: 100%; height: 192px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li ul {height:213.75px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo > ul > li > div:not(.popup-btn) {height:213.75px; top:47px; bottom:auto;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-down{width: 33.33px; height: 33.33px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-close{width: 33.33px; height: 33.33px; margin: 0 9.16px 0 6.25px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-prev{left: 0; width: 36px; height: 40px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .btn-next{right: 0; width: 36px; height: 40px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj.portrait .contents-inner {max-width:233.333px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap > ul > li ul.mix {height:414.1667px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-prev {top:50%; margin-top:-52px}
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .btn-next {top:50%; margin-top:-52px}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .popup-btn {margin-bottom:8.333px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-prev {left:3.75px; width:33.33px; height:37.5px; margin-top:-18.75px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo .popup-photo .pop-btn-next {right:3.75px; width:33.33px; height:37.5px; margin-top:-18.75px;}
+	
+	/* the_chaos_chapter_freeze */
+	.the_chaos_chapter_freeze .album-detail {padding:93px 0 0; }
+	.the_chaos_chapter_freeze .album-detail .etc_wrap {margin: 69px 0 28px;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner {margin-top: 23px;}
+	.device .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title,
+	.mac-os.safari .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 4px;}
+	.InternetExplorer .the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {top: 1px;}
+	.the_chaos_chapter_freeze .album-detail .song-list {padding:0 34px 172px 34px; margin-top:80px;}
+
+	.the_chaos_chapter_freeze .album-detail .etc_wrap::before { padding-top: 50px;}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .etc_inner::before {top:-120px}
+	.the_chaos_chapter_freeze .album-detail .etc_wrap .contents-title {line-height: 40px;}
+	.the_chaos_chapter_freeze .album-detail .album-photo {margin-top: 0px/*87px*/;}
+
+	/* blue_hour */
+	.blue_hour .album-detail .album-desc .contents-title {font-size: 43px; line-height: 0.9;}
+	.blue_hour .album-detail .bottom ul li button {padding: 0 9px;}
+	.blue_hour .album-detail .btn_circle {width: 35px; height: 35px;}
+	.blue_hour .album-detail .no-desc {padding: 0 18px 16px; margin-top: 65px;}
+	.blue_hour .album-detail .gif {margin-top: 71px;}
+	.blue_hour .album-detail .gif .btn-down {top: 41px; right: 0;}
+	.blue_hour .album-detail .gif .bottom ul {padding: 24px 0 19px;}
+	.blue_hour .album-detail .gif .bottom ul li {padding: 0 11px;}
+	.blue_hour .album-detail .gif .slide-wrap > ul {width: 236px;}
+	.blue_hour .album-detail .blue_hour-photo {margin-top: 87px;}
+	.blue_hour .album-detail.no-track .blue_hour-photo {min-height: 404px;}
+	.blue_hour .album-detail .blue_hour-photo > .slide-wrap > button {top: 41px;}
+	.blue_hour .album-detail .blue_hour-photo .btn-prev {width: 36px; height: 40px;}
+	.blue_hour .album-detail .blue_hour-photo .btn-next {width: 36px; height: 40px;}
+	.blue_hour .album-detail .blue_hour-photo .bottom ul {padding: 24px 0 19px;}
+	.blue_hour .album-detail .blue_hour-photo .bottom ul li {padding: 0 11px;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.portrait img {width: auto; height: 480px;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj.swipe_img img {height: 320px;}
+	.blue_hour .album-detail .blue_hour-photo .home_lock button {width: 236px;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller {top: 286pc; width: 169px; height: 34px;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider {height: 9px;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle {width: 34px; height: 34px;}
+	.blue_hour .album-detail .blue_hour-photo .version_vr .select_gr_list .controller #imgSlider .ui-slider-handle span {width: 15px; height: 15px;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn {width: 252px; margin: 0 auto 9px;}
+	.blue_hour .album-detail .blue_hour-photo .popup-btn button {margin-left: 7px;}
+	.blue_hour .album-detail .blue_hour-photo .popup {top: 68px;}
+	.blue_hour .album-detail .blue_hour-photo .popup .overlap_cont,
+	.blue_hour .album-detail .blue_hour-photo .popup .slide_cont {height: 377px;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj:not(.portrait) img,
+	.blue_hour .album-detail .blue_hour-photo .popup .version_vr li:nth-child(3) img,
+	.blue_hour .album-detail .blue_hour-photo .popup .version_vr li:nth-child(4) img {width: 252px;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden {top: 68px;}
+	.blue_hour .album-detail .blue_hour-photo .popup_hidden .popup-btn {width: 293px;}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message {width: 169px; height: 157px; box-shadow: 1px 1px 13px 7px rgba(255,230,247,.5);}
+	.blue_hour .album-detail .blue_hour-photo .popup .contents-obj .message > img {width: 100%; height: auto;}
+
+	/*the_dream_chapter-eternity*/
+	.the_dream_chapter-eternity .album-detail {padding-top: 134px;}/*no-desc*/
+	.the_dream_chapter-eternity .album-detail .album-desc .contents:not(.kor) {top: -67px; left: 0;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents-title {font-size: 40px; line-height: 38px;}
+	.the_dream_chapter-eternity .album-detail .album-desc .contents-title.kor {font-size: 38px; line-height: 42px;}
+	.the_dream_chapter-eternity .contents-obj.portrait img {height: 100%;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap::before {height: calc(100% - 60px);}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li {max-width: 236px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child {max-width: 236px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li::before {height: 507px; margin-left: -160px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child::before {height: 312px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li:first-child ul.mix {height: 312px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap > ul > li .mix {height: 507px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-prev {left: -39px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .slide-wrap .btn-next {right: -39px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup {top: 5px; left: 0; width: 100%;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul {max-width: none;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup > ul:last-child {margin-top: 570px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup > ul.port {margin-top: 375px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul {width: 252px; height: auto;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul .contents-obj.portrait,
+	.the_dream_chapter-eternity .album-detail .album-photo .popup ul > li > ul .contents-obj.portrait img {width: 100%; height: auto;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-prev {top: 44px; left: 0; width: 36px; height: calc(100% - 44px); margin-top: 0;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .btn-next {top: 44px; right: 0; width: 36px; height: calc(100% - 44px); margin-top: 0;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn {width: 253px; margin: 0 auto 9px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button {width: 35px; height: 35px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup .popup-btn button:last-child {margin-left: 7px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden {width: 100%; max-width: none;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden .popup-btn {width: 295px;}
+	.the_dream_chapter-eternity .album-detail .album-photo .popup-hidden ul > li > ul {width: 100%;}
+
+	.safari .the_dream_chapter-eternity .album-detail .album-photo .popup > ul:last-child {margin-top: 946px;}
+
+	/*the_dream_chapter-magic*/
+	.kor .the_dream_chapter-magic.single .album-detail .album-desc .contents-obj {margin-top:26.667px;}
+	.the_dream_chapter-magic .album-detail .album-desc .contents-title.kor {font-size: 38px}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo ul{width: 100%; height: 192px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li ul {height:213.75px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo > ul > li > div:not(.popup-btn) {height:213.75px; top:47px; bottom:auto;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-down{width: 33.33px; height: 33.33px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-close{width: 33.33px; height: 33.33px; margin: 0 9.16px 0 6.25px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-prev{left: 0; width: 36px; height: 40px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .btn-next{right: 0; width: 36px; height: 40px;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj.portrait .contents-inner {max-width:233.333px;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap > ul > li ul.mix {height:414.1667px;}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-prev {top:50%; margin-top:-52px}
+	.the_dream_chapter-magic .album-detail .album-photo .slide-wrap .btn-next {top:50%; margin-top:-52px}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .popup-btn {margin-bottom:8.333px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-prev {left:3.75px; width:33.33px; height:37.5px; margin-top:-18.75px;}
+	.the_dream_chapter-magic .album-detail .album-photo .popup-photo .pop-btn-next {right:3.75px; width:33.33px; height:37.5px; margin-top:-18.75px;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents-obj {margin-top:27.11px;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents {top:-28.8889px;}
+	body:not(.kor) .the_dream_chapter-magic.single .album-detail .album-desc .contents-title {font-size:35.556px; line-height:33.77px; margin:-31.556px 0 0 46.667px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap {margin-top: -12px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .contents-obj {height: 269px;}
+	.the_dream_chapter-magic .slide_video .contents-obj video {width: 151px;}
+	.album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play img {width: 151px;}
+	.album-detail .album-video .slide-wrap .slide_video {height: auto;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play.mp4 {width: 161px;}
+	.album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play:not(.mp4) img {width: auto; height: 160px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li .contents-obj {height: 287px;}
+	.the_dream_chapter-magic .slide_video .contents-obj video {width: 161px;}
+	.album-detail .album-video .slide-wrap .slide_video > ul > li .btn-play img {width: 161px;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .slide-obj li {width: 36px;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video.angel_or_devil .slide-obj li {top: 61px; height: 40px;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video .contents-sub-slide li:first-child {opacity: 1;}
+	.the_dream_chapter-magic .album-detail .album-video.slide .slide_video:after {bottom: 47px; font-size: 12px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video.magic_island > ul:first-child li {height: 287px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap > ul > li.slide_video.angel_or_devil > ul:first-child > li {max-width: 288px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li div:not(.video-obj) {height: 160px;}
+	.the_dream_chapter-magic .album-detail .album-video .slide-wrap .slide_video > ul > li div:not(.video-obj) iframe {height: 160px;}
+}
+
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call {display:none; width:100%; position: relative; z-index: 999;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .contents { padding-right :0;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .videowrap #video-player {height: 945px;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn {width: 100%;text-align: right;margin: 7.3% 0;}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn .btn-close{ position: relative; width: 50px; height: 50px; display: inline-block; border-radius: 50%;border-color: transparent; cursor: pointer;background: #000 url("https://ibighit.com/txt/images/btn_close_pop.png") center no-repeat;background-size: cover}
+.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn .btn-close:hover{background: #000 url("https://ibighit.com/txt/images/btn_close_pop_hover.png") center no-repeat;}
+.the_chaos_chapter_freeze #depth-03 #zoom1-3 .popup-video-call .popup .contents .popup-btn .btn-close.bottom {bottom: 5%;right: 7.54%;width: 14.71%;height: 42.91%;}
+
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call {display:none; width:100%; position: relative; z-index: 999;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .contents { padding-right :0;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .videowrap #video-player2 {height: 945px;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn {width: 100%;text-align: right;margin: 7.3% 0;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn .btn-close{ position: relative; width: 50px; height: 50px; display: inline-block; border-radius: 50%;border-color: transparent; cursor: pointer;background: #000 url("https://ibighit.com/txt/images/btn_close_pop.png") center no-repeat;background-size: cover}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn .btn-close:hover{background: #000 url("https://ibighit.com/txt/images/btn_close_pop_hover.png") center no-repeat;}
+.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn .btn-close.bottom {bottom: 5%;right: 7.54%;width: 14.71%;height: 42.91%;}
+
+@media screen and (max-width: 1440px) {
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .slide-wrap-box{	width: 36.8vw;}
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .videowrap #video-player {height: 63.7vw; width: 100%;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .videowrap #video-player2 {height: 63.7vw; width: 100%;}
+}
+@media screen and (max-width: 768px) {
+	.the_chaos_chapter_freeze .album-detail .album-photo .slide-wrap .slide-wrap-box{	width: 69vw;}
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .videowrap #video-player {height: 123vw;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .videowrap #video-player2 {height: 123vw;}
+}
+@media screen and (max-width: 700px) {
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn { margin: 6.3% 0;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn { margin: 6.3% 0;}
+}
+@media screen and (max-width: 600px) {
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn { margin: 4.5% 0;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn { margin: 4.5% 0;}
+}
+@media screen and (max-width: 475px) {
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn { margin: 2% 0;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn { margin: 2% 0;}
+}
+@media screen and (max-width: 320px) {
+	.the_chaos_chapter_freeze #depth-02 #zoom1-3 .popup-video-call .popup .contents .popup-btn { margin: 0.5% 0;}
+	.the_chaos_chapter_freeze #depth-03 #zoom2-3 .popup-video-call .popup .contents .popup-btn { margin: 0.5% 0;}
+}

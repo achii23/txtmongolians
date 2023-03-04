@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@media screen and (max-width: 768px){
+.album-detail .album-desc .contents-title{margin-left: -0.83vw;}
+
+}
+
+@media screen and (max-width: 320px){
+.album-detail .album-desc .contents-title{margin-left: -3px;}
+
+}

@@ -1,0 +1,207 @@
+@charset "utf-8"; 
+/* section : 앨범 소개 영역 */
+.the_chaos_chapter-fight_escape .album-detail {background-color:#051a3e !important; background-image: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight_escape_bg01.png'); background-repeat:no-repeat; background-position:center 13%; background-size: contain;}
+.the_chaos_chapter-fight_escape .album-detail.jpn {background-position:center 14%;}
+.the_chaos_chapter-fight_escape .album-detail .album-desc {padding: 0 180px 260px}
+.the_chaos_chapter-fight_escape .album-detail .album-desc .contents-title.kor {font-size: 55px; }
+.the_chaos_chapter-fight_escape .album-detail .album-desc .contents-desc {text-align: left;}
+.the_chaos_chapter-fight_escape .album-detail .album-desc .contents-desc .wsnr { display: inline-block;}
+/* section : video 영역 */
+.the_chaos_chapter-fight_escape .album-detail .album-video {background: none; margin-top: 0; padding-bottom:260px;}
+.the_chaos_chapter-fight_escape .album-detail .album-video::before {display: none;}
+.the_chaos_chapter-fight_escape .album-detail .bottom ul li .contents-sub {color:#fff; text-shadow: none;}
+.the_chaos_chapter-fight_escape .album-detail .bottom ul li.active .contents-sub, body:not(.device) .the_chaos_chapter-fight_escape .album-detail .bottom ul button:not(.active):focus .contents-sub, body:not(.device) .the_chaos_chapter-fight_escapee .album-detail .bottom ul button:not(.active):hover .contents-sub {color:#1c325b !important;} 
+.the_chaos_chapter-fight_escape .album-detail .bottom.rows ul::after {top:23%; background-color:#a56b85;}
+.the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(4)::after {top: 42%; background-color:#a56b85;}
+.the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(5)::after {top: 61.5%; background-color:#a56b85;}
+.the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(6)::after {content: ''; top: 81%; background-color:#a56b85;}
+.the_chaos_chapter-fight_escape .album-detail .slide-wrap > ul > li .contents-sub {color:#ff7e9c;}
+.the_chaos_chapter-fight_escape .album-detail .slide-wrap > ul > li:first-child .contents-sub {color:#1c325b;}
+.the_chaos_chapter-fight_escape .album-detail .album-video .bottom ul li.taller:nth-child(2) {padding-left: 150px;}
+.the_chaos_chapter-fight_escape .album-detail .album-video .bottom ul li.taller:nth-child(2) { padding-top: inherit;}
+.the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(3) { padding-left: 30px;}
+body:not(.device) .the_chaos_chapter-fight_escape .album-detail .bottom ul button:not(.active):focus .contents-sub,
+body:not(.device) .the_chaos_chapter-fight_escape .album-detail .bottom ul button:not(.active):hover .contents-sub {color:#1c325b;}
+/* section : 앨범 포토 영역 */
+.the_chaos_chapter-fight_escape .album-detail .album-photo::before {display:none; background-color: transparent;}
+.the_chaos_chapter-fight_escape .album-detail .album-photo .slide-wrap::before { background-image: none;}
+.the_chaos_chapter-fight_escape .album-detail .album-photo .slide-wrap .contents_wrap {background: none;}
+.the_chaos_chapter-fight_escape .album-detail .album-photo .contents-title {z-index: 99;}
+/* 토글 버튼*/
+.phone_bg .toggle_btn {display: inline-block; position: absolute; top: 52px; right: 19px; width: 97px; height: 42px; z-index: 98; background: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight_bgbtn.png') no-repeat; background-size: contain; }
+.phone_bg .toggle_btn.escape {  background: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/escape-bgbtn.png') no-repeat; background-size: contain;}
+.phone_bg .toggle_btn a.toggler {display: block; width: 100%; height: 100%; background: url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight-toggleBtn.png') no-repeat; background-size: contain; cursor: pointer; border-radius: 23px; transition: all .5s ease;  background-position-x: 1px;  border: 3px solid transparent;}
+.phone_bg .toggle_btn a.toggler.off {background:transparent url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/escape-toggleBtn.png') no-repeat; background-size: contain;  background-position-x: 47px;}
+.phone_bg .toggle_change, 
+.phone_bg .toggle_change .main, 
+.phone_bg .toggle_change .chat, 
+.phone_bg .toggle_change .profile,
+.phone_bg .toggle_change .profile .member_profile {display: none; opacity: 0;animation: fade-out 700ms;}
+.phone_bg .toggle_change.active,
+.phone_bg .toggle_change .main.active,
+.phone_bg .toggle_change .chat.active,
+.phone_bg .toggle_change .profile.active,
+.phone_bg .toggle_change .profile .member_profile.active {display: block; opacity: 1; animation: fade-in 700ms;}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+
+  }
+  to {
+    opacity: 0;
+  }
+}
+.phone_bg .click-area {position: relative;}
+.phone_bg .toggle_change img {width: 100%;}
+/* 폰 메인 배경 */
+.phone_bg .toggle_change .main .click-area {position: absolute; top: 280px; left: 20px; width: 490px; height: 182px;}
+.phone_bg .toggle_change .main .click-area button {width: 100%; height: 100%; text-indent: -99999px;}
+/* 채팅화면 */
+.phone_bg .toggle_change .chat::before {/* 채팅내용 */content: '';display: block;width: 100%; height: 99.9%; transition: all 400ms; position: absolute;z-index: 0;top: 0%;left: 0;}
+.phone_bg .toggle_change .chat img {position: relative;}
+.phone_bg .toggle_change .chat .click-area {position: absolute; top: 208px; left:0; width: 100%; height: 755px;}
+.phone_bg .toggle_change .chat .click-area button {cursor:pointer;}
+.phone_bg .toggle_change .chat .click-area .click-member { left: 113px; width: 398px; height: 70px; z-index: 10;}
+.phone_bg .toggle_change .chat .click-area .click-member button {display: inline-block; width: 70px; height: 100%; border-radius: 50%; text-indent: -9999px;}
+.phone_bg .toggle_change .chat .click-area .click-member button + button {margin-left: 4px;}
+.phone_bg .toggle_change .chat .click-area .click-chat_photo button {text-indent: -99999px; margin-bottom: 3%;}
+
+/* 채팅창에 photo 생기면*/
+.phone_bg .toggle_change .chat .click-area .click-chat_photo {position: absolute;top: 14.5%; left: 18.8%; width: 74.5%; height: 100%; z-index: 5;cursor:default;}
+.phone_bg .toggle_change .chat .click-area .click-chat_photo.scroll { transform: translateY(-84.5%);}
+.phone_bg .toggle_change .chat .click-area .click-chat_photo button {width: 53%; height: 19.6%; top: 14%; left: 18.43%;}
+
+/* fight 채팅 */
+.phone_bg .toggle_change.toggle_fight .chat .click-area .click-chat_photo button {width: 58%;height: 28%;top: 9%;left:40%;position: absolute;}
+.phone_bg .toggle_change.toggle_fight .chat.kor::before { background: #c0cacc url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/day_fight/sYb9saDcXktxU81R_kor.jpg') no-repeat; background-size: 100%; background-position-x: center; background-position-y: 0px;}
+.phone_bg .toggle_change.toggle_fight .chat.eng::before { background: #c0cacc url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/day_fight/degnaWYdAsPcB0AR_eng.jpg') no-repeat; background-size: 100%; background-position-x: center; background-position-y: 0px;}
+.phone_bg .toggle_change.toggle_fight .chat.jpn::before { background: #c0cacc url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/day_fight/uyqf2SPEuq8rBgAG_jpn.jpg') no-repeat; background-size: 100%; background-position-x: center; background-position-y: 0px;}
+.phone_bg .toggle_change.toggle_fight .chat.chn::before { background: #c0cacc url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/day_fight/gFQSZ9XN6hJot0Gl_chn.jpg') no-repeat; background-size: 100%; background-position-x: center; background-position-y: 0px;}
+.phone_bg .toggle_change.toggle_fight .chat .click-area .click-chat_photo button:nth-child(2) {top: 84.5%;width: 74%;left: 25%;}
+/* escape 채팅 */
+.phone_bg .toggle_change.toggle_escape .chat .click-area .click-chat_photo button:nth-child(5) {width: 74%; height: 28%; margin-left: 25%;}
+.phone_bg .toggle_change.toggle_escape .chat::before { background: #c0cacc url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/day_escape/feFog1Mn4eiEjf-chat_txt.jpg') no-repeat; background-size: 100%; background-position-x: center; background-position-y: 0px;}
+
+/* 프로필 화면 */
+.phone_bg .toggle_change .profile {position: relative; z-index:98;}
+.phone_bg .toggle_change .profile .click-area {position: absolute; top: 650px; left: 0; width: 100%; height: 321px;}
+.phone_bg .toggle_change .profile .click-area button {position: absolute; text-indent: -999999px;}
+.phone_bg .toggle_change .profile .click-area button.profile-photo {bottom: 0; left: 96px; width: 80px; height: 60px;} 
+.phone_bg .toggle_change .profile .click-area button.profile-video {bottom: 0; right: 96px; width: 80px; height: 60px;} 
+.phone_bg .toggle_change .profile .click-area .profile-photo.profile-member {top: 0; left: 50%; transform: translateX(-50%); width: 195px; height: 195px;} 
+/* 프로필 얼랏창 */
+.phone_bg .toggle_change .profile .profile_alert {visibility: hidden; opacity: 0; position: absolute; top: 0; left: 0;transition: all 300ms;}
+.phone_bg .toggle_change .profile .profile_alert.show {visibility: visible; opacity: 1;}
+.phone_bg .toggle_change .profile .profile_alert .alert_close { position: absolute; top: 39.2%; right: 14.5%; width: 8%;height: 3.5%;}
+/* 뒤로가기 버튼 */
+.phone_bg .toggle_change .back_btn {position: absolute; top: 55px; left: 20px; width: 34px; height: 43px; z-index: 99; text-indent: -99999px;}
+/* section : 컨셉티져 */
+.the_chaos_chapter-fight_escape .concept_teaser.etc_wrap {padding: 0; width: 100%; max-width: 100%; margin-top: 260px;}
+.the_chaos_chapter-fight_escape .concept_teaser .contents-obj {max-width: 1920px;width: 100%;position: relative;overflow: hidden;height: auto;margin: auto;}
+.the_chaos_chapter-fight_escape .concept_teaser .contents-obj .video-wrap {width: 100%;padding-top:100%;position: relative;top: 0;left: 50%;transform: translateX(-50%);}
+.the_chaos_chapter-fight_escape .concept_teaser .contents-obj .video-wrap #myVideo {width: 100%;position: absolute;top: 0;left: 50%;transform: translateX(-50%);opacity: 1;transition: all 300ms ease;}
+/* 0731 영상 재생 버튼 추가 */
+.the_chaos_chapter-fight_escape .concept_teaser .contents-obj .video-wrap .play_btn::after {content: '';display: block;position: absolute;top: 50%;left:50%; transform: translate(-50%, -50%);width: 100px;height: 100px;border:2px solid #fff;border-radius: 50%;background : url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/btn-play.png') no-repeat center;}
+.the_chaos_chapter-fight_escape .concept_teaser .contents-obj .video-wrap .play_btn {width: 100%;background :#000 url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/concept_thumbnail.jpg') no-repeat center;height: 100%;position: absolute;top: 0;left: 0;z-index: 1;text-indent: -99999999px;}
+/* section : 스케쥴 */
+.the_chaos_chapter-fight_escape .album-detail .etc_wrap::before {display: none;}
+.the_chaos_chapter-fight_escape .album-detail .etc_wrap.schedule {padding-bottom: 260px; padding-top: 200px; margin-top: 110px; background: url(https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight_escape_bg02.png) no-repeat center top; background-size: cover; }
+.the_chaos_chapter-fight_escape .album-detail .etc_wrap .etc_inner::before {background-image: none;}
+
+.the_chaos_chapter-fight_escape .chat.down::before { background-position-y: bottom !important; transition: all 400ms;}
+.the_chaos_chapter-fight_escape .chat .messenger_arrow {position: absolute;	width: 10%; bottom: 12.5%; right: 5.5%;z-index: 9;}
+.the_chaos_chapter-fight_escape .chat .messenger_arrow.scroll_up {transform: rotate(180deg);}
+
+/* 트랙리스트 */
+.the_chaos_chapter-fight_escape .album-detail .song-list {background: none; margin-top: 0;}
+.the_chaos_chapter-fight_escape .album-detail .song-list::before {display: none;}
+.the_chaos_chapter-fight_escape .album-detail .song-list .num {color: #ff7fa6;;}
+.the_chaos_chapter-fight_escape .album-detail .song-list .list-inner {color: #c4cbcc;}
+.the_chaos_chapter-fight_escape .album-detail .song-list .track { color: #976373;}
+
+@media screen and (max-width: 1440px) {
+  /* section : 앨범 소개 영역 */
+  .the_chaos_chapter-fight_escape .album-detail {background-image:url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight_escape_bg01_m.png'); background-position: center 14%;}
+  .the_chaos_chapter-fight_escape .album-detail.jpn {background-position:center 15%;}
+  .the_chaos_chapter-fight_escape .album-detail .album-desc {padding: 0 12.5vw 21.11vw;}
+  .the_chaos_chapter-fight_escape .album-detail .album-desc .contents-title {font-size: 3.8vw; }
+  .the_chaos_chapter-fight_escape .album-detail .album-desc .contents-title.kor {font-size: 3.5vw;}
+  /* section : video 영역 */
+  .the_chaos_chapter-fight_escape .album-detail .album-video { padding-bottom: 14.86vw; }
+  .the_chaos_chapter-fight_escape .album-detail .album-video .bottom ul li.taller:nth-child(2) {padding-left: 8.97vw;}
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(3) { padding-left: 2.08vw;}
+  /* section : 앨범포토 */
+    /* 토글 버튼*/
+  .phone_bg .toggle_btn {top: 4.81%; right: 3.58%;width: 18.3%;height: 3.89%;}
+  .phone_bg .toggle_btn a.toggler {background-position: 1%;}
+  .phone_bg .toggle_btn a.toggler.off {background-position:87%;}
+    /* 폰 메인 배경 */
+  .phone_bg .toggle_change .main .click-area {top: 25.93%; left: 3.77%; width: 92.45%; height:16.85%;}
+    /* 채팅화면 */
+  .phone_bg .toggle_change .chat .click-area {top: 19.25%; height: 69.9%;}
+  .phone_bg .toggle_change .chat .click-area .click-member {left: 21.32%; width: 75.09%; height: 9.27%;}
+  .phone_bg .toggle_change .chat .click-area .click-member button {width: 17.58%;}
+  .phone_bg .toggle_change .chat .click-area .click-member button + button {margin-left: 1%;}
+
+    /* 프로필 화면 */
+  .phone_bg .toggle_change .profile .click-area {top: 60.18%; left: 0; width: 100%; height:29.72%;}
+  .phone_bg .toggle_change .profile .click-area button.profile-photo {left: 18.11%; width: 15.09%; height: 18.69%;} 
+  .phone_bg .toggle_change .profile .click-area .profile-photo.profile-member {width: 36.79%; height: 60.74%;} 
+  .phone_bg .toggle_change .profile .click-area button.profile-video {right: 18.11%; width: 15.09%; height: 18.69%;} 
+  .phone_bg .toggle_change .profile .member_profile {position: absolute; top: 0; left: 0;}
+    /* 뒤로가기 버튼 */
+  .phone_bg .toggle_change .back_btn {top: 5.09%; left: 3.77%; width: 6.42%; height: 3.98%;}
+  /* section : 컨셉티져 */  
+  .the_chaos_chapter-fight_escape .concept_teaser.etc_wrap {margin-top: 27.46vw;}
+  .the_chaos_chapter-fight_escape .album-detail .concept_teaser .contents-desc {padding: 9.51vw 9.3vw 0;}
+  .the_chaos_chapter-fight_escape .album-detail .concept_teaser .contents-desc img{width: 3.47vw;}
+  /* section : 스케쥴 */
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap.schedule {padding-bottom: 21.46vw; padding-top: 14.86vw; margin-top: 10.46vw;}
+  /*트랙리스트*/
+  .the_chaos_chapter-fight_escape .album-detail .song-list {margin-top: 0;}
+}
+@media screen and (max-width: 1024px) {
+  .the_chaos_chapter-fight_escape .album-detail {background-image: none; }
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(1) {padding-left:2.08vw;}
+  .the_chaos_chapter-fight_escape .album-detail .album-video .bottom ul li.taller:nth-child(2) {padding-right:2.08vw;}
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(5), .safari .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(5) {padding-left:15.97vw !important;}
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(6), .safari .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(6) {padding-right:15.97vw !important;}
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(7), .safari .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(7) {padding-left:15.97vw !important;}
+  .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(8), .safari .the_chaos_chapter-fight_escape .album-detail .bottom.rows ul li:nth-child(8) {padding-right:15.97vw !important;}
+  .the_chaos_chapter-fight_escape .album-detail .album-video {position: relative;}
+  .the_chaos_chapter-fight_escape .album-detail .album-video::before {display: block; width:100%; height:100%; background:url('https://ibighit.com/txt/images/txt/discography/the_chaos_chapter-fight_escape/fight_escape_bg01_m.png') no-repeat center 0/100% 100%; top: -13.54vw;}
+}
+@media screen and (max-width: 768px) {
+  /* section : 앨범 소개 영역 */
+  .the_chaos_chapter-fight_escape .album-detail {background-image: none;}
+  .the_chaos_chapter-fight_escape .album-detail .album-desc {padding: 0 5.09vw;}
+  .the_chaos_chapter-fight_escape .album-detail .album-desc .contents-title {font-size: 9.5vw; line-height: 9.5vw;}
+  .the_chaos_chapter-fight_escape .album-detail .album-desc .contents-title.kor {font-size: 9.5vw; line-height: 11.5vw;}
+  /* section : video 영역 */
+  .the_chaos_chapter-fight_escape .album-detail .album-video { padding-bottom: 19.11vw; margin-top:37.8vw;}
+  .the_chaos_chapter-fight_escape .album-detail .album-video::before {display: block; width:100%; height:100%; background-size: 100% auto;}
+  /* section : 컨셉티져 */
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap.concept_teaser .contents-title {top:0;}
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap.concept_teaser .etc_inner {margin-top: -2.22vw;}
+  /* section : 스케쥴 */
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap.schedule { margin-bottom: 0; padding-top: 19.11vw; }
+   /*트랙리스트*/
+   .the_chaos_chapter-fight_escape .album-detail .song-list {margin-top: 0;}
+}
+@media screen and (max-width: 320px) {
+  .the_chaos_chapter-fight_escape .album-detail .album-desc { padding: 0 16px;}
+  /* section : 컨셉티져 */ 
+  .the_chaos_chapter-fight_escape .album-detail .album-desc .contents-obj{padding-top:40px;}
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap .etc_inner {margin-top: 0;}
+  .the_chaos_chapter-fight_escape .album-detail .etc_wrap.concept_teaser .etc_inner { margin-top: -7px;}
+   /*트랙리스트*/
+   .the_chaos_chapter-fight_escape .album-detail .song-list {margin-top: 0;}
+}

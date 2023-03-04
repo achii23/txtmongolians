@@ -1,0 +1,415 @@
+@charset "utf-8"; 
+.click-area button {position: absolute; top: 0; left: 0; /* background-color: rgba(255,100,20, .5) */}
+
+.blue_hour .home_passcode .click-area button {width: 110px; height: 110px; border-radius: 50%;}
+.blue_hour .home_passcode .click-area .num1 {top: 35.7%; left: 35.5%;}
+.blue_hour .home_passcode .click-area .num2 {top: 35.7%; left: 46.2%;}
+.blue_hour .home_passcode .click-area .num3 {top: 35.7%; left: 57.1%;}
+.blue_hour .home_passcode .click-area .num4 {top: 47%; left: 35.5%;}
+.blue_hour .home_passcode .click-area .num5 {top: 47%; left: 46.2%;}
+.blue_hour .home_passcode .click-area .num6 {top: 47%; left: 57.1%;}
+.blue_hour .home_passcode .click-area .num7 {top: 58.5%; left: 35.5%;}
+.blue_hour .home_passcode .click-area .num8 {top: 58.5%; left: 46.2%;}
+.blue_hour .home_passcode .click-area .num9 {top: 58.5%; left: 57.1%;}
+.blue_hour .home_passcode .click-area .num0 {top: 69.8%; left: 46.2%;}
+.blue_hour .home_passcode .click-area .cancle {top: 90.5%; left: 59.2%; width: 150px; height: 70px; border-radius: 0;}
+
+.blue_hour .home_unlock .click-area button {top: 9.5%; width: 110px; height: 160px;}
+.blue_hour .home_unlock .click-area .app_photo {left: 31.2%;}
+.blue_hour .home_unlock .click-area .app_video {left: 40.5%;}
+.blue_hour .home_unlock .click-area .app_music {left: 50%;}
+.blue_hour .home_unlock .click-area .app_downloads {left: 59.2%; width: 130px;}
+
+.blue_hour .application .click-area button {width: 173px; height: 174px; left: 50%;}
+.blue_hour .application .click-area .select_list1 {top: 15.6%; left: 29%; width: 179px;}
+.blue_hour .application .click-area .select_list2 {top: 15.6%; left: 43.4%;}
+.blue_hour .application .click-area .select_list3 {top: 15.6%; left: 57.4%;}
+.blue_hour .application .click-area .select_list4 {top: 31.9%; left: 29%; width: 179px;}
+.blue_hour .application .click-area .select_list5 {top: 31.9%; left: 43.4%;}
+.blue_hour .application .click-area .select_list6 {top: 31.9%; left: 57.4%;}
+.blue_hour .application .click-area .select_list7 {top: 48.2%; left: 29%; width: 179px;}
+.blue_hour .application .click-area .select_list8 {top: 48.2%; left: 43.4%;}
+.blue_hour .application .click-area .select_list9 {top: 48.2%; left: 57.4%;}
+.blue_hour .application .click-area .select_list10 {top: 64.4%; left: 29%; width: 179px;}
+.blue_hour .application .click-area .select_list11 {top: 64.4%; left: 43.4%;}
+.blue_hour .application .click-area .music_list1 {top: 29.3%; width: 530px; height: 85px; transform: translateX(-50%);}
+.blue_hour .application .click-area .music_list2 {top: 37.6%; width: 530px; height: 85px; transform: translateX(-50%);}
+.blue_hour .application .click-area .music_list3 {top: 45.8%; width: 530px; height: 85px; transform: translateX(-50%);}
+.blue_hour .application .click-area .music_list4 {top: 54.2%; width: 530px; height: 85px; transform: translateX(-50%);}
+.blue_hour .application .click-area .music_list5 {top: 62.5%; width: 530px; height: 85px; transform: translateX(-50%);}
+.blue_hour .application .click-area .download_list1 {top: 22.8%; width: 530px; height: 57px; transform: translateX(-50%);}
+.blue_hour .application .click-area .download_list2 {top: 28.1%; width: 530px; height: 57px; transform: translateX(-50%);}
+.blue_hour .application .click-area .download_list3 {top: 33.5%; width: 530px; height: 57px; transform: translateX(-50%);}
+.blue_hour .application .click-area .download_list4 {top: 38.8%; width: 530px; height: 57px; transform: translateX(-50%);}
+.blue_hour .application .click-area .download_list5 {top: 44.1%; width: 530px; height: 57px; transform: translateX(-50%);}
+.blue_hour .application .click-area .back {top: 8.8%; left: 29%; width: 179px; height: 70px;}
+.blue_hour .select_box {position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 530px; height: 100%; margin: auto;}
+.blue_hour .blue_hour-photo .select_box .click-area {top: 30.6%; left: 51.7%; width: 430px; height: 535px; transform: translateX(-50%);}
+
+.blue_hour .select_version .click-area button {right: 0; left: 0; width: 90%; height: 50px; margin: 0 auto;}
+.blue_hour .select_version .click-area button:nth-child(1) {top: 57.8%;}
+.blue_hour .select_version .click-area button:nth-child(2) {top: 71%;}
+.blue_hour .select_version .click-area button:nth-child(3) {top: 84%;}
+
+.blue_hour .version_r .select_gr_list .click-area button {top: 18.8%; width: 336px; height: 223px;}
+.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(1) {left: 9.3%;}
+.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(2) {left: 36.7%;}
+.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(3) {left: 64%;}
+.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(4) {top: 54.2%; left: 9.3%;}
+.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(5) {top: 54.2%; left: 36.7%;}
+.blue_hour .version_r .select_gr_list .click-area .back1 {top: 2.4%; left: 30.5%; width: 40px; height: 40px;}
+.blue_hour .version_r .select_gr_list .click-area .back2 {top: 8.5%; left: 8.1%; width: 37px; height: 48px;}
+.blue_hour .version_r .select_gr_list .click-area .back3 {top: 8.4%; left: 89%; width: 35px; height: 48px;}
+
+.blue_hour .select_member_list .click-area button {right: 0; left: 0; width: 90%; height: 35px; margin: 0 auto;}
+.blue_hour .select_member_list .click-area button:nth-of-type(1) {top: 42%;}
+.blue_hour .select_member_list .click-area button:nth-of-type(2) {top: 50%;}
+.blue_hour .select_member_list .click-area button:nth-of-type(3) {top: 57.6%;}
+.blue_hour .select_member_list .click-area button:nth-of-type(4) {top: 65.5%;}
+.blue_hour .select_member_list .click-area button:nth-of-type(5) {top: 73.2%;}
+.blue_hour .select_member_list .click-area button:nth-of-type(6) {top: 81%;}
+
+.blue_hour .version_ar .select_gr_list .click-area button {top: 35%; width: 330px; height: 330px;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-bg {top: 1.5%; left: 35%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-sb {left: 7%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-hk {left: 35%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-th {right: 7%; left: auto;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-yj {top: 68%; left: 35%;}
+
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-bg {top: 0; left: 13%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-yj {top: 0; right: 7%; left: auto;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-sb {left: 7%; left: 35%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-hk {top: 68%; left: 13%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-th {top: 68%; right: 7%; left: auto;}
+
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-hk {top: 2%; left: 35%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-yj {left: 7%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-th {left: 35%;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-sb {right: 7%; left: auto;}
+.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-bg {top: 68%; left: 35%;}
+
+.blue_hour .popup .click-area .filter-basic {top: 78.8%; left: 34.6%; width: 95px; height: 172px;}
+.blue_hour .popup .click-area .filter-mono {top: 78.8%; left: 42.4%; width: 95px; height: 172px;}
+.blue_hour .popup .click-area .filter-film {top: 78.8%; left: 50.2%; width: 95px; height: 172px;}
+.blue_hour .popup .click-area .filter-logo {top: 78.8%; left: 58%; width: 95px; height: 172px;}
+
+.blue_hour .version_r .member_detail .click-area .img-area {position: static; right: 0; width: 611px; height: 100%; margin: 0 auto; cursor: default;}
+.blue_hour .version_vr .member_detail .click-area .img-area {position: static; right: 0; width: 761px; height: 100%; margin: 0 auto; cursor: default;}
+
+.blue_hour .member_detail .click-area.full,
+.blue_hour .member_detail .click-area.full {right: 0; bottom: 0; width: 1080px; height: 720px; margin: auto;}
+.blue_hour .version_vr .member_detail li > .click-area.full {width: 880px; height: 993px;}
+.blue_hour .version_r .member_detail li.portrait > .click-area.full,
+.blue_hour .version_ar .member_detail li.portrait > .click-area.full {width: 662px; height: 993px;}
+
+.blue_hour .member_detail .click-area.full button,
+.blue_hour .member_detail .click-area.full button,
+.blue_hour .version_vr .member_detail .click-area.full button {width: 100%; height: 100%;}
+
+.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(1) {top: 12.3%; left: 26.2%; width: 215px; height: 295px;}
+.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(2) {top: 23.5%; left: 57.4%; width: 230px; height: 255px;}
+.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(3) {top: 53%; left: 47.9%; width: 300px; height: 255px;}
+
+.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(1) {top: 11%; left: 58.3%; width: 195px; height: 255px;}
+.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(2) {top: 52.4%; left: 26.8%; width: 232px; height: 265px;}
+.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(3) {top: 45.7%; left: 53.7%; width: 265px; height: 205px;}
+
+.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(1) {top: 18.5%; left: 55.7%; width: 265px; height: 270px;}
+.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(2) {top: 48%; left: 24.4%; width: 287px; height: 300px;}
+.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(3) {top: 52.5%; left: 51.9%; width: 280px; height: 185px;}
+
+.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(1) {top: 18%; left: 26.3%; width: 240px; height: 210px;}
+.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(2) {top: 33.5%; left: 54.3%; width: 270px; height: 245px;}
+.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(3) {top: 58%; left: 26.3%; width: 235px; height: 310px;}
+
+.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(1) {top: 18.5%; left: 26.8%; width: 220px; height: 255px;}
+.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(2) {top: 39%; left: 55.5%; width: 220px; height: 305px;}
+.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(3) {top: 58.5%; left: 26.6%; width: 275px; height: 245px;}
+
+.blue_hour .member_detail .message .click-area:not(.full) .message_close:nth-child(1) {top: 0; right: 0; left: auto; width: 35px; height: 38px;}
+.blue_hour .member_detail .message .click-area:not(.full) .message_check:nth-child(2) {top: 79.4%; left: 31.5%; width: 150px; height: 50px;}
+
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap {display: none; position: absolute; top: 0; right: 0; left: 0; width: 530px; height: 100%; margin: auto;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div {position: absolute; top: 0; left: 0; width: 54px; height: 54px; opacity: 0;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div span {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div img {width: 100%; height: 100%;}
+.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div:nth-child(10n) {width: 44px;}
+
+@media screen and (max-width: 1440px) {
+	.blue_hour .home_passcode .click-area button {width: 7.64vw; height: 7.64vw;}
+	.blue_hour .home_passcode .click-area .cancle {width: 10.42vw; height: 4.86vw;}
+
+	.blue_hour .home_unlock .click-area button {width: 7.64vw; height: 11.11vw;}
+	.blue_hour .home_unlock .click-area .app_downloads {width: 9.03vw;}
+
+	.blue_hour .application .click-area button {width: 12.01vw; height: 12.08vw;}
+	.blue_hour .application .click-area .select_list1,
+	.blue_hour .application .click-area .select_list4,
+	.blue_hour .application .click-area .select_list7,
+	.blue_hour .application .click-area .select_list10 {width: 12.43vw;}
+	.blue_hour .application .click-area .music_list1 {width: 36.81vw; height: 5.9vw;}
+	.blue_hour .application .click-area .music_list2 {width: 36.81vw; height: 5.9vw;}
+	.blue_hour .application .click-area .music_list3 {width: 36.81vw; height: 5.9vw;}
+	.blue_hour .application .click-area .music_list4 {width: 36.81vw; height: 5.9vw;}
+	.blue_hour .application .click-area .music_list5 {width: 36.81vw; height: 5.9vw;}
+	.blue_hour .application .click-area .download_list1 {top: 22.8%; width: 36.81vw; height: 3.96vw;}
+	.blue_hour .application .click-area .download_list2 {top: 28.1%; width: 36.81vw; height: 3.96vw;}
+	.blue_hour .application .click-area .download_list3 {top: 33.5%; width: 36.81vw; height: 3.96vw;}
+	.blue_hour .application .click-area .download_list4 {top: 38.8%; width: 36.81vw; height: 3.96vw;}
+	.blue_hour .application .click-area .download_list5 {top: 44.1%; width: 36.81vw; height: 3.96vw;}
+	.blue_hour .application .click-area .back {top: 8.8%; left: 29%; width: 12.43vw; height: 4.86vw;}
+	.blue_hour .select_box {width: 36.81vw;}
+	.blue_hour .blue_hour-photo .select_box .click-area {width: 29.86vw; height: 37.15vw;}
+
+	.blue_hour .select_version .click-area button {width: 90%; height: 3.47vw;}
+
+	.blue_hour .version_r .select_gr_list .click-area button {width: 23.33vw; height: 15.49vw;}
+	.blue_hour .version_r .select_gr_list .click-area .back1 {width: 2.78vw; height: 2.78vw;}
+	.blue_hour .version_r .select_gr_list .click-area .back2 {width: 2.57vw; height: 3.33vw;}
+	.blue_hour .version_r .select_gr_list .click-area .back3 {width: 2.43vw; height: 3.33vw;}
+
+	.blue_hour .select_member_list .click-area button {width: 90%; height: 2.43vw;}
+
+	.blue_hour .version_ar .select_gr_list .click-area button {width: 22.92vw; height: 22.92vw;}
+
+	.blue_hour .popup .click-area .filter-basic {width: 6.60vw; height: 11.94vw;}
+	.blue_hour .popup .click-area .filter-mono {width: 6.60vw; height: 11.94vw;}
+	.blue_hour .popup .click-area .filter-film {width: 6.60vw; height: 11.94vw;}
+	.blue_hour .popup .click-area .filter-logo {width: 6.60vw; height: 11.94vw;}
+
+	.blue_hour .member_detail .message .click-area:not(.full) .message_close:nth-child(1) {width: 2.43vw; height: 2.64vw;}
+	.blue_hour .member_detail .message .click-area:not(.full) .message_check:nth-child(2) {width: 10.42vw; height: 3.47vw;}
+
+	.blue_hour .version_r .member_detail .click-area .img-area {width: 42.43vw;}
+	.blue_hour .version_vr .member_detail .click-area .img-area {width: 52.85vw;}
+
+	.blue_hour .version_r .member_detail .click-area.full,
+	.blue_hour .version_ar .member_detail .click-area.full {width: 75vw; height: 50vw;}
+	.blue_hour .version_vr .member_detail li > .click-area.full {width: 61.11vw; height: 68.96vw;}
+	.blue_hour .version_r .member_detail li.portrait > .click-area.full,
+	.blue_hour .version_ar .member_detail li.portrait > .click-area.full {width: 45.97vw; height: 68.96vw;}
+
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(1) {width: 14.93vw; height: 20.49vw;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(2) {width: 15.97vw; height: 17.71vw;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(3) {width: 20.83vw; height: 17.71vw;}
+
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(1) {width: 13.54vw; height: 17.71vw;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(2) {width: 16.11vw; height: 18.40vw;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(3) {width: 18.40vw; height: 14.24vw;}
+
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(1) {width: 18.40vw; height: 18.75vw;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(2) {width: 19.93vw; height: 20.83vw;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(3) {width: 19.44vw; height: 12.85vw;}
+
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(1) {width: 16.67vw; height: 14.58vw;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(2) {width: 18.75vw; height: 17.01vw;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(3) {width: 16.32vw; height: 21.53vw;}
+
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(1) {width: 15.28vw; height: 17.71vw;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(2) {width: 15.28vw; height: 21.18vw;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(3) {width: 19.10vw; height: 17.01vw;}
+
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap {width: 36.81vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div {width: 3.75vw; height: 3.75vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div:nth-child(10n) {width: 3.06vw;}
+}
+
+@media screen and (max-width: 768px) {
+	.contents-obj.portrait .click-area {right: 0; width: 73.61vw; margin: 0 auto;}
+	.popup .contents-obj.portrait .click-area {width: 78.61vw;}
+	.blue_hour .home_passcode .click-area button {width: 15.28vw; height: 15.28vw;}
+	.blue_hour .home_passcode .click-area .num1 {top: 35.8%; left: 15.6%;}
+	.blue_hour .home_passcode .click-area .num2 {top: 35.8%; left: 40.9%;}
+	.blue_hour .home_passcode .click-area .num3 {top: 35.8%; left: 66.8%;}
+	.blue_hour .home_passcode .click-area .num4 {top: 47.1%; left: 15.6%;}
+	.blue_hour .home_passcode .click-area .num5 {top: 47.1%; left: 40.9%;}
+	.blue_hour .home_passcode .click-area .num6 {top: 47.1%; left: 66.8%;}
+	.blue_hour .home_passcode .click-area .num7 {top: 58.5%; left: 15.6%;}
+	.blue_hour .home_passcode .click-area .num8 {top: 58.5%; left: 40.9%;}
+	.blue_hour .home_passcode .click-area .num9 {top: 58.5%; left: 66.8%;}
+	.blue_hour .home_passcode .click-area .num0 {top: 69.8%; left: 40.9%;}
+	.blue_hour .home_passcode .click-area .cancle {top: 90.5%; right: 0; left: auto; width: 20.83vw; height: 9.72vw;}
+
+	.blue_hour .home_unlock .click-area button {top: 9.5%; width: 15.28vw; height: 22.22vw;}
+	.blue_hour .home_unlock .click-area .app_photo {left: 5.4%;}
+	.blue_hour .home_unlock .click-area .app_video {left: 27.6%;}
+	.blue_hour .home_unlock .click-area .app_music {left: 49.9%;}
+	.blue_hour .home_unlock .click-area .app_downloads {left: 72%; width: 18.06vw;}
+
+	.blue_hour .application .click-area button {width: 23.89vw; height: 24.17vw; left: 50%;}
+	.blue_hour .application .click-area .select_list1 {top: 15.6%; left: 0; width: 24.86vw;}
+	.blue_hour .application .click-area .select_list2 {top: 15.6%; left: 34.4%;}
+	.blue_hour .application .click-area .select_list3 {top: 15.6%; right: 0; left: auto;}
+	.blue_hour .application .click-area .select_list4 {top: 31.9%; left: 0; width: 24.86vw;}
+	.blue_hour .application .click-area .select_list5 {top: 31.9%; left: 34.4%;}
+	.blue_hour .application .click-area .select_list6 {top: 31.9%; right: 0; left: auto;}
+	.blue_hour .application .click-area .select_list7 {top: 48.2%; left: 0; width: 24.86vw;}
+	.blue_hour .application .click-area .select_list8 {top: 48.2%; left: 34.4%;}
+	.blue_hour .application .click-area .select_list9 {top: 48.2%; right: 0; left: auto;}
+	.blue_hour .application .click-area .select_list10 {top: 64.4%; left: 0; width: 24.86vw;}
+	.blue_hour .application .click-area .select_list11 {top: 64.4%; left: 34.4%;}
+	.blue_hour .application .click-area .music_list1 {top: 29.2%; width: 73.61vw; height: 12.50vw;}
+	.blue_hour .application .click-area .music_list2 {top: 37.6%; width: 73.61vw; height: 12.50vw}
+	.blue_hour .application .click-area .music_list3 {top: 45.8%; width: 73.61vw; height: 12.50vw;}
+	.blue_hour .application .click-area .music_list4 {top: 54.1%; width: 73.61vw; height: 12.50vw;}
+	.blue_hour .application .click-area .music_list5 {top: 62.4%; width: 73.61vw; height: 12.50vw;}
+	.blue_hour .application .click-area .download_list1 {top: 22.8%; width: 73.61vw; height: 7.92vw;}
+	.blue_hour .application .click-area .download_list2 {top: 28.1%; width: 73.61vw; height: 7.92vw;}
+	.blue_hour .application .click-area .download_list3 {top: 33.5%; width: 73.61vw; height: 7.92vw;}
+	.blue_hour .application .click-area .download_list4 {top: 38.8%; width: 73.61vw; height: 7.92vw;}
+	.blue_hour .application .click-area .download_list5 {top: 44.1%; width: 73.61vw; height: 7.92vw;}
+	.blue_hour .application .click-area .back {left: 0; width: 24.86vw; height: 9.72vw;}
+	.blue_hour .select_box {width: 73.61vw;}
+	.blue_hour .blue_hour-photo .select_box .click-area {width: 59.72vw; height: 74.31vw;}
+
+	.blue_hour .select_version .click-area button {right: 0; left: 0; width: 90%; height: 6.94vw; margin: 0 auto;}
+	.blue_hour .select_version .click-area button:nth-child(1) {top: 57.8%;}
+	.blue_hour .select_version .click-area button:nth-child(2) {top: 71%;}
+	.blue_hour .select_version .click-area button:nth-child(3) {top: 84%;}
+
+
+	.blue_hour .version_r .select_gr_list .click-area button {top: 18.8%; width: 31.25%; height: 34%;}
+	.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(1) {left: 2.4%;}
+	.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(2) {left: 34.5%;}
+	.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(3) {left: 66.2%;}
+	.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(4) {top: 54.2%; left: 2.4%;}
+	.blue_hour .version_r .select_gr_list .click-area button:nth-of-type(5) {top: 54.2%; left: 34.5%;}
+	.blue_hour .version_r .select_gr_list .click-area .back1 {top: 2.4%; left: 27%; width: 3.89vw; height: 3.89vw;}
+	.blue_hour .version_r .select_gr_list .click-area .back2 {top: 8.3%; left: 1.1%; width: 3.47vw; height: 4.44vw;}
+	.blue_hour .version_r .select_gr_list .click-area .back3 {top: 8.3%; left: 95.6%; width: 3.19vw; height: 4.44vw;}
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-sb,
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-yj {left: 0;}
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list1-th,
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list3-sb {right: 0;}
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-bg,
+	.blue_hour .version_ar .select_gr_list .click-area .select_gr_list2-hk {left: 8%;}
+
+	.blue_hour .select_member_list .click-area button {left: 0; width: 90%; height: 4.86vw;}
+
+	.blue_hour .version_ar .select_gr_list .click-area button {width: 30.56vw; height: 30.56vw;}
+
+	.blue_hour .popup .click-area .filter-basic {top: 78.8%; left: 26.6%; width: 11.11vw; height: 20.14vw;}
+	.blue_hour .popup .click-area .filter-mono {top: 78.8%; left: 38.6%; width: 11.11vw; height: 20.14vw;}
+	.blue_hour .popup .click-area .filter-film {top: 78.8%; left: 50.3%; width: 11.11vw; height: 20.14vw;}
+	.blue_hour .popup .click-area .filter-logo {top: 78.8%; left: 62%; width: 11.11vw; height: 20.14vw;}
+
+	.blue_hour .member_detail .message .click-area {width: 100%;}
+	.blue_hour .member_detail .message .click-area:not(.full) .message_close:nth-child(1) {top: 0; right: 0; left: auto; width: 4.86vw; height: 5.28vw;}
+	.blue_hour .member_detail .message .click-area:not(.full) .message_check:nth-child(2) {top: 79.4%; left: 31.5%; width: 20.83vw; height: 6.94vw;}
+
+	.blue_hour .version_r .member_detail .click-area .img-area {width: 72.50vw;}
+	.blue_hour .version_vr .member_detail .click-area .img-area {width: 78.61vw;}
+
+	.blue_hour .version_r .member_detail .click-area.full,
+	.blue_hour .version_ar .member_detail .click-area.full {width: 78.61vw; height: 52.36vw;}
+	.blue_hour .version_vr .member_detail li > .click-area.full {width: 78.61vw; height: 88.75vw;}
+	.blue_hour .version_r .member_detail li.portrait > .click-area.full,
+	.blue_hour .version_ar .member_detail li.portrait > .click-area.full {width: 78.61vw; height: 100%;}
+
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(1) {top: 17%; left: 10.4%; width: 22.92vw; height: 31.25vw;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(2) {top: 27%; left: 61.8%; width: 24.31vw; height: 26.39vw;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(3) {top: 52%; left: 46%; width: 31.94vw; height: 27.78vw;}
+
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(1) {top: 15.7%; left: 63.2%; width: 20.83vw; height: 27.08vw;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(2) {top: 51.7%; left: 11%; width: 25.00vw; height: 27.78vw;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(3) {top: 46.1%; left: 55.3%; width: 28.47vw; height: 21.53vw;}
+
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(1) {top: 22.5%; left: 58.5%; width: 28.47vw; height: 28.47vw;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(2) {top: 47.8%; left: 7%; width: 30.56vw; height: 31.94vw;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(3) {top: 53%; left: 52.4%; width: 29.17vw; height: 18.75vw;}
+
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(1) {top: 21.8%; left: 10.5%; width: 25.00vw; height: 22.22vw;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(2) {top: 35.5%; left: 56.5%; width: 28.47vw; height: 25.69vw;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(3) {top: 56.7%; left: 10%; width: 25.00vw; height: 32.64vw;}
+
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(1) {top: 21.8%; left: 10.5%; width: 23.61vw; height: 27.78vw;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(2) {top: 40%; left: 58%; width: 24.31vw; height: 32.64vw;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(3) {top: 57%; left: 10.5%; width: 29.86vw; height: 26.39vw;}
+
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap {width: 73.61vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div {width: 7.50vw; height: 7.50vw;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div:nth-child(10n) {width: 6.11vw;}
+}
+
+@media screen and (max-width: 320px) {
+	.contents-obj.portrait .click-area {right: 0; width: 236px; margin: 0 auto;}
+	.popup .contents-obj.portrait .click-area {width: 252px;}
+	.blue_hour .member_detail .message .click-area {width: 100%;}
+
+	.blue_hour .home_passcode .click-area button {width: 49px; height: 49px;}
+	.blue_hour .home_passcode .click-area .cancle {width: 67px; height: 31px;}
+
+	.blue_hour .home_unlock .click-area button {width: 49px; height: 71px;}
+	.blue_hour .home_unlock .click-area .app_downloads {width: 58px;}
+
+	.blue_hour .application .click-area button {width: 76px; height: 77px;}
+	.blue_hour .application .click-area .select_list1,
+	.blue_hour .application .click-area .select_list4,
+	.blue_hour .application .click-area .select_list7,
+	.blue_hour .application .click-area .select_list10 {width: 80px;}
+	.blue_hour .application .click-area .music_list1 {width: 236px; height: 40px;}
+	.blue_hour .application .click-area .music_list2 {width: 236px; height: 40px}
+	.blue_hour .application .click-area .music_list3 {width: 236px; height: 40px;}
+	.blue_hour .application .click-area .music_list4 {width: 236px; height: 40px;}
+	.blue_hour .application .click-area .music_list5 {width: 236px; height: 40px;}
+	.blue_hour .application .click-area .download_list1 {width: 236px; height: 25px;}
+	.blue_hour .application .click-area .download_list2 {width: 236px; height: 25px;}
+	.blue_hour .application .click-area .download_list3 {width: 236px; height: 25px;}
+	.blue_hour .application .click-area .download_list4 {width: 236px; height: 25px;}
+	.blue_hour .application .click-area .download_list5 {width: 236px; height: 25px;}
+	.blue_hour .application .click-area .back {width: 80px; height: 31px;}
+	.blue_hour .select_box {width: 236px;}
+	.blue_hour .blue_hour-photo .select_box .click-area {width: 191px; height: 238px;}
+
+	.blue_hour .select_version .click-area button {width: 90%; height: 22px;}
+
+	.blue_hour .version_r .select_gr_list .click-area button {width: 100px; height: 67px;}
+	.blue_hour .version_r .select_gr_list .click-area .back1 {width: 12px; height: 12px;}
+	.blue_hour .version_r .select_gr_list .click-area .back2 {width: 11px; height: 14px;}
+	.blue_hour .version_r .select_gr_list .click-area .back3 {width: 10px; height: 14px;}
+
+	.blue_hour .select_member_list .click-area button {width: 90%; height: 16px;}
+
+	.blue_hour .version_ar .select_gr_list .click-area button {width: 98px; height: 98px;}
+
+	.blue_hour .popup .click-area .filter-basic {width: 36px; height: 64px;}
+	.blue_hour .popup .click-area .filter-mono {width: 36px; height: 64px;}
+	.blue_hour .popup .click-area .filter-film {width: 36px; height: 64px;}
+	.blue_hour .popup .click-area .filter-logo {width: 36px; height: 64px;}
+
+	.blue_hour .member_detail .message .click-area:not(.full) .message_close:nth-child(1) {top: 0; right: 0; left: auto; width: 16px; height: 17px;}
+	.blue_hour .member_detail .message .click-area:not(.full) .message_check:nth-child(2) {top: 79.4%; left: 31.5%; width: 67px; height: 22px;}
+
+	.blue_hour .version_r .member_detail .click-area .img-area {width: 232px;}
+	.blue_hour .version_vr .member_detail .click-area .img-area {width: 252px;}
+
+	.blue_hour .version_r .member_detail .click-area.full,
+	.blue_hour .version_ar .member_detail .click-area.full {width: 252px; height: 168px;}
+	.blue_hour .version_vr .member_detail li > .click-area.full {width: 252px; height: 284px;}
+	.blue_hour .version_r .member_detail li.portrait > .click-area.full,
+	.blue_hour .version_ar .member_detail li.portrait > .click-area.full {width: 252px; height: 100%;}
+
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(1) {width: 73px; height: 100px;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(2) {width: 78px; height: 84px;}
+	.blue_hour .version_vr .sb_detail .click-area:not(.full) button:nth-child(3) {width: 102px; height: 89px;}
+
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(1) {width: 67px; height: 87px;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(2) {width: 80px; height: 89px;}
+	.blue_hour .version_vr .yj_detail .click-area:not(.full) button:nth-child(3) {width: 91px; height: 69px;}
+
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(1) {width: 91px; height: 91px;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(2) {width: 98px; height: 102px;}
+	.blue_hour .version_vr .bg_detail .click-area:not(.full) button:nth-child(3) {width: 93px; height: 60px;}
+
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(1) {width: 80px; height: 71px;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(2) {width: 91px; height: 82px;}
+	.blue_hour .version_vr .th_detail .click-area:not(.full) button:nth-child(3) {width: 80px; height: 104px;}
+
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(1) {top: 21.8%; left: 19.5%; width: 76px; height: 89px;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(2) {top: 40%; left: 56.5%; width: 78px; height: 104px;}
+	.blue_hour .version_vr .hk_detail .click-area:not(.full) button:nth-child(3) {top: 57%; left: 19%; width: 96px; height: 84px;}
+
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap {width: 236px;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div {width: 24px; height: 24px;}
+	.blue_hour .album-detail .blue_hour-photo .photo_contents .contents-obj .motion_wrap > div:nth-child(10n) {width: 20px;}
+}

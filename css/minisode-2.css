@@ -1,0 +1,1508 @@
+/* 섹션 공통 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* base.css 에서 선언된 overflow-x 때문에 스크롤중 stuck 걸림 */
+/* 모든 요소가 표시될땐 문제 안되는데 현재 몇몇 섹션만 오픈시 문제되어 아래와 같이 오버라이드 */
+.wrapper {
+    overflow-x: hidden;
+}
+
+/* 
+    Mobile First
+*/
+.minisode-2 .album-detail {
+    background-color: #62111F;
+    padding: 115px 0 0;
+}
+
+.txt-section {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section *,
+.txt-section .regular * {
+    font-family: 'Camber-R';
+    letter-spacing: -0.01em;
+}
+
+.txt-section i,
+.txt-section i * {
+    font-style: italic;
+}
+
+.txt-section .bold,
+.txt-section .bold * {
+    font-family: 'Camber-SB';
+    letter-spacing: -0.01em;
+}
+
+.txt-section .desc,
+.txt-section .desc * {
+    font-family: 'NotoSansCJKkr-R';
+}
+
+.txt-section .title,
+.txt-section .title * {
+    font-family: 'MVB-SolanoGothicMVB-B', 'NotoSansCJKkr';
+}
+
+.jpn .txt-section .desc *,
+.chn .txt-section .desc * {
+    white-space: normal !important;
+}
+
+.txt-section>.con {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5.09vw;
+}
+
+/* Back button */
+.txt-section-control {
+    z-index: 10;
+}
+
+.txt-section-control>.con {
+    margin-bottom: 4vw;
+}
+
+.txt-section-control>.con>.btn-back {
+    display: inline-block;
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+}
+
+.txt-section-control>.con>.btn-back>img {
+    width: 100%;
+}
+
+.txt-section-control>.con>.btn-back>span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    margin-top: -5px;
+    border: 2px solid #fff;
+    border-width: 0px 0px 2px 2px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+/* Cover */
+.txt-section-cover {
+    z-index: 2;
+}
+
+.txt-section-cover>.con {
+    width: 100%;
+}
+
+.txt-section-cover>.con>.control {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.txt-section-cover>.con>.intro {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 102px;
+}
+
+.txt-section-cover>.con>.intro>.cover {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-cover>.con>.intro>.cover>.cover-img {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.txt-section-cover>.con>.intro>.cover>.cover-img>img {
+    width: 100%;
+}
+
+.txt-section-cover>.con>.intro>.info {
+    color: #fff;
+    padding-top: 45px;
+}
+
+.txt-section-cover>.con>.intro>.info>.type {
+    font-size: 3.7vw;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.txt-section-cover>.con>.intro>.info>.name {
+    font-size: 9.5vw;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.txt-section-cover>.con>.intro>.info>.desc {
+    font-size: 4vw;
+    font-weight: normal;
+}
+
+.txt-section-cover>.con>.video {}
+
+.txt-section-cover>.con>.video>.con {
+    position: relative;
+}
+
+.txt-section-cover>.con>.video>.con>.title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 13.89vw;
+    color: #fff;
+    z-index: 100;
+    margin-bottom: -17vw;
+    text-shadow: 0px 0px 0.28vw rgb(0 0 0 / 20%);
+}
+
+.txt-section-cover>.con>.video>.con>.album-video>.slide-wrap {
+    margin-top: -22px;
+}
+
+.minisode-2 .album-detail .bottom.rows ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.minisode-2 .album-detail .album-video {
+    padding: 0px 0px 150px 0px;
+    margin-top: 10vw;
+    z-index: 3;
+}
+
+.minisode-2 .album-detail .bottom.rows ul::after {
+    display: none;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.taller {
+    display: inline-block;
+    padding: 10px 0;
+    width: 49%;
+    border-bottom: 1px solid #D4CFBE;
+}
+
+.minisode-2 .album-detail .slide-wrap>ul>li .contents-sub {
+    color: #fff;
+    text-transform: none;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li>button {
+    display: inline-block;
+    padding: 5px 0;
+    font-family: 'Camber-SB';
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.first {
+    flex: 1 1 auto;
+    width: 100%;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.first::after {}
+
+.minisode-2 .album-detail .bottom.rows ul li.first>button {
+    display: inline-block;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.start {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-left: 0;
+    text-align: right;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.end {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-right: 0;
+    text-align: left;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.end::after {
+    /* content: ''; */
+    position: absolute;
+    width: 100%;
+    left: 0;
+    /* border-bottom: 1px solid #D4CFBE; */
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.col-3 {
+    flex: 0 0 auto;
+    width: 33.33333%;
+    padding-left: 0;
+    text-align: center;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.col-3.tr {
+    text-align: right;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.col-3.tl {
+    text-align: left;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.block {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.minisode-2 .album-detail .bottom.rows ul li.block:last-child {
+    border-bottom: 0;
+}
+
+.minisode-2 .album-detail .bottom ul li .contents-sub {
+    font-size: 1.11vw;
+    font-weight: bold;
+    color: #E12141;
+    padding: 0 2.08vw;
+    line-height: 1.3;
+    text-transform: none;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul {
+    overflow: visible;
+}
+
+.minisode-2 .album-detail .bottom ul li.active .contents-sub {
+    color: #fff;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li {
+    margin-bottom: 24vw;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li::before {
+    display: block;
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    z-index: -1;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li.txt-vd-1::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-fire.png);
+    width: 45%;
+    height: 69%;
+    top: -35%;
+    right: -21%;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li.txt-vd-2::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-hate.png);
+    width: 30.5%;
+    height: 45%;
+    top: -25%;
+    left: -10.5%;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li.txt-vd-3::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-end.png);
+    width: 28%;
+    height: 41%;
+    top: -34%;
+    right: -14%;
+}
+
+.minisode-2 .album-detail .album-video .slide-wrap>ul>li.txt-vd-4::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-mess.png);
+    width: 78.5%;
+    height: 85%;
+    top: -54%;
+    left: -24.5%;
+}
+
+/* Deprecated Start  */
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap {
+    display: block;
+    position: relative;
+}
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap::before {
+    display: none;
+    content: '';
+}
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap>button {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap>button>img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap>button:hover>img {
+    opacity: 1;
+}
+
+.txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap>button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 98px;
+    height: 98px;
+    margin-left: -49px;
+    margin-top: -49px;
+    border-radius: 50vh;
+    border: 3px solid rgba(255, 255, 255, 0.33);
+    background: url(https://ibighit.com/txt/images/btn-play.png) no-repeat center;
+    background-size: 100% auto;
+}
+
+
+.txt-section-cover>.con>.video>.con>.mb-list {
+    display: block;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul {}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li {
+    margin-bottom: 19vw;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 5.5vw;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap::before {
+    display: block;
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    z-index: -1;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap>button {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap>button>img {
+    width: 100%;
+    height: 100%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap>button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 98px;
+    height: 98px;
+    margin-left: -49px;
+    margin-top: -49px;
+    border-radius: 50vh;
+    border: 3px solid rgba(255, 255, 255, 0.33);
+    background: url(https://ibighit.com/txt/images/btn-play.png) no-repeat center;
+    background-size: 100% auto;
+}
+
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item.txt-video-mb-1>.wrap::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-fire.png);
+    width: 45%;
+    height: 69%;
+    top: -43%;
+    right: -21%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item.txt-video-mb-2>.wrap::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-hate.png);
+    width: 30.5%;
+    height: 45%;
+    top: -33%;
+    left: -10.5%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item.txt-video-mb-3>.wrap::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-end.png);
+    width: 28%;
+    height: 41%;
+    top: -54%;
+    right: -14%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item.txt-video-mb-4>.wrap::before {
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-1-video-mess.png);
+    width: 69.5%;
+    height: 98%;
+    top: -62%;
+    left: -23.5%;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item.txt-video-mb-5>.wrap::before {}
+
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.wrap>iframe {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.info {
+    text-align: center;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.info>.name {
+    font-size: 4vw;
+    font-weight: bold;
+    color: #F0F0EF;
+}
+
+.txt-section-cover>.con>.video>.con>.mb-list>ul>li>.item>.info>.type {
+    font-size: 4vw;
+    font-weight: bold;
+    color: #F0F0EF;
+}
+
+
+/* 포토 영역 */
+.txt-section-photo {
+    margin-top: 49vw;
+}
+
+.txt-section-photo>.con {
+    padding: 0;
+    background-color: #D4CFBE;
+}
+
+.txt-section-photo>.con>.info {}
+
+.txt-section-photo>.con>.info>.title {
+    display: block;
+    position: relative;
+    font-size: 13.89vw;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: -7vw;
+    line-height: 12.50vw;
+    z-index: 10;
+}
+
+.txt-section-photo>.con>.info>.con {
+    /* padding: 0 14vw; */
+    padding: 0 5vw;
+    z-index: 1;
+}
+
+.txt-section-photo>.con>.info>.con::before {
+    content: "";
+    width: 100%;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-2-bg-top@2x.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 72vw;
+    margin-top: -72vw;
+    position: absolute;
+    left: 0;
+}
+
+.txt-section-photo>.con>.info>.con::after {
+    content: "";
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-2-bg-bottom@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 72vw;
+    position: absolute;
+    bottom: -72vw;
+    left: 0;
+}
+
+.txt-section-photo>.con>.info>.con .txt-photo {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.txt-section-photo>.con>.info>.con .txt-photo>img {
+    width: 100%;
+}
+
+/*  */
+.txt-section-photo>.con>.info>.con>.txt-photo-wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200vw;
+    z-index: 1;
+}
+
+.txt-section-photo>.con>.info>.con>.txt-photo-wrap .txt-photo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+}
+
+.txt-section-photo>.con>.info>.con .txt-photo>.txt-btn-wrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.txt-section-photo>.con>.info>.con .txt-photo>.txt-btn-wrap>.txt-btn {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.txt-section-photo>.con>.info>.con>.txt-photo-wrap .txt-photo.on {
+    animation: fadeInPhoto 0.5s ease-out forwards;
+    -webkit-animation: fadeInPhoto 0.5s ease-out forwards;
+}
+
+.txt-section-photo>.con>.info>.con>.txt-photo-wrap .txt-photo.off {
+    animation: fadeOutPhoto 0.5s ease-in forwards;
+    -webkit-animation: fadeOutPhoto 0.5s ease-in forwards;
+}
+
+.txt-section-photo>.con>.info>.con>.txt-photo-wrap .txt-photo.txt-photo-home {
+    cursor: pointer;
+    width: 100%;
+}
+
+@keyframes fadeInPhoto {
+    0% {
+        width: 100%;
+        opacity: 0;
+    }
+
+    1% {
+        width: 100%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutPhoto {
+    0% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    99% {
+        width: 100%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+/* 컨셉티저 */
+.txt-section-teaser {
+    margin-top: 72vw;
+}
+
+.txt-section-teaser>.con {
+    padding: 0;
+    background-color: #62111f;
+}
+
+.txt-section-teaser>.con>.info {}
+
+.txt-section-teaser>.con>.info>.title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 13.89vw;
+    color: #FFFFFF;
+    margin-bottom: -7vw;
+    line-height: 12.50vw;
+    z-index: 1;
+}
+
+.txt-section-teaser>.con>.info>.con {}
+
+.txt-section-teaser>.con>.info>.con>.video {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-teaser>.con>.info>.con>.video>.video-thumbnail {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-teaser>.con>.info>.con>.video>.video-thumbnail>img {
+    width: 100%;
+}
+
+.txt-section-teaser>.con>.info>.con>.video>video {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 프로모션 스케쥴 */
+.txt-section-promotion {
+    z-index: 2;
+    margin-top: 50vw;
+}
+
+.txt-section-promotion>.con {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    background-color: #181F21;
+}
+
+.txt-section-promotion>.con::before {
+    content: "";
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-4-bg-top@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100%;
+    margin-top: -100px;
+    position: absolute;
+}
+
+.txt-section-promotion>.con::after {
+    content: "";
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-4-bg-bottom@2x.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+}
+
+.txt-section-promotion>.con>.info {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.txt-section-promotion>.con>.info::before {
+    content: "";
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/mb/section-4-bg-item.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 23%;
+    width: 49.5%;
+    position: absolute;
+    top: -22%;
+    left: -7%;
+}
+
+.txt-section-promotion>.con>.info>.title {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 13.89vw;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 12.50vw;
+}
+
+.txt-section-promotion>.con>.info>.title>span {
+    display: block;
+}
+
+.txt-section-promotion>.con>.info>.calendar {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-promotion>.con>.info>.calendar>.img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.txt-section-promotion>.con>.info>.calendar>.img>img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+/* 트랙리스트 */
+.txt-section-track {
+    background-color: #F0F0EF;
+    padding-top: 30vw;
+    padding-bottom: 30vw;
+    z-index: 1;
+}
+
+.txt-section-track>.con {}
+
+.txt-section-track>.con>.info {}
+
+.txt-section-track>.con>.info>.title {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13.89vw;
+    color: #62111F;
+    margin-bottom: 3vw;
+}
+
+.txt-section-track>.con>.info>.con {}
+
+.txt-section-track>.con>.info>.con>ul {}
+
+.txt-section-track>.con>.info>.con>ul>li {}
+
+.txt-section-track>.con>.info>.con>ul>li>.item {
+    display: flex;
+    width: 100%;
+    font-family: 'NotoSansCJKkr-B';
+    letter-spacing: -0.06em;
+    line-height: 7vw;
+}
+
+.txt-section-track>.con>.info>.con>ul>li>.item>.num {
+    flex: 0 0 auto;
+    width: 6vw;
+    font-size: 3.75vw;
+    font-family: 'Camber-M';
+    color: #E12141;
+}
+
+.txt-section-track>.con>.info>.con>ul>li>.item>.name {
+    flex: 1 1 auto;
+    width: auto;
+    font-size: 3.75vw;
+    color: #62111F;
+}
+
+.txt-section-track>.con>.info>.con>ul>li>.item>.name>.time {
+    width: auto;
+    font-size: 3.75vw;
+    color: #E12141;
+    padding-left: 3vw;
+    font-family: 'Camber-R';
+    font-weight: normal;
+}
+
+/* 사진 팝업 */
+.txt-popup-photo {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.txt-popup-photo>.bg {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.95);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.txt-popup-photo>.con {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 35vw;
+    height: 0;
+}
+
+.txt-popup-photo>.con>.swiper-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 994px;
+    height: 0;
+    margin: 0 auto;
+}
+
+.txt-popup-photo .popup-btn {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.txt-popup-photo .popup-btn .btn-down {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/btn_down.png);
+    background-size: cover;
+
+}
+
+.txt-popup-photo .popup-btn .btn-close {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/btn_close.png);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.txt-popup-photo>.con>.swiper-wrap>.swiper {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 68vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt-popup-photo>.con>.swiper-wrap>.swiper>ul {}
+
+.txt-popup-photo>.con>.swiper-wrap>.swiper>ul>li {}
+
+.txt-popup-photo>.con>.swiper-wrap>.swiper>ul>li>.wrap {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.txt-popup-photo>.con>.swiper-wrap>.swiper>ul>li>.wrap>.contents-obj {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-prev {
+    position: absolute;
+    left: 0;
+    top: 50vw;
+    width: 15vw;
+    height: 15vw;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/btn-prev-photo.png);
+    background-size: cover;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 10;
+}
+
+.txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-next {
+    position: absolute;
+    right: 0;
+    top: 50vw;
+    width: 15vw;
+    height: 15vw;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/btn-next-photo.png);
+    background-size: cover;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 10;
+}
+
+@media screen and (min-width: 768px) {
+    .minisode-2 .album-detail {
+        padding-top: 10vw;
+    }
+
+    .txt-section-control>.con {
+        padding: 0 12.5vw;
+    }
+
+    .txt-section-control>.con>.btn-back {
+        display: inline-block;
+        position: relative;
+        width: 3vw;
+        height: 3vw;
+    }
+
+
+    .txt-section .title {
+        font-size: 5.56vw !important;
+    }
+
+    /* 커버 */
+    .txt-section-cover>.con {
+        padding: 0 12.5vw 11vw;
+    }
+
+    .txt-section-cover>.con>.intro {
+        display: flex;
+    }
+
+    .txt-section-cover>.con>.intro>.cover {
+        display: block;
+        position: relative;
+        flex: 1 1 auto;
+        width: 50%;
+    }
+
+    .txt-section-cover>.con>.intro>.info {
+        display: block;
+        position: relative;
+        flex: 1 1 auto;
+        width: 50%;
+        padding-top: 0;
+        /* padding-left: 4.51vw; */
+        padding-left: 4vw;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.type {
+        font-size: 1.25vw;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.name {
+        font-size: 3.5vw;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.desc {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .txt-section-cover>.con>.video>.con>.title {
+        font-size: 5.56vw;
+        line-height: 4.86vw;
+        margin-bottom: -2vw;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info {
+        display: block;
+    }
+
+    .minisode-2 .album-detail .album-video {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .minisode-2 .album-detail .album-video::before {
+        display: block;
+        content: "";
+        background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/pc/section-1-video-bg.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        width: 145%;
+        height: 76%;
+        position: absolute;
+        top: -15%;
+        left: -16%;
+        z-index: -1;
+    }
+
+    .minisode-2 .album-detail .album-video .slide-wrap>ul>li::before {
+        display: none;
+    }
+
+    .minisode-2 .album-detail .bottom.rows ul li.taller {
+        padding: 25px 0;
+    }
+
+    .minisode-2 .album-detail .album-video .slide-wrap>ul>li {
+        margin-bottom: 0;
+    }
+
+    .minisode-2 .album-detail .bottom.rows ul li.taller>button {
+        font-size: 1.11vw;
+        font-weight: bold;
+        color: #E12141;
+        padding: 0 2.08vw;
+    }
+
+    .minisode-2 .album-detail .bottom.rows ul li.taller.col-3>button {
+        padding: 0;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap {
+        width: 100%;
+        height: 43vw;
+        background-color: #000;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap>iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul {}
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li {
+        border-bottom: 1px solid #D4CFBE;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li:last-child {
+        border-bottom: 0;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li>.item {
+        display: inline-block;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li>.item>.text {
+        font-size: 1.11vw;
+        font-weight: bold;
+        color: #E12141;
+        padding: 0 2.08vw;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li>.item.on>.text,
+    .txt-section-cover>.con>.video>.con>.pc-info>ul>li>.item>.text:hover {
+        color: #fff;
+    }
+
+    .txt-section-cover>.con>.video>.con>.mb-list {
+        display: none;
+    }
+
+    /* .txt-section-photo {
+        margin-top: 11vw;
+    } */
+
+    .txt-section-photo {
+        margin-top: 30vw;
+    }
+
+    .txt-section-photo>.con>.info>.title {
+        margin-bottom: -2vw;
+        line-height: 1;
+    }
+
+    .txt-section-photo>.con>.info>.con {
+        width: 36.8vw;
+        height: 70vw;
+        max-width: 530px;
+        max-height: 1085px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .txt-section-photo>.con>.info>.con>.txt-photo-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .txt-section-photo>.con>.info>.con::before {
+        background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/pc/section-2-bg-top@2x.png);
+        background-size: contain;
+        margin-top: -49vw;
+        height: 49vw;
+        background-position: bottom;
+    }
+
+    .txt-section-photo>.con>.info>.con::after {
+        background-image: url(https://ibighit.com/txt/images/txt/discography/minisode-2/pc/section-2-bg-bottom@2x.png);
+        background-size: contain;
+        bottom: -40vw;
+    }
+
+    .txt-section-teaser {
+        margin-top: 40vw;
+    }
+
+    .txt-section-teaser>.con>.info>.title {
+        margin-bottom: -2.5vw;
+        line-height: 1;
+    }
+
+    .txt-section-teaser>.con>.info>.con>.video {
+        max-width: 36.8vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-section-promotion>.con>.info {
+        height: 100vw;
+    }
+
+    .txt-section-promotion>.con>.info::before {
+        left: -8%;
+        top: -28%;
+    }
+
+    .txt-section-promotion>.con>.info>.title {
+        margin-bottom: -5.5vw;
+        z-index: 1;
+    }
+
+    .txt-section-promotion>.con>.info>.title>span {
+        display: inline-block;
+    }
+
+    .txt-section-promotion>.con::before {
+        height: 30vw;
+        margin-top: -30vw;
+    }
+
+    .txt-section-promotion>.con::after {
+        height: 30vw;
+        bottom: -29vw;
+    }
+
+    .txt-section-promotion>.con>.info>.calendar {
+        width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 947px;
+    }
+
+    /* 트랙 리스트 */
+    .txt-section-track {
+        max-width: none;
+        padding-top: 45vw;
+        padding-bottom: 20vw;
+    }
+
+    .txt-section-track>.con>.info>.con {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li {
+        padding: 10px 0;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item {
+        line-height: 1;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item>.num {
+        font-size: 100%;
+        width: 20px;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item>.name {
+        font-size: 100%;
+        padding-left: 30px;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item>.name>.time {
+        font-size: 100%;
+        padding-left: 5px;
+    }
+
+    /* 팝업 */
+    .txt-popup-photo>.con {
+        top: 6vw;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap {
+        width: 69vw;
+        max-width: none;
+        height: auto;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap>.swiper {
+        width: 100%;
+        height: 60vw;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-prev {
+        left: -10vw;
+        top: 50%;
+        width: 80px;
+        height: 90px;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-next {
+        right: -10vw;
+        top: 50%;
+        width: 80px;
+        height: 90px;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .txt-section-control>.con {
+        padding: 0;
+        max-width: 1080px;
+        margin-bottom: 50px;
+    }
+
+    .txt-section-control>.con>.btn-back {
+        display: inline-block;
+        position: relative;
+        width: 20px;
+        height: auto;
+    }
+
+    .txt-section .title {
+        font-size: 80px !important;
+    }
+
+    /* 커버 */
+    .txt-section-cover {
+        padding: 0;
+    }
+
+    .txt-section-cover>.con {
+        padding: 0 0;
+        max-width: 1080px;
+        padding-bottom: 10vw;
+    }
+
+    .txt-section-cover>.con>.intro>.info {
+        padding-left: 80px;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.name {
+        font-size: 50px;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.type {
+        font-size: 18px;
+    }
+
+    .txt-section-cover>.con>.intro>.info>.desc {
+        font-size: 17px;
+        line-height: 29px;
+        letter-spacing: -0.06em;
+    }
+
+    .txt-section-cover>.con>.video>.con>.pc-info>.txt-video-player-wrap {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 607px;
+    }
+
+    .minisode-2 .album-detail .bottom ul li .contents-sub {
+        font-size: 20px;
+    }
+
+    .minisode-2 .album-detail .album-video::before {
+        width: 1524px;
+        height: 931px;
+        position: absolute;
+        top: -160px;
+        left: -195px;
+    }
+
+    /* 컨셉포토 */
+    .txt-section-photo {
+        max-width: none;
+        margin-top: 30vw;
+    }
+
+    .txt-section-photo>.con {
+        max-width: none;
+    }
+
+    .txt-section-photo>.con>.info>.title {
+        margin-bottom: -35px;
+    }
+
+    .txt-section-photo>.con>.info>.con {
+        max-width: 530px;
+        min-height: 1085px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-section-photo>.con>.info>.con::before {
+        height: 40vw;
+        margin-top: -40vw;
+        background-size: cover;
+    }
+
+    .txt-section-photo>.con>.info>.con::after {
+        height: 40vw;
+        bottom: -40vw;
+        background-size: cover;
+    }
+
+    .txt-section-photo>.con>.info>.con>.txt-photo-wrap {
+        width: 530px;
+        height: 1085px;
+    }
+
+    .txt-section-teaser {
+        margin-top: 50vw;
+    }
+
+    .txt-section-teaser>.con>.info>.title {
+        margin-bottom: -30px;
+    }
+
+    .txt-section-teaser>.con>.info>.con>.video {
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .txt-section-promotion {
+        max-width: none;
+    }
+
+    .txt-section-promotion>.con::before {
+        height: 530px;
+        margin-top: -530px;
+    }
+
+    .txt-section-promotion>.con::after {
+        height: 530px;
+        bottom: -530px;
+    }
+
+    .txt-section-promotion>.con>.info {
+        height: 1320px;
+    }
+
+    .txt-section-promotion>.con>.info>.title {
+        margin-bottom: -30px;
+        line-height: 1;
+    }
+
+    .txt-section-promotion>.con>.info>.calendar {
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* 트랙리스트 */
+    .txt-section-track {
+        max-width: none;
+        padding-top: 45vw;
+        padding-bottom: 20vw;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item>.name {
+        padding-left: 40px;
+    }
+
+    .txt-section-track>.con>.info>.con>ul>li>.item>.name>.time {
+        font-size: 17px;
+    }
+
+    /* 팝업 */
+    .txt-popup-photo .btn-close {
+        width: 3.47vw;
+        height: 3.47vw;
+        margin-left: 0.35vw;
+    }
+
+    .txt-popup-photo .btn-down {
+        width: 3.47vw;
+        height: 3.47vw;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap>.swiper {
+        width: 994px;
+        height: 663px;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-prev {
+        left: -109px;
+    }
+
+    .txt-popup-photo>.con>.swiper-wrap .txt-pop-btn-next {
+        right: -109px;
+    }
+}

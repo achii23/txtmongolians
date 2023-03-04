@@ -1,0 +1,2139 @@
+/* 0102 반영 */
+.temptation.update-0102>.album-detail {
+    padding: 0;
+}
+
+.temptation.update-0102 .album-detail .concept_teaser.etc_wrap {
+    margin-top: 0;
+    padding-top: 150px;
+}
+
+/* 0108 반영 */
+.temptation.update-0108 .album-detail,
+.temptation.update-0109 .album-detail,
+.temptation.update-0111 .album-detail {
+    padding: 0;
+}
+
+.temptation.update-0120 .album-detail {
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.temptation.update-0108 .album-detail .etc_wrap.schedule,
+.temptation.update-0109 .album-detail .etc_wrap.schedule,
+.temptation.update-0111 .album-detail .etc_wrap.schedule {
+    padding-bottom: 300px;
+}
+
+.temptation.update-0108 .album-detail .btn-list span,
+.temptation.update-0109 .album-detail .btn-list span,
+.temptation.update-0111 .album-detail .btn-list span,
+.temptation.update-0120 .album-detail .btn-list span {
+    background-color: #fff;
+}
+
+.temptation.update-0108 .album-detail .btn-list span:after,
+.temptation.update-0109 .album-detail .btn-list span:after,
+.temptation.update-0111 .album-detail .btn-list span:after,
+.temptation.update-0120 .album-detail .btn-list span:after {
+    border-color: #fff;
+}
+
+/* .temptation.update-0120 .album-detail .song-list:before {
+    height: 807px;
+} */
+
+/* common */
+.pc {
+    display: block;
+}
+
+.mb {
+    display: none;
+}
+
+.wrapper.temptation {}
+
+.temptation>.album-detail {
+    background-color: #EDEDEA;
+}
+
+.temptation .album-detail .btn-list {
+    z-index: 2;
+}
+
+.temptation .album-detail .etc_wrap {
+    max-width: 100%;
+    margin-top: 164px;
+    position: relative;
+}
+
+.temptation .album-detail .etc_wrap .contents-obj {
+    position: relative;
+}
+
+.temptation .album-detail .album-desc .contents-title {
+    color: #000;
+    text-shadow: none;
+}
+
+/* 앨범 소개 */
+.temptation>.album-detail .album-desc .contents-desc {
+    word-break: break-all;
+}
+
+.temptation>.album-detail .album-desc .contents-desc i {
+    font-style: italic;
+}
+
+/* 앨범 비디오 */
+.temptation .album-detail .album-video {
+    padding-bottom: 100px;
+}
+
+.temptation .album-detail .btn-list span {
+    background-color: #272727;
+}
+
+.temptation .album-detail .btn-list span:after {
+    border-color: #272727;
+}
+
+.temptation .album-detail .album-video .contents-title {
+    color: #000;
+    margin-bottom: -25px;
+}
+
+.temptation .album-detail .album-video .slide-wrap {}
+
+.temptation .album-detail .album-video .contents-title>img {
+    width: 188px;
+}
+
+.temptation .album-detail .album-video .slide-wrap>ul {
+    overflow: visible;
+}
+
+.temptation .album-detail .album-video .slide-wrap>ul::before {
+    content: '';
+    background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-2-content-shadow.png');
+    background-position: center;
+    background-size: 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 1154px;
+    height: 630px;
+}
+
+.temptation .album-detail .bottom ul li button {
+    width: 300px;
+}
+
+.temptation .album-detail .album-video .bottom ul li.taller:nth-child(1) {
+    padding-top: 0;
+}
+
+.temptation .album-detail .album-video .bottom ul li.taller:nth-child(2) {
+    padding-top: inherit;
+}
+
+.temptation .album-detail .album-video .bottom ul li.taller.start {
+    padding-left: 100px;
+    padding-right: 0;
+}
+
+.temptation .album-detail .album-video .bottom ul li.taller.end {
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+.temptation .album-detail .bottom.rows ul::after {
+    top: 24%;
+}
+
+.temptation .album-detail .bottom.rows ul li:nth-child(4)::after {
+    top: 44%;
+}
+
+.temptation .album-detail .bottom.rows ul li:nth-child(5)::after {
+    top: 64%;
+}
+
+.temptation .album-detail .bottom.rows ul li:nth-child(6)::after {
+    top: 80%;
+}
+
+.temptation .album-detail .album-video:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-2-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2334px;
+    min-width: 100vw;
+    height: 1046px;
+    top: 250px;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.temptation .album-detail .album-video .bottom li .contents-sub {
+    color: #67A676;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.temptation .album-detail .album-video .bottom li .contents-sub:hover {
+    color: #EDEDEA;
+}
+
+.temptation .album-detail .album-video .bottom li.active .contents-sub {
+    color: #EDEDEA;
+}
+
+.temptation .album-detail .bottom.rows ul::after {
+    background: none;
+}
+
+/* Photo */
+.temptation .album-detail .album-photo {
+    background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-3-texture-bg.png');
+    background-size: cover;
+    padding-bottom: 497px;
+}
+
+.temptation .album-detail .album-photo:before {
+    content: '';
+    background-color: #161E11;
+    position: absolute;
+    width: 100%;
+    height: 397px;
+    top: -169px;
+    left: 0;
+    z-index: 0;
+}
+
+.temptation .album-detail .album-photo>.contents-title {
+    z-index: 6;
+    margin-bottom: -25px;
+}
+
+.temptation .album-detail .album-photo>.contents-title>img {
+    width: 207px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj {
+    display: block;
+    position: relative;
+    height: 605px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 {
+    position: absolute;
+    width: 1068px;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 5;
+    /* background-color: #000; */
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1::before {
+    content: '';
+    position: absolute;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-3-content-shadow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 107%;
+    height: 115%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 .video {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video {
+    width: 1068px;
+
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 .video>video {
+    width: 100%;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 .video>.button-wrap {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* Test color */
+    /* background-color: rgba(155, 155, 0, 0.5); */
+    z-index: 1;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 .video>.button-wrap>.btn {
+    position: absolute;
+    /* Test color */
+    /* background-color: rgba(0, 155, 155, 0.5); */
+    cursor: pointer;
+    z-index: 2;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-dream {
+    left: 190px;
+    top: 160px;
+    width: 140px;
+    height: 255px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-nightmare {
+    left: 370px;
+    top: 160px;
+    width: 140px;
+    height: 255px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-farewell {
+    left: 560px;
+    top: 160px;
+    width: 140px;
+    height: 255px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-lullaby {
+    left: 740px;
+    top: 160px;
+    width: 140px;
+    height: 255px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 {
+    display: block;
+    visibility: hidden;
+    position: relative;
+    width: 410px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* Test color */
+    /* background-color: #000; */
+    line-height: 0;
+}
+
+/* .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2::before {
+    content: '';
+    position: absolute;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-3-content-shadow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 105%;
+    height: 115%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 500ms ease;
+    -webkit-transition: opacity 500ms ease;
+    -moz-transition: opacity 500ms ease;
+    -ms-transition: opacity 500ms ease;
+    -o-transition: opacity 500ms ease;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2.shadow::before {
+    opacity: 1;
+    transition: opacity 500ms ease 5000ms;
+    -webkit-transition: opacity 500ms ease 5000ms;
+    -moz-transition: opacity 500ms ease 5000ms;
+    -ms-transition: opacity 500ms ease 5000ms;
+    -o-transition: opacity 500ms ease 5000ms;
+} */
+
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2>.btn-close {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2>.btn-close>img {
+    width: 100%;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>video {
+    width: 100%;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn {
+    position: absolute;
+    /* Test color */
+    /* background-color: rgba(0, 155, 155, 0.5); */
+    cursor: pointer;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-soobin {
+    top: 175px;
+    left: 85px;
+    width: 70px;
+    height: 75px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-yeonjun {
+    top: 175px;
+    left: 240px;
+    width: 70px;
+    height: 75px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-beomgyu {
+    top: 265px;
+    left: 135px;
+    width: 85px;
+    height: 80px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-hueningkai {
+    top: 265px;
+    left: 220px;
+    width: 85px;
+    height: 80px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-taehyun {
+    top: 355px;
+    left: 155px;
+    width: 75px;
+    height: 90px;
+}
+
+.temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-group {
+    top: 355px;
+    left: 230px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Concept photo popup */
+.temptation .album-detail .album-photo .popup-photo {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 730px;
+    z-index: 110;
+    display: none;
+    opacity: 0;
+}
+
+.temptation .album-detail .album-photo .popup-photo ul {
+    position: relative;
+    width: 100%;
+    max-width: 994px;
+    height: 663px;
+    margin: 0 auto;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: none;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li.active {
+    display: block;
+    opacity: 1;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li ul {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li ul.active {
+    opacity: 1;
+    display: block;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li li {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-left: 100%;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li li:first-child {
+    margin-left: 0;
+    position: relative;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li div {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li img {
+    display: block;
+    width: auto;
+    max-width: 994px;
+    margin: auto;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li video {
+    display: block;
+    width: 100%;
+    max-width: 994px;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li video.video_vertical {
+    width: auto;
+    margin: auto;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li .v_cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.temptation .album-detail .album-photo .popup-photo>ul>li .w442 {
+    padding: 0 275px;
+}
+
+.temptation .album-detail .album-photo .popup-photo .popup-btn {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: right;
+}
+
+.temptation .album-detail .album-photo .popup-photo .btn-down {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .album-photo .popup-photo .btn-down:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop_hover.png');
+}
+
+.temptation .album-detail .album-photo .popup-photo .btn-close {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop.png');
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.temptation .album-detail .album-photo .popup-photo .btn-close:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop_hover.png');
+}
+
+.temptation .album-detail .album-photo .popup-photo .pop-btn-prev {
+    position: absolute;
+    left: -109px;
+    top: 50%;
+    width: 80px;
+    height: 90px;
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .album-photo .popup-photo .pop-btn-prev:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');
+}
+
+.temptation .album-detail .album-photo .popup-photo .pop-btn-next {
+    position: absolute;
+    right: -109px;
+    top: 50%;
+    width: 80px;
+    height: 90px;
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .album-photo .popup-photo .pop-btn-next:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');
+}
+
+.device .temptation .album-detail .album-photo .popup-photo .btn-down:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop.png');
+}
+
+.device .temptation .album-detail .album-photo .popup-photo .btn-close:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop.png');
+}
+
+.device .temptation .album-detail .album-photo .popup-photo .pop-btn-prev:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');
+}
+
+.device .temptation .album-detail .album-photo .popup-photo .pop-btn-next:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');
+}
+
+/* Concept Teaser */
+.temptation .album-detail .concept_teaser {
+    max-width: 100%;
+    position: relative;
+    background-color: #3F5D41;
+}
+
+.temptation .album-detail .concept_teaser:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-2-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 2334px;
+    height: 1046px;
+    min-width: 100vw;
+    top: -183px;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%) rotate(180deg);
+    -webkit-transform: translateX(-50%) rotate(180deg);
+    -moz-transform: translateX(-50%) rotate(180deg);
+    -ms-transform: translateX(-50%) rotate(180deg);
+    -o-transform: translateX(-50%) rotate(180deg);
+}
+
+.temptation .album-detail .concept_teaser.etc_wrap {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 140px;
+    margin-top: 0;
+}
+
+.temptation .album-detail .concept_teaser .contents-title {
+    z-index: 2;
+    margin-bottom: -25px;
+}
+
+.temptation .album-detail .concept_teaser .contents-title>img {
+    width: 546px;
+}
+
+.temptation .album-detail .concept_teaser .etc_inner {
+    position: relative;
+    width: 534px;
+    height: 951px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.temptation .album-detail .concept_teaser .contents-obj {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+    /* height: auto; */
+    margin: auto;
+}
+
+.temptation .album-detail .concept_teaser .contents-obj::before {
+    content: '';
+    background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-4-content-shadow.png');
+    background-position: center;
+    background-size: 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 612px;
+    height: 1026px;
+}
+
+.temptation .album-detail .concept_teaser .contents-obj .video-wrap {
+    width: 100%;
+    height: 100%;
+    padding-top: 100%;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.temptation .album-detail .concept_teaser .contents-obj .video-wrap #myVideo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.temptation .album-detail .concept_teaser .contents-obj .video-wrap .play_btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: url('https://ibighit.com/txt/images/txt/discography/temptation/btn-play.png') no-repeat center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.temptation .album-detail .concept_teaser .contents-obj .video-wrap .play_btn {
+    width: 100%;
+    height: 100%;
+    background: #000 url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-4-content.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-indent: -99999999px;
+}
+
+/* Schedule */
+.temptation .album-detail .etc_wrap.schedule {
+    padding-bottom: 600px;
+    padding-top: 310px;
+    background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-3-texture-bg.png');
+    background-size: cover;
+    margin-top: 0;
+}
+
+.temptation .album-detail .schedule .contents-title {
+    z-index: 2;
+    margin-bottom: -25px;
+}
+
+.temptation .album-detail .schedule .contents-title>img {
+    width: 767px;
+}
+
+.temptation .album-detail .schedule .contents-obj .video {
+    width: 1058px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.temptation .album-detail .schedule .contents-obj .video>video {
+    width: 100%;
+}
+
+.temptation .album-detail .schedule .contents-obj::before {
+    content: '';
+    background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/pc-section-5-content-shadow.png');
+    background-position: center;
+    background-size: 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 1129px;
+    height: 610px;
+}
+
+/* Track */
+.temptation .album-detail .song-list {
+    margin-top: -400px;
+}
+
+.temptation .album-detail .song-list:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-2-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 2334px;
+    height: 930px;
+    min-width: 100vw;
+    top: 400px;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.temptation .album-detail .song-list .contents-title {
+    z-index: 2;
+    margin-bottom: -25px;
+}
+
+.temptation .album-detail .song-list .contents-title>img {
+    width: 207px;
+}
+
+.temptation .album-detail .song-list .etc_inner {
+    position: relative;
+    z-index: 1;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj {}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap {
+    position: relative;
+    width: 534px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap::before {
+    content: '';
+    background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-6-content-shadow.png);
+    background-position: center;
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 612px;
+    height: 910px;
+    background-repeat: no-repeat;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap video {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    /* background-color: rgba(20, 30, 10, 0.5); */
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-1 {
+    left: 94px;
+    top: 220px;
+    width: 380px;
+    height: 90px;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-2 {
+    left: 94px;
+    top: 310px;
+    width: 380px;
+    height: 90px;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-3 {
+    left: 94px;
+    top: 395px;
+    width: 380px;
+    height: 90px;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-4 {
+    left: 94px;
+    top: 485px;
+    width: 380px;
+    height: 90px;
+}
+
+.temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-5 {
+    left: 94px;
+    top: 575px;
+    width: 380px;
+    height: 90px;
+}
+
+/* TrackList video popup */
+.temptation .album-detail .song-list .popup-video {
+    display: none;
+    position: fixed;
+    padding: 80px 0 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 110;
+    box-sizing: border-box;
+}
+
+.temptation .album-detail .song-list .popup-video>ul {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.temptation .album-detail .song-list .popup-video>ul>li {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.temptation .album-detail .song-list .popup-video>ul>li.active {
+    display: flex;
+    opacity: 1;
+}
+
+.temptation .album-detail .song-list .popup-video>ul>li .contents-obj {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    opacity: 1;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.temptation .album-detail .song-list .popup-video>ul>li .contents-obj>.video-wrap {
+    position: absolute;
+    padding: 0;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.temptation .album-detail .song-list .popup-video>ul>li .contents-obj video {
+    display: block;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.temptation .album-detail .song-list .popup-video .popup-btn {
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    text-align: right;
+    z-index: 100;
+    padding: 0 50px;
+}
+
+.temptation .album-detail .song-list .popup-video .btn-down {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .song-list .popup-video .btn-down:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop_hover.png');
+}
+
+.temptation .album-detail .song-list .popup-video .btn-close {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop.png');
+    background-size: cover;
+    margin-left: 5px;
+}
+
+.temptation .album-detail .song-list .popup-video .btn-close:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop_hover.png');
+}
+
+.temptation .album-detail .song-list .popup-video .pop-btn-prev {
+    position: absolute;
+    left: -109px;
+    top: 50%;
+    width: 80px;
+    height: 90px;
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .song-list .popup-video .pop-btn-prev:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo_hover_blue.png');
+}
+
+.temptation .album-detail .song-list .popup-video .pop-btn-next {
+    position: absolute;
+    right: -109px;
+    top: 50%;
+    width: 80px;
+    height: 90px;
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');
+    background-size: cover;
+}
+
+.temptation .album-detail .song-list .popup-video .pop-btn-next:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo_hover_blue.png');
+}
+
+.device .temptation .album-detail .song-list .popup-video .btn-down:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_down_pop.png');
+}
+
+.device .temptation .album-detail .song-list .popup-video .btn-close:hover {
+    background-image: url('https://ibighit.com/txt/images/btn_close_pop.png');
+}
+
+.device .temptation .album-detail .song-list .popup-video .pop-btn-prev:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');
+}
+
+.device .temptation .album-detail .song-list .popup-video .pop-btn-next:hover {
+    background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .temptation .album-detail .bottom ul li button {
+        width: 20.83vw;
+    }
+
+    .temptation .album-detail .album-video .bottom ul li.taller.start {
+        padding-left: 6.94vw;
+        padding-right: 0;
+    }
+
+    .temptation .album-detail .album-video .bottom ul li.taller.end {
+        padding-right: 6.94vw;
+        padding-left: 0;
+    }
+
+    .temptation .album-detail .album-video .bottom li .contents-sub {
+        font-size: 1.38vw;
+    }
+
+    /* Video */
+    .temptation .album-detail .album-video:before {
+        width: 162vw;
+        height: 72.63vw;
+        top: 17.36vw;
+    }
+
+    .temptation .album-detail .album-video .contents-title {
+        margin-bottom: -2vw;
+    }
+
+    .temptation .album-detail .album-video .contents-title>img {
+        width: 13.5vw;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap>ul::before {
+        width: 80.1vw;
+        height: 43.75vw;
+    }
+
+    /* Photo */
+    .temptation .album-detail .album-photo>.contents-obj {
+        display: block;
+        position: relative;
+        height: 42vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 {
+        width: 74.16vw;
+        /* height: 52.19vw; */
+    }
+
+    .temptation .album-detail .album-photo>.contents-title {
+        margin-bottom: -2vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-title>img {
+        width: 14.375vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1::before {
+        width: 108%;
+        height: 115%;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video {
+        width: 74.16vw;
+
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-dream {
+        left: 13.19vw;
+        top: 11.11vw;
+        width: 9.72vw;
+        height: 17.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-nightmare {
+        left: 25.69vw;
+        top: 11.11vw;
+        width: 9.72vw;
+        height: 17.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-farewell {
+        left: 38.88vw;
+        top: 11.11vw;
+        width: 9.72vw;
+        height: 17.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.pc>.video>.button-wrap>.btn-lullaby {
+        left: 51.38vw;
+        top: 11.11vw;
+        width: 9.72vw;
+        height: 17.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 {
+        width: 28.47vw;
+        /* height: 52.19vw; */
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2>.btn-close {
+        width: 4vw;
+        right: 1vw;
+        top: 1vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video {
+        width: 27.77vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2::before {
+        width: 105.5%;
+        height: 114%;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-soobin {
+        top: 12vw;
+        left: 6vw;
+        width: 5vw;
+        height: 5.5vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-yeonjun {
+        top: 12vw;
+        left: 16vw;
+        width: 6vw;
+        height: 5.5vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-beomgyu {
+        top: 18vw;
+        left: 9.5vw;
+        width: 5.5vw;
+        height: 6vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-hueningkai {
+        top: 18vw;
+        left: 15vw;
+        width: 6.5vw;
+        height: 6vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-taehyun {
+        top: 24vw;
+        left: 11vw;
+        width: 4.94vw;
+        height: 7.5vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-group {
+        top: 24vw;
+        left: 16vw;
+        width: 6.5vw;
+        height: 7.5vw;
+    }
+
+
+    /* Popup Photo */
+    .temptation .album-detail .album-photo {
+        padding-bottom: 30.6vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo {
+        top: 4.17vw;
+        left: 0;
+        width: 100%;
+        height: 50.69vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo ul {
+        width: 69vw;
+        height: 46.04vw;
+        margin: 0 auto;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li ul {
+        top: 3.82vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li .w442 {
+        padding: 0 19.13vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li video {
+        max-width: 69.0278vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-down {
+        width: 3.47vw;
+        height: 3.47vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-close {
+        width: 3.47vw;
+        height: 3.47vw;
+        margin-left: 0.35vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-prev {
+        left: -7.57vw;
+        top: 50%;
+        width: 5.56vw;
+        height: 6.25vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-next {
+        right: -7.57vw;
+        top: 50%;
+        width: 5.56vw;
+        height: 6.25vw;
+    }
+
+    /* Concept Teaser */
+    .temptation .album-detail .concept_teaser .contents-title {
+        margin-bottom: -2vw;
+    }
+
+    .temptation .album-detail .concept_teaser.etc_wrap {
+        /* margin-top: 18.05vw; */
+        padding-bottom: 9.72vw;
+    }
+
+    .temptation .album-detail .concept_teaser:before {
+        width: 162vw;
+        height: 72.63vw;
+        top: -12.7vw;
+    }
+
+    .temptation .album-detail .concept_teaser .contents-obj::before {
+        width: 42.5vw;
+        height: 71.25vw;
+    }
+
+    .temptation .album-detail .concept_teaser .contents-title>img {
+        width: 37.91vw;
+    }
+
+    .temptation .album-detail .concept_teaser .etc_inner {
+        width: 37vw;
+        height: 66vw;
+        margin: 0 auto;
+    }
+
+    /* Schedule */
+    .temptation .album-detail .etc_wrap.schedule {
+        padding-bottom: 41.6vw;
+        padding-top: 20vw;
+    }
+
+    .temptation .album-detail .schedule .contents-title {
+        margin-bottom: -2vw;
+    }
+
+    .temptation .album-detail .schedule .contents-title>img {
+        width: 53.26vw;
+    }
+
+    /* .temptation .album-detail .schedule .contents-obj img {
+        width: 73.47vw;
+        margin: -1.25vw auto;
+    } */
+
+    .temptation .album-detail .schedule .contents-obj .video {
+        width: 73.47vw;
+
+    }
+
+    .temptation .album-detail .schedule .contents-obj::before {
+        width: 78.47vw;
+        height: 42.36vw;
+    }
+
+    /* Track List */
+    .temptation .album-detail .song-list {
+        margin-top: -27.7vw;
+    }
+
+    .temptation .album-detail .song-list:before {
+        width: 162vw;
+        height: 65vw;
+        top: 27.77vw;
+    }
+
+    .temptation .album-detail .song-list .contents-title {
+        margin-bottom: -2vw;
+    }
+
+    .temptation .album-detail .song-list .contents-title>img {
+        width: 14.7vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj::before {
+        width: 42.5vw;
+        height: 71.25vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj img {
+        width: 37vw;
+    }
+
+
+    /* TrackList  */
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap {
+        width: 37.08vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap::before {
+        width: 42.5vw;
+        height: 63.19vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-1 {
+
+        left: 6.52vw;
+        top: 15.27vw;
+        width: 26.38vw;
+        height: 6.25vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-2 {
+        left: 6.52vw;
+        top: 21.52vw;
+        width: 26.38vw;
+        height: 6.25vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-3 {
+        left: 6.52vw;
+        top: 27.43vw;
+        width: 26.38vw;
+        height: 6.25vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-4 {
+        left: 6.52vw;
+        top: 33.68vw;
+        width: 26.38vw;
+        height: 6.25vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-5 {
+        left: 6.52vw;
+        top: 39.93vw;
+        width: 26.38vw;
+        height: 6.25vw;
+    }
+
+    /* Popup */
+    .temptation .album-detail .song-list .popup-video>ul {
+        /* width: 41.6vw; */
+    }
+
+    .temptation .album-detail .song-list .popup-video .btn-down {
+        width: 3.47vw;
+        height: 3.47vw;
+    }
+
+    .temptation .album-detail .song-list .popup-video .btn-close {
+        width: 3.47vw;
+        height: 3.47vw;
+        margin-left: 0.35vw;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    /* .temptation .album-detail .album-video .bottom ul li.taller.start {
+        padding-left: 13.97vw;
+    }
+
+    .temptation .album-detail .album-video .bottom ul li.taller.end {
+        padding-right: 13.97vw;
+    }
+
+    .temptation .album-detail .album-video .contents-sub,
+    .temptation .album-detail .album-video .bottom .contents-sub.kor {
+        font-size: 1.11vw;
+        line-height: 1.25vw;
+    } */
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* .temptation .album-detail .bottom.rows ul li.start,
+    .safari .temptation .album-detail .bottom.rows ul li.start {
+        padding-left: 9.67vw;
+    }
+
+    .temptation .album-detail .bottom.rows ul li.end,
+    .safari .temptation .album-detail .bottom.rows ul li.end {
+        padding-right: 9.67vw;
+    }
+
+    .temptation .album-detail .bottom.rows ul li:nth-child(1) {
+        padding-left: 2.08vw;
+    }
+
+    .temptation .album-detail .album-video .bottom ul li.taller:nth-child(2) {
+        padding-right: 2.08vw;
+    } */
+}
+
+@media screen and (max-width: 830px) {
+
+    .temptation .album-detail .album-video .contents-sub,
+    .temptation .album-detail .album-video .bottom .contents-sub.kor {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .temptation.safari .album-detail .album-video .contents-sub,
+    .temptation.safari .album-detail .album-video .bottom .contents-sub.kor {
+        font-size: 9.3px;
+        line-height: 11px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .temptation.update-0108 .album-detail .btn-list,
+    .temptation.update-0109 .album-detail .btn-list,
+    .temptation.update-0111 .album-detail .btn-list,
+    .temptation.update-0120 .album-detail .btn-list {
+        background-image: url('https://ibighit.com/txt/images/txt/btn-list.png');
+    }
+
+    .temptation.update-0108 .album-detail .album-photo,
+    .temptation.update-0109 .album-detail .album-photo,
+    .temptation.update-0111 .album-detail .album-photo,
+    .temptation.update-0120 .album-detail .album-photo {
+        margin-top: 24vw;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .mb {
+        display: block;
+    }
+
+    /* Video */
+    .temptation .album-detail .album-video {
+        padding: 0;
+    }
+
+    .temptation.update-0123 .album-detail .album-video,
+    .temptation.update-0125 .album-detail .album-video,
+    .temptation.update-0126 .album-detail .album-video {
+        margin-top: 0;
+    }
+
+
+    .temptation .album-detail .album-video .contents-title {
+        margin-bottom: 0;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap>ul {
+        width: 90vw;
+    }
+
+    .temptation .album-detail .album-video:before {
+        width: 102vw;
+        height: 100%;
+        top: 26vw;
+        background-repeat: repeat;
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-2-bg.png');
+        background-size: 100vw 850vw;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap>ul::before {
+        display: none;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap>ul>li .contents-obj {
+        height: 50.5vw;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap>ul>li .btn-play:before {
+        content: '';
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-2-content-shadow.png');
+        background-position: center;
+        background-size: 100%;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        width: 96vw;
+        height: 59.2vw;
+        background-repeat: no-repeat;
+    }
+
+    .temptation .album-detail .album-video .contents-title>img {
+        width: 20.8vw;
+    }
+
+    .temptation .album-detail .album-video .contents-sub {
+        color: #67A676;
+    }
+
+    /* Concept photo */
+    .temptation .album-detail .album-photo {
+        margin-top: 24vw;
+        padding-bottom: 41.6vw;
+        background-size: auto;
+    }
+
+    .temptation .album-detail .album-photo:before {
+        height: 93.56vw;
+        top: -11.73vw;
+    }
+
+    .temptation .album-detail .album-photo .contents-title {
+        z-index: 10;
+        margin-bottom: -3vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-title>img {
+        width: 22.93vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj {
+        height: 135vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1 {
+        width: 90vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1::before {
+        width: 108%;
+        height: 116%;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.mb>.video {
+        width: 91vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.mb>.video>.button-wrap>.btn-dream {
+        left: 6.19vw;
+        top: 21.11vw;
+        width: 19.72vw;
+        height: 40.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.mb>.video>.button-wrap>.btn-nightmare {
+        left: 34.69vw;
+        top: 21.11vw;
+        width: 21.72vw;
+        height: 40.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.mb>.video>.button-wrap>.btn-farewell {
+        left: 62.88vw;
+        top: 21.11vw;
+        width: 21.72vw;
+        height: 40.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-1>.mb>.video>.button-wrap>.btn-lullaby {
+        left: 34.38vw;
+        top: 75.11vw;
+        width: 21.72vw;
+        height: 40.7vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 {
+        width: 90vw;
+        height: 135vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video {
+        width: 90vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-soobin {
+        top: 38.93vw;
+        left: 19.29vw;
+        width: 15.55vw;
+        height: 16.94vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-yeonjun {
+        top: 38.93vw;
+        left: 51.83vw;
+        width: 18.55vw;
+        height: 16.94vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-beomgyu {
+        top: 58.91vw;
+        left: 29.8vw;
+        width: 18.94vw;
+        height: 16.94vw;
+
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-hueningkai {
+        top: 58.91vw;
+        left: 49.44vw;
+        width: 19.94vw;
+        height: 16.94vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-taehyun {
+        top: 77.9vw;
+        left: 34.19vw;
+        width: 16.94vw;
+        height: 24.63vw;
+    }
+
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2 .video>.button-wrap>.btn-group {
+        top: 77.9vw;
+        left: 53.19vw;
+        width: 16.94vw;
+        height: 24.63vw;
+    }
+
+    /* Popup Photo */
+    .temptation .album-detail .album-photo>.contents-obj>.video-wrap-2>.btn-close {
+        top: 1vw;
+        right: 1vw;
+        width: 8.6vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo ul {
+        width: 100%;
+        height: auto;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li ul {
+        position: relative;
+        top: 0;
+        height: 66.7969vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-down {
+        width: 10.9375vw;
+        height: 10.9375vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-close {
+        width: 10.9375vw;
+        height: 10.9375vw;
+        margin: 0 2.864vw 0 1.953vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-prev {
+        left: 0;
+        width: 11.11vw;
+        height: 12.5vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-next {
+        right: 0;
+        width: 11.11vw;
+        height: 12.5vw;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .btn-prev {
+        top: 50%;
+        margin-top: -16.25vw;
+        min-height: auto;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .btn-next {
+        top: 50%;
+        margin-top: -16.25vw;
+        min-height: auto;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .click_hh>li .mix li .contents-obj.portrait .contents-inner {
+        max-width: 72.9167vw;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .click_hh>li .mix li .contents-obj.portrait .contents-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .click_hh>li ul.mix {
+        height: 129.427vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li video.video_vertical {
+        width: 100%;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li video {
+        max-width: 768px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .popup-btn {
+        margin-bottom: 2.604vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li>div:not(.popup-btn) {
+        position: absolute;
+        top: auto;
+        left: 0px;
+        bottom: 0px;
+        height: 66.7969vw
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .pop-btn-prev {
+        left: 1.1719vw;
+        width: 10.4167vw;
+        height: 11.718vw;
+        margin-top: -5.859vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .pop-btn-next {
+        right: 1.1719vw;
+        width: 10.4167vw;
+        height: 11.718vw;
+        margin-top: -5.859vw;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li .w442 {
+        padding: 0 27.734vw;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap .slide_video li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-left: 100%;
+    }
+
+    .temptation .album-detail .album-video .slide-wrap .slide_video li.default {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+    }
+
+    /* Concept Teaser */
+    .temptation .album-detail .concept_teaser .contents-title {
+        margin-bottom: -3vw;
+    }
+
+    .temptation .album-detail .concept_teaser.etc_wrap {
+        padding-bottom: 25vw;
+    }
+
+    .temptation .album-detail .concept_teaser:before {
+        background-repeat: repeat;
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-2-bg.png');
+        height: 166vw;
+    }
+
+    .temptation .album-detail .concept_teaser .contents-title>img {
+        width: 60.8vw;
+    }
+
+    .temptation .album-detail .concept_teaser .contents-obj {
+        margin-top: 0;
+    }
+
+    .temptation .album-detail .concept_teaser .contents-obj::before {
+        width: 100vw;
+        height: 167.4vw;
+    }
+
+    .temptation .album-detail .concept_teaser .etc_inner {
+        width: 87.2vw;
+        height: 154.9vw;
+    }
+
+
+    .temptation .album-detail .btn-list {
+        background-image: url('https://ibighit.com/txt/images/txt/btn-list-b.png');
+    }
+
+    .temptation.safari .album-detail .album-video .contents-sub,
+    .temptation.safari .album-detail .album-video .bottom .contents-sub.kor,
+    .temptation .album-detail .album-video .contents-sub,
+    .temptation .album-detail .album-video .bottom .contents-sub.kor {
+        font-size: 3.61vw;
+        line-height: 3.81vw;
+    }
+
+    .temptation .album-detail .album-video .contents-sub {
+        text-transform: none;
+        line-height: 1.3;
+    }
+
+    /* Schedule */
+    .temptation .album-detail .schedule .contents-title {
+        margin-bottom: -3vw;
+    }
+
+    .temptation .album-detail .etc_wrap.schedule {
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-5-bg.png');
+        margin-top: 0;
+        padding-top: 25vw;
+        padding-bottom: 80vw;
+    }
+
+    .temptation .album-detail .schedule .contents-obj::before {
+        width: 100vw;
+        height: 167.4vw;
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-5-content-shadow.png');
+    }
+
+    .temptation .album-detail .schedule .contents-title>img {
+        width: 85.3vw;
+    }
+
+    .temptation .album-detail .schedule .contents-obj>.video {
+        width: 87.2vw;
+    }
+
+    /*  */
+    .temptation .album-detail .song-list {
+        padding: 0;
+        margin-bottom: 27vw;
+        margin-top: -50vw;
+    }
+
+    .temptation .album-detail .song-list:before {
+        background-image: url(https://ibighit.com/txt/images/txt/discography/temptation/pc-section-2-bg.png);
+        width: 102vw;
+        height: 160vw;
+        top: 50vw;
+    }
+
+    .temptation .album-detail .song-list .contents-title {
+        padding-right: 0;
+        margin-bottom: -3vw;
+
+    }
+
+    .temptation .album-detail .song-list .contents-title>img {
+        width: 26.9vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj::before {
+        background-image: url('https://ibighit.com/txt/images/txt/discography/temptation/m-section-6-content-shadow.png');
+        width: 100vw;
+        height: 167.46vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj img {
+        width: 87.2vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner {}
+
+    /* TrackList  */
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap {
+        width: 87.2vw;
+        box-sizing: border-box;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap::before {
+        width: 98.5vw;
+        height: 148.19vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-1 {
+        left: 15vw;
+        top: 37vw;
+        width: 63vw;
+        height: 14vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-2 {
+        left: 15vw;
+        top: 52vw;
+        width: 63vw;
+        height: 14vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-3 {
+        left: 15vw;
+        top: 67vw;
+        width: 63vw;
+        height: 14vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-4 {
+        left: 15vw;
+        top: 81vw;
+        width: 63vw;
+        height: 14vw;
+    }
+
+    .temptation .album-detail .song-list .etc_inner .contents-obj .video-wrap>.button-wrap>.btn-track-5 {
+        left: 15vw;
+        top: 95vw;
+        width: 63vw;
+        height: 14vw;
+    }
+
+    /* Video Popup */
+    .temptation .album-detail .song-list .popup-video {
+        padding-top: 14vw;
+    }
+
+    .temptation .album-detail .song-list .popup-video>ul {
+        /* width: 85vw; */
+    }
+
+    .temptation .album-detail .song-list .popup-video>ul>li {
+        padding-bottom: 0;
+    }
+
+    .temptation .album-detail .song-list .popup-video .popup-btn {
+        padding-right: 0;
+    }
+
+    .temptation .album-detail .song-list .popup-video .btn-down {
+        width: 10.9375vw;
+        height: 10.9375vw;
+    }
+
+    .temptation .album-detail .song-list .popup-video .btn-close {
+        width: 10.9375vw;
+        height: 10.9375vw;
+        margin: 0 2.864vw 0 1.953vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .temptation.safari .album-detail .album-video .contents-sub,
+    .temptation.safari .album-detail .album-video .bottom .contents-sub.kor,
+    .temptation .album-detail .album-video .contents-sub,
+    .temptation .album-detail .album-video .bottom .contents-sub.kor {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    /*all*/
+    .temptation .album-detail .album-photo .popup-photo ul {
+        width: 100%;
+        height: 192px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li ul {
+        height: 213.75px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo>ul>li>div:not(.popup-btn) {
+        height: 213.75px;
+        top: 47px;
+        bottom: auto;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-down {
+        width: 33.33px;
+        height: 33.33px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-close {
+        width: 33.33px;
+        height: 33.33px;
+        margin: 0 9.16px 0 6.25px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-prev {
+        left: 0;
+        width: 36px;
+        height: 40px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .btn-next {
+        right: 0;
+        width: 36px;
+        height: 40px;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap>ul>li .mix li .contents-obj.portrait .contents-inner {
+        max-width: 233.333px;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap>ul>li ul.mix {
+        height: 414.1667px;
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .btn-prev {
+        top: 50%;
+        margin-top: -52px
+    }
+
+    .temptation .album-detail .album-photo .slide-wrap .btn-next {
+        top: 50%;
+        margin-top: -52px
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .popup-btn {
+        margin-bottom: 8.333px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .pop-btn-prev {
+        left: 3.75px;
+        width: 33.33px;
+        height: 37.5px;
+        margin-top: -18.75px;
+    }
+
+    .temptation .album-detail .album-photo .popup-photo .pop-btn-next {
+        right: 3.75px;
+        width: 33.33px;
+        height: 37.5px;
+        margin-top: -18.75px;
+    }
+}

@@ -1,0 +1,377 @@
+@charset "utf-8"; 
+
+footer {margin-top: -1px;}
+
+.album-list {width: 100%; max-width: 1440px; margin: 0 auto; padding: 157px 180px 131px;}
+.album-list > * {max-width: 1440px; margin: 0 auto;}
+.album-list .contents-title {z-index: 1; position: relative; font-size: 90px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); text-align: center;}
+.album-list ul {overflow: hidden; margin-top: -32px;}
+.mac-os .album-list ul {margin-top: -39px;}
+.album-list li {float: left; width: 32.13%; margin-right: 1.805%; margin-bottom: 1.805%;}
+.album-list li:nth-child(3n) {margin-right: 0;}
+.album-list li a {position: relative; display: block; width: 100%; height: 100%;}
+.album-list li .info_box {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 20px; background: rgba(0, 0, 0, 0.7); font-family: 'NotoSansCJKkr-M'; font-size: 20px; line-height: 20px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.44); text-align: center;}
+.album-list li a:focus .info_box, .album-list li a:hover .info_box {display: block;}
+.device .album-list li a:focus .info_box, .device .album-list li a:hover .info_box {display: none;}
+.album-list li .info_box p {margin-bottom: 12px; font-size: 13px;}
+.InternetExplorer .album-list .contents-title {top: 0.03em;}
+
+.album-detail {padding: 175px 0 170px;}
+.album-detail > * {max-width: 1440px; margin: 0 auto;}
+.album-detail .btn-list {position: absolute; top: 90px; left: 50%; transform: translateX(-24px); display: block; width: 70px; height: 70px; margin-left: -540px;}
+.album-detail .btn-list span {position: absolute; top: 0; left: 0; display: block; width: 20px; height: 2px; margin-left: 26px; margin-top: 34px; background: #fff;}
+.album-detail .btn-list span::after {content: ''; display: block; position: absolute; top: 50%; left: 0; transform: rotate(45deg); width: 8px; height: 8px; margin-top: -5px; border: 2px solid #fff; border-width: 0px 0px 2px 2px;}
+.album-detail .btn-list.dark span {background: #272727;}
+.album-detail .btn-list.dark span::after {border-color: #272727;}
+.album-detail .contents-title {position: relative; font-size: 80px; line-height: 70px; letter-spacing: -0.01em; color: #fff; text-align: center; text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); z-index: 1;}
+.album-detail .contents-sub {font-family: 'Camber-Sb'; font-size: 16px; line-height: 18px; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); text-transform: uppercase;}
+.album-detail .contents-sub.kor {font-family: 'NotoSansCJKkr-B'; font-size: 14px; letter-spacing: -0.03em;}
+.album-detail .slide-wrap {margin-top: -15px;}
+.mac-os .album-detail .slide-wrap, .device .album-detail .slide-wrap {margin-top: -22px;}
+.InternetExplorer .album-detail .slide-wrap {margin-top: -18px;}
+.album-detail .slide-wrap > ul > li .contents-sub {display: none;}
+.album-detail .album-desc {display: table; padding: 0 180px 160px;}
+.album-detail .album-desc .contents-obj {padding: 5px 0;}
+.album-detail .album-desc .contents-obj.shadow img {box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.25);}
+.album-detail .album-desc .contents {padding-left: 65px;}
+.album-detail .album-desc .contents-sort {line-height: 25px; margin-bottom: 14px; padding-left: 2px;}
+.album-detail .album-desc .contents-title {margin-bottom: 25px; font-size: 70px; line-height: 62px; text-align: left;}
+.album-detail .album-desc .contents-title.kor {margin-bottom: 32px; font-family: 'NotoSansCJKkr-B'; font-size: 57px; letter-spacing: -0.01em;}
+.album-detail .album-desc .contents-desc {padding-left: 8px; text-align:justify;}
+.album-detail .album-video {max-width:100%;}
+.album-detail .album-video .slide-wrap > ul {overflow: hidden; position: relative; width: 100%; max-width: 1080px; margin:0 auto;}
+.album-detail .album-video .slide-wrap > ul > li {display: none; opacity: 0; position: absolute; top: 0; left: 0; width: 100%;}
+.album-detail .album-video .slide-wrap > ul > li.active {display: block; opacity: 1; position: relative; margin-left: 0;}
+.album-detail .album-video .slide-wrap > ul > li .contents-obj {overflow: hidden; position: relative; height: 607px;}
+.album-detail .album-video .slide-wrap > ul > li iframe {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play {position: relative; background: #000;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play img {opacity: 0.5;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play:focus img, .album-detail .album-video .slide-wrap > ul > li .btn-play:hover img {opacity: 1;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play::after {content: ''; display: block; position: absolute; top: 50%; left: 50%; width: 98px; height: 98px; margin-left: -49px; margin-top: -49px; border-radius: 50vh; border: 3px solid rgba(255, 255, 255, 0.33); background: url('https://ibighit.com/txt/images/btn-play.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause:hover::after {background-image: url('https://ibighit.com/txt/images/btn-pause.png'); border:3px solid rgba(255, 255, 255, 0.33);}
+.album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause::after{background-image:none; border:none;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause{background:transparent;}
+.album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause img{opacity:0;}
+.device .album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause{display: none;}
+
+.album-detail .album-photo {margin-top: 164px; max-width:100%;}
+.album-detail .album-photo .slide-wrap {position: relative;}
+.album-detail .album-photo .slide-wrap::before {content: ''; display: block; position: absolute; bottom: 0; left: 0; width: 100%; height: calc(100% - 90px);}
+.album-detail .album-photo.no-sub .slide-wrap {padding-bottom: 93px;}
+.album-detail .album-photo .slide-wrap > ul {position: relative; width: 100%; max-width:1080px; margin:0 auto;}
+.album-detail .album-photo .slide-wrap > ul > li {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity:0;}
+.album-detail .album-photo .slide-wrap > ul > li:first-child {display: block; position: relative; opacity:1;}
+.album-detail .album-photo .slide-wrap > ul > li {margin: 0;}
+.album-detail .album-photo .slide-wrap > ul > li ul {overflow: hidden; position: relative; width: 100%; height: 100%;}
+.album-detail .album-photo .slide-wrap > ul > li:first-child ul {height: auto;}
+.album-detail .album-photo .slide-wrap > ul > li li {position: absolute; top: 0; left: 0; width: 100%; height: 100%; margin-left: 100%;}
+.album-detail .album-photo .slide-wrap > ul > li li:first-child {margin-left: 0;}
+.album-detail .album-photo .slide-wrap > ul > li li.relative {position: relative;}
+.album-detail .album-photo .slide-wrap .btn-prev {position: absolute; top: 50%; left: -109px; width: 80px; height: 90px; margin-top: -45px; background: url('https://ibighit.com/txt/images/btn-prev-photo.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-photo .slide-wrap .btn-next {position: absolute; top: 50%; right: -109px; width: 80px; height: 90px; margin-top: -45px; background: url('https://ibighit.com/txt/images/btn-next-photo.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-photo .slide-wrap .btn-prev.active {background: url('https://ibighit.com/txt/images/btn-prev-photo_hover.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-photo .slide-wrap .btn-next.active {background: url('https://ibighit.com/txt/images/btn-next-photo_hover.png') no-repeat center; background-size: 100% auto;}
+
+.device .album-detail .album-photo .slide-wrap .btn-prev.active {background-image: url('https://ibighit.com/txt/images/btn-prev-photo.png');}
+.device .album-detail .album-photo .slide-wrap .btn-next.active {background-image: url('https://ibighit.com/txt/images/btn-next-photo.png');}
+
+.album-detail .bottom {position: relative; /* padding:0 180px; */}
+.album-detail .bottom ul {display: table; max-width: 1080px; margin: 0 auto; padding: 33px 0 31px;}
+.album-detail .bottom ul li {display: table-cell; padding: 0 30px; font-family: 'Camber-Sb'; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); text-align: center; vertical-align: middle;}
+.album-detail .bottom ul li button {padding: 5px 10px;}
+.album-detail .bottom.kor ul li {padding: 0 39px;}
+.album-detail .bottom.kor ul li:first-child {padding-left: 0;}
+.album-detail .bottom.kor ul li:last-child {padding-right: 0;}
+.album-detail .bottom.kor ul li .contents-sub {font-family: 'NotoSansCJKkr-B'; font-size: 16px; line-height: 18px; letter-spacing: 0; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);}
+.album-detail .bottom .contents-sub.kor {font-family: 'Camber-Sb', 'NotoSansCJKkr-B'; font-size: 16px; line-height: 18px; letter-spacing: -0.02em;}
+.album-detail .bottom.comb ul li {padding: 0 44px;}
+.album-detail .bottom.comb ul li .contents-sub {font-family: 'Camber-Sb', 'NotoSansCJKkr-B'; font-size: 18px; line-height: 20px; letter-spacing: 0; text-shadow: none;}
+.album-detail .contents-sub.comb {font-family: 'Camber-Sb', 'NotoSansCJKkr-B';}
+.album-detail .song-list {padding: 164px 180px 104px;}
+.album-detail .song-list .contents-title {text-align: center;}
+.album-detail .song-list .list-wrap {display: table; width: 100%; margin-top: 60px;}
+.album-detail .song-list .list-inner {display: table-cell; width: 50%; padding-left: 2px; font-size: 17px; line-height: 33px;}
+.album-detail .song-list .list-inner li {position: relative; padding-left: 51px;}
+.album-detail .song-list .list-inner li.kor {font-family: 'NotoSansCJKkr-B'; letter-spacing: -0.06em;}
+.album-detail .song-list.center .list-wrap {width: auto; margin: 56px auto 0; padding-right: 36px;}
+.album-detail .song-list.center .list-inner {width: auto;}
+.album-detail .song-list .list-wrap.list-long {padding: 0 19px 0 135px;}
+.album-detail .song-list .list-inner .list-div {display: table; width: 100%; margin-top: 41px;}
+.album-detail .song-list .list-inner .list-div ol {display: table-cell; width: 50%; padding: 0 3px;}
+.album-detail .song-list.track-div .list-wrap {padding: 0 19px 0 135px;}
+.album-detail .song-list .contents-sub {margin-bottom: 38px; font-family: 'MVB-SolanoGothicMVB-B', 'NotoSansCJKkr-B'; font-size: 44px;}
+.album-detail .song-list .num {position: absolute; top: 0; left: 0; font-family: 'Camber-M';}
+.album-detail .song-list .track {padding-left: 5px; font-family: 'Camber-R'; letter-spacing: 0; color: #3a85b6;}
+
+.album-detail .album-video.slide .btn-prev {position: absolute; top: 304px; left: 50%; width: 80px; height: 90px; margin-left: -649px; background: url('https://ibighit.com/txt/images/btn-prev-photo.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-video.slide .btn-next {position: absolute; top: 304px; right: 50%; width: 80px; height: 90px; margin-right: -649px; background: url('https://ibighit.com/txt/images/btn-next-photo.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-video.slide .btn-prev.active {background: url('https://ibighit.com/txt/images/btn-prev-photo_hover.png') no-repeat center; background-size: 100% auto;}
+.album-detail .album-video.slide .btn-next.active {background: url('https://ibighit.com/txt/images/btn-next-photo_hover.png') no-repeat center; background-size: 100% auto;}
+
+.album-detail .bottom.rows ul {position: relative; text-align: center;}
+.album-detail .bottom.rows ul::after {content: ''; display: block; position: absolute; left: 0; top: 50%; width: 100%; height: 1px; background: #74b5e8; margin-top: -1px;}
+.album-detail .bottom.rows.three ul::after {top: 33.33%;}
+.album-detail .bottom.rows.three ul::before {content: ''; display: block; position: absolute; left: 0; top: 66.66%; width: 100%; height: 1px; background: #74b5e8;}
+.InternetExplorer .album-detail .bottom.rows ul::after,
+.InternetExplorer .album-detail .bottom.rows.three ul::before,
+.safari .album-detail .bottom.rows ul::after,
+.safari .album-detail .bottom.rows.three ul::before {margin-top: 0;}
+.album-detail .bottom.rows ul li {display: inline-table;}
+.album-detail .bottom.rows ul li.taller {padding-top: 35px;}
+.album-detail .bottom.rows ul li.taller.start {padding-left: 100px;}
+.album-detail .bottom.rows ul li.taller.end {padding-right: 100px;}
+
+.album-detail .no-desc {position: relative; width: 1080px; padding: 0 82px 160px;}
+.album-detail .no-desc .contents-obj {float: right; width: 540px;}
+.album-detail .no-desc .contents {display: table; position: absolute; top: 0; bottom: 0; left: 151px; width: auto; height: 548px; padding-left: 0px;}
+.album-detail .no-desc .contents-title {display: table-cell; vertical-align: middle;}
+
+@media screen and (max-width: 1440px) {
+	.album-list {padding: 10.9vw 12.5vw 9.1vw;}
+	.album-list .contents-title {font-size: 6.25vw;}
+	.album-list ul {margin-top: -2.22vw;}
+	.mac-os .album-list ul, .safari .album-list ul {margin-top: -2.74vw;}
+	.album-list li .info_box {padding: 1.39vw; font-size: 1.39vw; line-height: 1.39vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.44);}
+	.album-list li .info_box p {margin-bottom: 0.83vw; font-size: 0.9vw;}
+
+	.album-detail {padding: calc(7.78vw + 63px) 0 11.81vw;}
+	.album-detail .btn-list {top: calc(63px - 2.225vw + (7.78vw/2)); transform: translateX(-1.67vw); width: 4.86vw; height: 4.86vw; margin-left: -37.5vw;}
+	.album-detail .btn-list span {margin-top: 2.36vw;}
+	.album-detail .contents-title {font-size: 5.56vw; line-height: 4.86vw; text-shadow: 0px 0px 0.28vw rgba(0, 0, 0, 0.2);}
+	.album-detail .contents-sub {font-size: 1.11vw; line-height: 1.25vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.3);}
+	.album-detail .contents-sub.kor {font-size: 0.97vw;}
+	.album-detail .slide-wrap {margin-top: -1.04vw;}
+	.mac-os .album-detail .slide-wrap, .device .album-detail .slide-wrap {margin-top: -1.54vw;}
+	.InternetExplorer .album-detail .slide-wrap {margin-top: -1.25vw;}
+	.album-detail .album-desc {padding: 0 12.5vw 11.11vw;}
+	.album-detail .album-desc .contents-obj {padding: 0.35vw 0;}
+	.album-detail .album-desc .contents {padding-left: 4.51vw;}
+	.album-detail .album-desc .contents-sort {line-height: calc(1.74vw + 1px); margin-bottom: 0.97vw; padding-left: 0.14vw;}
+	.mac-os .album-detail .album-desc .contents-sort {line-height: calc(1.67vw + 1.7px);}
+	.album-detail .album-desc .contents-title {margin-bottom: 1.74vw; font-size: 4.86vw; line-height: 4.31vw;}
+	.album-detail .album-desc .contents-title.kor {margin-bottom: 2.22vw; font-size: 3.9vw;}
+	.album-detail .album-desc .contents-desc {padding-left: 0.56vw;}
+	.album-detail .album-video .slide-wrap > ul {width: 75vw;}
+	.album-detail .album-photo .slide-wrap > ul {width: 75vw;}
+	.album-detail .bottom {width: 75vw; /* padding: 0 12.5vw; */ margin: 0 auto;}
+	.album-detail .album-video .slide-wrap > ul > li .contents-obj {height: calc(42.22vw);}
+	.album-detail .album-video .slide-wrap > ul > li .btn-play::after {width: 6.81vw; height: 6.81vw; margin-left: -3.4vw; margin-top: -3.4vw; border: 0.21vw solid rgba(255, 255, 255, 0.33);}
+	.album-detail .album-photo {margin-top: 11.39vw;}
+	.album-detail .album-photo .slide-wrap::before {height: calc(100% - 6.25vw);}
+	.album-detail .album-photo.no-sub .slide-wrap {padding-bottom: 6.46vw;}
+	.album-detail .album-photo .slide-wrap > ul > li li {overflow: hidden; padding: 0 1px;}
+	.album-detail .album-photo .slide-wrap .btn-prev {left: -7.57vw; width: 5.56vw; height: 6.25vw; margin-top: -3.125vw;}
+	.album-detail .album-photo .slide-wrap .btn-next {right: -7.57vw; width: 5.56vw; height: 6.25vw; margin-top: -3.125vw;}
+	.album-detail .bottom ul {/* width: 75vw; */ padding: 2.08vw 0 2.01vw;}
+	.album-detail .bottom ul li {padding: 0 2.08vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.3);}
+	.album-detail .bottom ul li button {padding: 0.35vw 0.69vw;}
+	.album-detail .bottom.kor ul li {padding: 0 2.71vw;}
+	.album-detail .bottom.kor ul li.narrow {width: 14%;}
+	.album-detail .bottom.kor ul li .contents-sub {font-size: 1.11vw; line-height: 1.25vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.3);}
+	.album-detail .bottom .contents-sub.kor {font-size: 1.11vw; line-height: 1.25vw;}
+	.album-detail .bottom.comb ul li {padding: 0 3.06vw;}
+	.album-detail .bottom.comb ul li .contents-sub {font-size: 1.25vw; line-height: 1.39vw;}
+	.album-detail .song-list {padding: 11.39vw 12.5vw 7.22vw;}
+	.album-detail .song-list .list-wrap {margin-top: 4.17vw;}
+	.album-detail .song-list .list-inner {padding-left: 0.14vw; font-size: 1.18vw; line-height: 2.29vw;}
+	.album-detail .song-list .list-inner li {padding-left: 3.54vw;}
+	.album-detail .song-list .list-wrap.list-long {padding: 0 1.32vw 0 9.375vw;}
+	.album-detail .song-list .list-inner .list-div {margin-top: 2.85vw;}
+	.album-detail .song-list .list-inner .list-div ol {padding: 0 0.21vw;}
+	.album-detail .song-list.center .list-wrap {margin: 3.89vw auto 0; padding-right: 2.5vw;}
+	.album-detail .song-list.track-div .list-wrap {padding: 0 1.32vw 0 9.375vw;}
+	.album-detail .song-list.track-div .list-inner:first-child {padding-right: 0.69vw}
+	.album-detail .song-list .contents-sub {margin-bottom: 2.64vw; font-size: 3.06vw;}
+	.album-detail .song-list .track {padding-left: 0.35vw;}
+
+	.album-detail .bottom.rows ul li button {padding: 0.49vw 0.69vw;}
+	.album-detail .bottom.rows ul li.taller {padding-top: 2.08vw; padding-bottom: 0.14vw;}
+	.album-detail .bottom.rows ul li.taller.start {padding-left: 6.94vw;}
+	.album-detail .bottom.rows ul li.taller.end {padding-right: 6.94vw;}
+	
+	.album-detail .no-desc {width: 75.00vw; padding: 0 5.69vw 11.11vw;}
+	.album-detail .no-desc .contents-obj {width: 37.50vw;}
+	.album-detail .no-desc .contents {left: 10.49vw; height: 38.06vw; padding: 0;}
+}
+
+@media screen and (max-width: 1111px) {
+	.album-list li .info_box {font-size: 15px; line-height: 15px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.44);}
+	.album-list li .info_box p {margin-bottom: 9px; font-size: 10px;}
+}
+
+@media screen and (max-width: 1058px) {
+	.album-detail .album-desc .contents-obj {padding: 3px 0;}
+	.album-detail .album-desc .contents-sort,
+	.mac-os .album-detail .album-desc .contents-sort {line-height: 18px; margin-bottom: 10px;}	
+}
+
+@media screen and (max-width: 1030px) {
+	.album-detail .contents-sub {font-size: 11px; line-height: 13px;}
+	.album-detail .contents-sub.kor {font-size: 10px;}
+	.album-detail .bottom.kor ul li .contents-sub {font-size: 11px; line-height: 13px;}
+	.album-detail .bottom.comb ul li .contents-sub {font-size: 13px; line-height: 14px;}
+	.album-detail .bottom .contents-sub.kor {font-size: 11px; line-height: 13px;}
+	.album-detail .song-list .list-inner {font-size: 12px; line-height: 24px;}
+	.album-detail .song-list .track {padding-left: 4px;}
+
+}
+
+@media screen and (max-width: 768px) {
+	.contents-obj.portrait img {height: 89.03vw;}
+	.contents-obj.portrait.m-landscape img {width: 100%; height: auto;}
+
+	.album-list {padding: 25.97vw 5.09vw 25.14vw;}
+	.album-list .contents-title {font-size: 13.89vw; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);}
+	.album-list ul {margin-top: -4.72vw;}
+	.device .album-list ul, .mac-os .album-list ul, .safari .album-list ul {margin-top: -6.36vw;}
+	.album-list li {width: 48.44%; margin-right: 3.12%; margin-bottom: 3.12%;}
+	.album-list li:first-child {width: 100%; margin-right: 0;}
+	.album-list li:nth-child(3n) {margin-right: 3.12%;}
+	.album-list li:nth-child(2n-1) {margin-right: 0;}
+	.album-list li a:focus .info_box, .album-list li a:hover .info_box {display: none;}
+	.InternetExplorer .album-list .contents-title {top: 0.06em;}
+
+	.album-detail {padding: 29.16vw 0 27.8vw;}
+	.album-detail .btn-list {top: 16.11vw; left: 0; transform: translateX(0); width: 9.16vw; height: 9.16vw; margin-left: 2.73vw; background: url('https://ibighit.com/txt/images/bts/news/btn-list.png') no-repeat center; background-size: 50% auto;}
+	.album-detail .btn-list span {display: none;}
+	.album-detail .btn-list.dark {background-image: url('https://ibighit.com/txt/images/bts/news/btn-list-dark.png');}
+	.album-detail .contents {padding-right: 5.56vw;}
+	.album-detail .contents-title {font-size: 13.89vw; line-height: 11.39vw; letter-spacing: 0; text-shadow: 0px 0px 0.56vw rgba(0, 0, 0, 0.27);}
+	.album-detail .contents-sub {font-size: 3.61vw; line-height: 3.81vw; letter-spacing: 0;}
+	.album-detail .contents-sub.kor {font-family: 'Camber-Sb', 'NotoSansCJKkr-B'; font-size: 3.61vw; line-height: 5.28vw; letter-spacing: 0;}
+	.album-detail .contents-sub.comb {font-family: 'Camber-Sb', 'NotoSansCJKkr-B'; letter-spacing: 0;}
+	.album-detail .album-desc .contents-sort,
+	.mac-os .album-detail .album-desc .contents-sort {line-height: normal;}	
+	.album-detail .slide-wrap {margin-top: -2.21vw; padding: 0;}
+	.mac-os .album-detail .slide-wrap, .device .album-detail .slide-wrap {margin-top: -3.53vw;}
+	.InternetExplorer .album-detail .slide-wrap {margin-top: -2.8vw;}
+	.Firefox .album-detail .slide-wrap {margin-top: -2.135vw;}
+
+	.album-detail .album-video .slide-wrap > ul {width: 100%;}
+	.album-detail .bottom {padding: 0;}
+	.album-detail .album-photo .slide-wrap > ul {width: 100%;}
+
+	.album-detail .slide-wrap > ul > li .contents-sub {display: block; padding: 4.72vw 0;}
+	.album-detail .album-desc {display: block; padding: 0 5.09vw;}
+	.album-detail .album-desc .contents-obj {float: none; width: 100%; margin-bottom: 7.5vw; padding: 0;}
+	.album-detail .album-desc .contents {float: none; width: 100%; padding: 0;}
+	.album-detail .album-desc .contents-sort {margin: 0 0 2.22vw; padding-left: 0;}
+	.album-detail .album-desc .contents-title {margin-left: -0.83vw; margin-bottom: 4.17vw; font-size: 13.89vw; line-height: 12.64vw;}
+	.album-detail .album-desc .contents-title.kor {margin-left: -0.42vw; margin-bottom: 5.83vw; font-size: 10.5vw;}
+	.album-detail .album-desc .contents-desc {margin-left: -0.28vw; padding-left: 0;}
+	.album-detail .album-video {margin-top: 27.22vw; padding: 0 5.07vw; text-align: center;}
+	.album-detail .album-video .contents-title {padding: 0 1.25vw;}
+	.album-detail .album-video .slide-wrap > ul > li {opacity: 1 !important; display: block !important; position: relative !important; margin-left: 0; margin-bottom: 5.28vw;}
+	.album-detail .album-video .slide-wrap > ul > li:last-child {margin-bottom: 0;}
+	.album-detail .album-video .slide-wrap > ul > li .contents-obj {height: 48.5vw;}
+	.device .album-detail .album-video .slide-wrap > ul > li .contents-obj {height: 49.9vw;}
+	.album-detail .album-video .slide-wrap > ul > li .btn-play::after {width: 13.61vw; height: 13.61vw; margin-left: -6.81vw; margin-top: -6.81vw; border: 0.42vw solid rgba(255, 255, 255, 0.33);}
+	.album-detail .album-video .slide-wrap > ul > li .btn-play.btn-pause:hover::after {border:0.42vw solid rgba(255, 255, 255, 0.33);}
+	.album-detail .album-photo {margin-top: 22.22vw;}
+	.album-detail .album-photo .slide-wrap {margin-top: -0.97vw;}
+	.album-detail .album-photo.no-sub .slide-wrap {padding-bottom: 0; margin-bottom: 10.69vw;}
+	.mac-os .album-detail .album-photo .slide-wrap, .safari .album-detail .album-photo .slide-wrap {margin-top: -1.94vw;}
+	.album-detail .album-photo .slide-wrap.margin-t {margin-top: -2.22vw;}
+	.mac-os .album-detail .album-photo .slide-wrap.margin-t, .safari .album-detail .album-photo .slide-wrap.margin-t {margin-top: -3.59vw;}
+	.album-detail .album-photo .slide-wrap > ul > li {opacity: 1 !important; display: block !important; position: relative !important;}
+	.album-detail .album-photo .slide-wrap > ul > li li {max-width: 100%; padding: 0;}
+	.album-detail .album-photo .slide-wrap > ul > li li.relative {position: absolute;}
+	.album-detail .album-photo .slide-wrap > ul > li li:first-child {position: relative;}
+	.album-detail .album-photo .slide-wrap > ul > li .contents-sub {padding: 8.75vw 0 3.19vw 10.69vw; font-size: 4.03vw;}
+	.album-detail .album-photo .slide-wrap > ul > li .mix {height: 89.03vw;}
+	.album-detail .album-photo .slide-wrap > ul > li:first-child ul.mix {height: 89.03vw;}
+	.album-detail .album-photo .slide-wrap > ul > li .mix li {display: table; height: 100%; max-width: 100%;}
+	.album-detail .album-photo .slide-wrap > ul > li .mix li .contents-obj {display: table-cell; height: 100%; vertical-align: middle;}
+	.album-detail .album-photo .slide-wrap.center > ul > li {height: auto; text-align: center;}
+	.album-detail .album-photo .slide-wrap > ul > li .contents-sub {padding: 5vw 0 10vw;}
+	.album-detail .album-photo .slide-wrap .btn-prev {left: 0; width: 11.11vw; height: 12.5vw; margin-top: -16.25vw;}
+	.album-detail .album-photo .slide-wrap .btn-next {right: 0; width: 11.11vw; height: 12.5vw; margin-top: -16.25vw;}
+	.album-detail .album-photo.no-sub .slide-wrap.center > ul > li {height: 89.03vw;}
+	.album-detail .album-photo.no-sub .slide-wrap .btn-prev {margin-top: -5.56vw;}
+	.album-detail .album-photo.no-sub .slide-wrap .btn-next {margin-top: -5.56vw;}
+	.album-detail .bottom {display: none;}
+	.album-detail .bottom ul li {text-shadow: none;}
+	.album-detail .song-list {padding: 17.5vw 0 25.97vw 10.69vw;}
+	.album-detail .song-list .contents-title {padding-right: 10.69vw;}
+	.album-detail .song-list .list-wrap {display: block; margin: 11.25vw 0 0;}
+	.album-detail .song-list.center .list-wrap {margin: 11.25vw 0 0; padding-right: 1vw;}
+	.album-detail .song-list .list-inner {display: block; width: 100%; padding-left: 0; font-size: 3.75vw; line-height: 6.94vw;}
+	.album-detail .song-list.track-div .list-inner:first-child {margin-bottom: 10.42vw; padding-right: 0;}
+	.album-detail .song-list .list-inner ol {padding-left: 0.56vw;}
+	.album-detail .song-list .list-inner li {position: relative; padding-left: 9.72vw;}
+	.album-detail .song-list .list-wrap.list-long {padding: 0;}
+	.album-detail .song-list.track-div .list-wrap {padding: 0;}
+	.album-detail .song-list .list-inner .list-div {display: block; margin-top: 0;}
+	.album-detail .song-list .list-inner .list-div ol {display: block; width: 100%; padding: 0; padding-left: 0.56vw;}
+	.album-detail .song-list .contents-sub {margin-bottom: 6.25vw; padding-left: 0.14vw; font-size: 9.72vw;}
+	.album-detail .song-list .track {padding-left: 0.83vw;}
+
+	.album-detail .bottom.rows ul::after {display: none;}
+
+	.album-detail .no-desc {width: 100%; padding: 0 5.09vw;}
+	.album-detail .no-desc .contents-obj {width: 100%; margin-top: 8.2vw;}
+	.album-detail .no-desc .contents {display: block; top: -22.72vw; left: 0; width: 100%; height: auto; text-align: center; padding: 0 5.09vw;}
+	.album-detail .no-desc .contents-title {display: block; font-size: 11.72vw; line-height: 13.02vw; text-align: center; margin: 0;}
+}
+
+@media screen and (max-width: 320px) {
+	.contents-obj.portrait img {height: 285px;}
+
+	.album-list {padding: 83px 16px 80px;}
+	.album-list .contents-title {font-size: 44px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.27);}
+	.album-list ul {margin-top: -15px;}
+	.device .album-list ul, .mac-os .album-list ul, .safari .album-list ul {margin-top: -20px;}
+
+	.album-detail {padding: 93px 0 89px;}
+	.album-detail .btn-list {top: 52px; width: 30px; height: 30px; margin-left: 9px;}
+	.album-detail .contents {padding-right: 18px;}
+	.album-detail .contents-title {font-size: 44px; line-height: 36px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.27);}
+	.album-detail .contents-sub {font-size: 12px; line-height: 13px;}
+	.album-detail .contents-sub.kor {font-size: 12px; line-height: 17px;}
+	.album-detail .slide-wrap {margin-top: -7px;}
+	.mac-os .album-detail .slide-wrap, .device .album-detail .slide-wrap {margin-top: -11px;}
+	.InternetExplorer .album-detail .slide-wrap {margin-top: -9px;}
+	.album-detail .slide-wrap > ul > li .contents-sub {padding: 15px 0;}
+	.album-detail .album-desc {padding: 0 16px;}
+	.album-detail .album-desc .contents-obj {margin-bottom: 24px;}
+	.album-detail .album-desc .contents-sort {margin: 0 0 7px;}
+	.album-detail .album-desc .contents-title {margin-left: -3px; margin-bottom: 13px; font-size: 44px; line-height: 40px;}
+	.album-detail .album-desc .contents-title.kor {margin-left: -1px; margin-bottom: 19px; font-size: 36px;}
+	.album-detail .album-desc .contents-desc {margin-left: -1px;}
+	.album-detail .album-video {margin-top: 87px; padding: 0 16px;}
+	.album-detail .album-video .contents-title {padding: 0 4px;}
+	.album-detail .album-video .slide-wrap > ul > li {height: 206px; margin-bottom: 17px;}
+	.album-detail .album-video .slide-wrap > ul > li .contents-obj {height: 160px;}
+	.device .album-detail .album-video .slide-wrap > ul > li .contents-obj {height: 160px;}
+	.album-detail .album-video .slide-wrap > ul > li .btn-play::after {width: 44px; height: 44px; margin-left: -22px; margin-top: -22px; border: 1px solid rgba(255, 255, 255, 0.33);}
+	.album-detail .album-photo {margin-top: 71px;}
+	.album-detail .album-photo .slide-wrap {margin-top: -3px;}
+	.album-detail .album-photo.no-sub .slide-wrap {margin-bottom: 34px;}
+	.mac-os .album-detail .album-photo .slide-wrap, .safari .album-detail .album-photo .slide-wrap {margin-top: -6px;}
+	.album-detail .album-photo .slide-wrap.margin-t {margin-top: -7px;}
+	.mac-os .album-detail .album-photo .slide-wrap.margin-t, .safari .album-detail .album-photo .slide-wrap.margin-t {margin-top: -11px;}
+	.album-detail .album-photo .slide-wrap > ul > li .contents-sub {padding: 28px 0 10px 34px; font-size: 13px;}
+	.album-detail .album-photo .slide-wrap > ul > li .mix {height: 285px;}
+	.album-detail .album-photo .slide-wrap > ul > li:first-child ul.mix {height: 285px;}
+	.album-detail .album-photo .slide-wrap > ul > li .contents-sub {padding: 16px 0 32px;}
+	.album-detail .album-photo .slide-wrap .btn-prev {width: 36px; height: 40px; margin-top: -52px;}
+	.album-detail .album-photo .slide-wrap .btn-next {width: 36px; height: 40px; margin-top: -52px;}
+	.album-detail .album-photo.no-sub .slide-wrap .btn-prev {margin-top: -18px;}
+	.album-detail .album-photo.no-sub .slide-wrap .btn-next {margin-top: -18px;}
+	.album-detail .album-photo.no-sub .slide-wrap.center > ul > li {height: 285px;}
+	.album-detail .song-list .contents-title {padding-right: 34px;}
+	.album-detail .song-list {padding: 56px 0 83px 34px;}
+	.album-detail .song-list .list-wrap {margin: 36px 0 0;}
+	.album-detail .song-list.center .list-wrap {margin: 36px 0 0; padding-right: 3px;}
+	.album-detail .song-list .list-inner {font-size: 12px; line-height: 22px;}
+	.album-detail .song-list.track-div .list-inner:first-child {margin-bottom: 33px;}
+	.album-detail .song-list .list-inner ol {padding-left: 2px;}
+	.album-detail .song-list .list-inner li {padding-left: 31px;}
+	.album-detail .song-list .contents-sub {margin-bottom: 20px; padding-left: 0px; font-size: 31px;}
+	.album-detail .song-list .track {padding-left: 3px;}
+
+	.album-detail .no-desc {width: 100%; padding: 0 16px;}
+	.album-detail .no-desc .contents-obj {width: 100%; margin-top: 26px;}
+	.album-detail .no-desc .contents {top: -73px; left: 0; width: 100%; height: auto; padding: 0 16px;}
+	.album-detail .no-desc .contents-title {font-size: 38px; line-height: 42px; margin: 0;}
+}
