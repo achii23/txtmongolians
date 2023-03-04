@@ -41,10 +41,6 @@ section {
     width: 100%;
 }
 
-.contents-obj {
-    text-align: center;
-}
-
 .contents-obj img {
     display: block;
     width: 100%;
@@ -227,7 +223,7 @@ nav .nav-inner li {
 }
 
 nav .nav-inner li a {
-    /* 2022.06.30 ìˆ˜ì • */
+    /* 2022.06.30 수정 */
     /* display: table-cell; */
     width: 100%;
     height: 100%;
@@ -434,7 +430,7 @@ nav .nav-inner .sub_nav ul li a {
     color: rgba(170, 170, 170, 0.6);
 }
 
-/* 2022.06.30 ì¶”ê°€ ì‹œìž‘ */
+/* 2022.06.30 추가 시작 */
 nav .nav-inner .sub_nav ul li a.disabled {
     color: rgba(170, 170, 170, 0.6) !important;
     cursor: default;
@@ -450,7 +446,7 @@ nav .nav-inner .sub_nav ul li>ul>li {
     height: 30px;
 }
 
-/* 2022.06.30 ì¶”ê°€ ë */
+/* 2022.06.30 추가 끝 */
 
 /*
 nav .nav-inner .nav-bts li a:focus, nav .nav-inner .nav-bts li a:hover {color: #ec869d;}
@@ -1563,7 +1559,7 @@ footer {
         padding-left: 12.5vw;
     }
 
-    /* 2022.06.03 ì¶”ê°€ by í¬ë¬¸ */
+    /* 2022.06.03 추가 by 희문 */
     .device nav .nav-inner .sub_nav ul li>ul>li {
         padding-left: 1vw;
         height: 5vmin;
@@ -2060,7 +2056,7 @@ footer {
     }
 
     .device nav .nav-inner li a {
-        /* 2022.06.30 ìˆ˜ì • by í¬ë¬¸ */
+        /* 2022.06.30 수정 by 희문 */
         /* display: table-cell; */
         width: 100%;
         height: 100%;
@@ -2115,7 +2111,7 @@ footer {
     }
 
     nav .nav-inner li a {
-        /* 2022.06.30 ìˆ˜ì •  */
+        /* 2022.06.30 수정  */
         /* display: table-cell; */
         width: 100%;
         height: 100%;
